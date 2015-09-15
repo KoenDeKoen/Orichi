@@ -1,0 +1,275 @@
+fileFormatVersion: 2
+guid: e39750013508cf8409713e45f382cbcd
+timeCreated: 1441957748
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: character_1.2_animation_walking_0
+    21300002: character_1.2_animation_walking_1
+    21300004: character_1.2_animation_walking_2
+    21300006: character_1.2_animation_walking_3
+    21300008: character_1.2_animation_walking_4
+    21300010: character_1.2_animation_walking_5
+    21300012: character_1.2_animation_walking_6
+    21300014: character_1.2_animation_walking_7
+    21300016: character_1.2_animation_walking_8
+    21300018: character_1.2_animation_walking_9
+    21300020: character_1.2_animation_walking_10
+    21300022: character_1.2_animation_walking_11
+    21300024: character_1.2_animation_walking_12
+    21300026: character_1.2_animation_walking_13
+    21300028: character_1.2_animation_walking_14
+    21300030: character_1.2_animation_walking_15
+    21300032: character_1.2_animation_walking_16
+    21300034: character_1.2_animation_walking_17
+    21300036: character_1.2_animation_walking_18
+    21300038: character_1.2_animation_walking_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: character_1.2_animation_walking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1581
+        width: 274
+        height: 467
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_1.2_animation_walking_1
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1581
+        width: 251
+        height: 467
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_1.2_animation_walking_2
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1581
+        width: 251
+        height: 467
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_1.2_animation_walking_3
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1581
+        width: 250
+        height: 467
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_1.2_animation_walking_4
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1581
+        width: 250
+        height: 467
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_1.2_animation_walking_5
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 1581
+        width: 233
+        height: 467
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_1.2_animation_walking_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1114
+        width: 233
+        height: 467
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_1.2_animation_walking_7
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1114
+        width: 249
+        height: 467
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_1.2_animation_walking_8
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1114
+        width: 249
+        height: 467
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_1.2_animation_walking_9
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1114
+        width: 274
+        height: 467
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_1.2_animation_walking_10
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1114
+        width: 250
+        height: 467
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_1.2_animation_walking_11
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 1114
+        width: 249
+        height: 467
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_1.2_animation_walking_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 652
+        width: 233
+        height: 467
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_1.2_animation_walking_13
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 652
+        width: 233
+        height: 467
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_1.2_animation_walking_14
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 652
+        width: 250
+        height: 467
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_1.2_animation_walking_15
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 652
+        width: 250
+        height: 467
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_1.2_animation_walking_16
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 653
+        width: 251
+        height: 467
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_1.2_animation_walking_17
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 653
+        width: 251
+        height: 467
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_1.2_animation_walking_18
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1581
+        width: 274
+        height: 467
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_1.2_animation_walking_19
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1114
+        width: 274
+        height: 467
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

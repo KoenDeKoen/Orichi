@@ -1,0 +1,215 @@
+fileFormatVersion: 2
+guid: bd099106dad28854e81c573ac8166ef9
+timeCreated: 1441717682
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: PolyLeave1
+    100002: PolyLeave2
+    100004: PolyLeave3
+    100006: PolyLeave4
+    100008: PolyLeave5
+    100010: PolyLeave6
+    100012: PolyLeave7
+    100014: Stam005
+    100016: //RootNode
+    100018: CutoutPlane
+    100020: GreenLayer1
+    100022: Bone001
+    100024: Bone005
+    100026: Bone008
+    100028: Bone011
+    100030: Bone052
+    100032: Bone054
+    100034: Bone056
+    100036: Bone058
+    100038: Bone060
+    100040: Bone062
+    100042: Bone064
+    100044: Bone066
+    100046: Bone068
+    100048: Bone070
+    100050: Bone072
+    100052: Bone074
+    100054: Bone076
+    100056: Bone078
+    100058: Bone080
+    100060: Bone082
+    100062: CutoutPlane1
+    100064: CutoutPlane2
+    100066: CutoutPlane3
+    100068: CutoutPlane4
+    100070: CutoutPlane5
+    100072: GreenLayer007
+    100074: GreenLayer008
+    100076: GreenLayer009
+    100078: GreenLayer010
+    100080: Leaves003
+    100082: Leaves004
+    100084: Leaves005
+    100086: Leaves1
+    100088: Leaves2
+    400000: PolyLeave1
+    400002: PolyLeave2
+    400004: PolyLeave3
+    400006: PolyLeave4
+    400008: PolyLeave5
+    400010: PolyLeave6
+    400012: PolyLeave7
+    400014: Stam005
+    400016: //RootNode
+    400018: CutoutPlane
+    400020: GreenLayer1
+    400022: Bone001
+    400024: Bone005
+    400026: Bone008
+    400028: Bone011
+    400030: Bone052
+    400032: Bone054
+    400034: Bone056
+    400036: Bone058
+    400038: Bone060
+    400040: Bone062
+    400042: Bone064
+    400044: Bone066
+    400046: Bone068
+    400048: Bone070
+    400050: Bone072
+    400052: Bone074
+    400054: Bone076
+    400056: Bone078
+    400058: Bone080
+    400060: Bone082
+    400062: CutoutPlane1
+    400064: CutoutPlane2
+    400066: CutoutPlane3
+    400068: CutoutPlane4
+    400070: CutoutPlane5
+    400072: GreenLayer007
+    400074: GreenLayer008
+    400076: GreenLayer009
+    400078: GreenLayer010
+    400080: Leaves003
+    400082: Leaves004
+    400084: Leaves005
+    400086: Leaves1
+    400088: Leaves2
+    2300000: PolyLeave1
+    2300002: PolyLeave2
+    2300004: PolyLeave3
+    2300006: PolyLeave4
+    2300008: PolyLeave5
+    2300010: PolyLeave6
+    2300012: PolyLeave7
+    2300014: Stam005
+    2300016: CutoutPlane
+    2300018: GreenLayer1
+    2300020: CutoutPlane1
+    2300022: CutoutPlane2
+    2300024: CutoutPlane3
+    2300026: CutoutPlane4
+    2300028: CutoutPlane5
+    3300000: PolyLeave1
+    3300002: PolyLeave2
+    3300004: PolyLeave3
+    3300006: PolyLeave4
+    3300008: PolyLeave5
+    3300010: PolyLeave6
+    3300012: PolyLeave7
+    3300014: Stam005
+    3300016: CutoutPlane
+    3300018: GreenLayer1
+    3300020: CutoutPlane1
+    3300022: CutoutPlane2
+    3300024: CutoutPlane3
+    3300026: CutoutPlane4
+    3300028: CutoutPlane5
+    4300000: PolyLeave6
+    4300002: PolyLeave1
+    4300004: PolyLeave7
+    4300006: PolyLeave3
+    4300008: Stam005
+    4300010: PolyLeave2
+    4300012: PolyLeave5
+    4300014: PolyLeave4
+    4300016: CutoutPlane
+    4300018: GreenLayer1
+    4300020: CutoutPlane1
+    4300022: CutoutPlane2
+    4300024: CutoutPlane3
+    4300026: CutoutPlane4
+    4300028: CutoutPlane5
+    4300030: GreenLayer007
+    4300032: GreenLayer008
+    4300034: GreenLayer009
+    4300036: GreenLayer010
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: GreenLayer007
+    13700002: GreenLayer008
+    13700004: GreenLayer009
+    13700006: GreenLayer010
+    13700008: GreenLayer1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
