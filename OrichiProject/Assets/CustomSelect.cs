@@ -4,7 +4,9 @@ using UnityEngine.UI;
 public class CustomSelect : MonoBehaviour {
 	public static float currenttimer = 2;
 	public static float currentspeed = 5;
-
+	public GameObject textobject;
+	public Text execrisetext;
+	public string stringToEdit = "0";
 	// Use this for initialization
 	void Start () {
 
@@ -28,4 +30,20 @@ public class CustomSelect : MonoBehaviour {
 		currentspeed = valspeed;
 		Debug.Log (currentspeed);
 	}
+
+	public void Amountofexercises(){
+
+
+		float exercises = GetComponent<UnityEngine.UI.Slider> ().value;
+		string text = textobject.GetComponent<Text> ().text;
+		if (text == "") {
+			text = "0";
+
+		}
+		exercises = float.Parse(text);
+		GetComponent<UnityEngine.UI.Slider> ().value = exercises;
+	//	float.Parse (text) = exercises;
+
+	}
+
 }
