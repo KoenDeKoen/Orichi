@@ -10,7 +10,7 @@ public class SpawnGroundAndProps : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-
+		spawnFloor ();
 	}
 	
 	// Update is called once per frame
@@ -21,9 +21,18 @@ public class SpawnGroundAndProps : MonoBehaviour
 
 	public void  spawnFloor()
 	{
-		GameObject floor;
+		GameObject floor = new GameObject();
 		floor.AddComponent<SpriteRenderer> ();
-		floor.GetComponent<SpriteRenderer> ().sprite = floor;
+		floor.GetComponent<SpriteRenderer> ().sprite = floorsprite;
+		Vector3 spawnposition = new Vector3 (0, (float)-2.23, 0);
+		floor.transform.position = spawnposition;
+	}
 
+	public void checkForNextSpawn()
+	{
+		foreach(GameObject g in floors)
+		{
+
+		}
 	}
 }
