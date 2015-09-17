@@ -19,16 +19,16 @@ public class Ritme : MonoBehaviour {
 
 	// Update is called once per frame
 	public void Update () {
-		speed = CustomSelect.currentspeed;
-		timer -= Time.deltaTime;
+	
+	//	timer -= Time.deltaTime;
+	
+	//	if (timer <= 0){
+	//		clone = (GameObject)Instantiate(beat, transform.position, Quaternion.identity);
+		//	clone.GetComponent<Rigidbody>().velocity = transform.forward * speed;
+	//		Destroy(clone, 20.0f);
 
-		if (timer <= 0){
-			clone = (GameObject)Instantiate(beat, transform.position, Quaternion.identity);
-			clone.GetComponent<Rigidbody>().velocity = transform.forward * speed;
-			Destroy(clone, 20.0f);
-			timer = CustomSelect.currenttimer;
 
-		}
+		//}
 	}
 
 }
