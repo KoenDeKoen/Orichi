@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class Custominput : MonoBehaviour {
 	public GameObject textobject;
 	public Text execrisetext;
-	public float exercises;
+	public static float exercises;
 	// Use this for initialization
 	void Start () {
 	
@@ -23,7 +23,7 @@ public class Custominput : MonoBehaviour {
 		exercises = float.Parse (text);
 
 		if(Input.GetKey("space")){
-			Debug.Log(exercises);
+		
 			Application.LoadLevel("Evolution");
 
 		}
