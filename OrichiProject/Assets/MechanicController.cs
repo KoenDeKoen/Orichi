@@ -4,7 +4,9 @@ using Pillo;
 public class MechanicController : MonoBehaviour 
 {
 	public MoveGround movingground;
+	public SpawnGroundAndProps spawningclass;
 	private int turn;
+	static int stepstaken;
 	// Use this for initialization
 	void Start () 
 	{
@@ -22,7 +24,8 @@ public class MechanicController : MonoBehaviour
 		{
 			if(Input.GetKeyDown("a") || pct > 0.2)
 			{
-				movingground.moveGround(movingground.s);
+				movingground.moveGround();
+				stepstaken++;
 				turn = 2;
 			}
 		}
@@ -33,6 +36,7 @@ public class MechanicController : MonoBehaviour
 			if(Input.GetKeyDown("l") || pct2 > 0.2 )
 			{
 				movingground.moveGround();
+				stepstaken++;
 				turn = 1;
 			}
 		}
