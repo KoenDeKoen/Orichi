@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e537acc848d9c424b9c90f1082f3446c
-timeCreated: 1442582448
+timeCreated: 1442587412
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -172,7 +172,7 @@ TextureImporter:
         width: 1232
         height: 892
       alignment: 7
-      pivot: {x: .5, y: .5}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_animation_face_4_animation_9
       rect:
@@ -407,9 +407,9 @@ TextureImporter:
     - name: Character_1_animation_face_4_animation_32
       rect:
         serializedVersion: 2
-        x: 2496
+        x: 2506
         y: 2722
-        width: 1266
+        width: 1256
         height: 840
       alignment: 7
       pivot: {x: .5, y: 0}
