@@ -9,15 +9,20 @@ public class SpawnGroundAndProps : MonoBehaviour
 	private List<Vector3> decorationpawnpositions;
 	public Sprite bushsprite;
 	public Sprite floorsprite;
+	private GameObject parentofall;
+	private GameObject lastspawnedfloor;
 	Vector3 position;
 	// Use this for initialization
 	void Start () 
 	{
+		lastspawnedfloor = new GameObject ();
+		parentofall = new GameObject ();
 		decorationpawnpositions = new List<Vector3> ();
 		addSpawnableDecorationSpots ();
 		floors = new List<GameObject> ();
 		position = new Vector3 (0, (float)-2.23, 0);
-		spawnFloor (position);
+		parentofall.transform.position = position;
+		//spawnFloor (position);
 	}
 	
 	// Update is called once per frame
@@ -28,6 +33,7 @@ public class SpawnGroundAndProps : MonoBehaviour
 
 	public void  spawnFloor(Vector3 spawnpos)
 	{
+
 		GameObject floor = new GameObject();
 		floor.AddComponent<SpriteRenderer> ();
 		floor.GetComponent<SpriteRenderer> ().sprite = floorsprite;
@@ -36,15 +42,17 @@ public class SpawnGroundAndProps : MonoBehaviour
 		floors.Add (floor);
 		placeGrass (floor);
 		addSpawnableDecorationSpots ();
+		lastspawnedfloor = floor;
 	}
 
 	public void despawnFloor(GameObject floortodespawn)
 	{
 		floors.Remove (floortodespawn);
 		Destroy (floortodespawn);
+		//transform.local
 	}
 
-	public void checkForNextSpawn()
+	/*public void checkForNextSpawn()
 	{
 		Vector3 endofspriteposleft = new Vector3 (0, 0, 0);
 		Vector3 endofspriteposright = new Vector3 (0, 0, 0);
@@ -55,6 +63,27 @@ public class SpawnGroundAndProps : MonoBehaviour
 			if(endofspriteposright.x <= (float)9 && floors.Count < 2)
 			{
 				position.x = endofspriteposright.x + (floors[i].GetComponent<SpriteRenderer>().bounds.extents.x)-(float)+0.1;//+0.1 omdat LOGICS
+				spawnFloor(position);
+			}
+			if(endofspriteposright.x <= (float)-9)
+			{
+				despawnFloor(floors[i]);
+			}
+		}
+	}*/
+
+	public void checkForNextSpawn()
+	{
+		Vector3 endofspriteposleft = new Vector3 (0, 0, 0);
+		Vector3 endofspriteposright = new Vector3 (0, 0, 0);
+
+		for(int i = 0; i < floors.Count; i++)
+		{
+			endofspriteposleft.x = floors[i].GetComponent<SpriteRenderer>().bounds.min.x;
+			endofspriteposright.x = lastspawnedfloor.GetComponent<SpriteRenderer>().bounds.max.x;
+			if(endofspriteposright.x <= (float)9 && floors.Count < 2)
+			{
+				position.x = lastspawnedfloor.transform.localPosition.x + (lastspawnedfloor.GetComponent<SpriteRenderer>().bounds.extents.x);//+0.1 omdat LOGICS
 				spawnFloor(position);
 			}
 			if(endofspriteposright.x <= (float)-9)
@@ -96,5 +125,10 @@ public class SpawnGroundAndProps : MonoBehaviour
 			spot.x = i;
 			decorationpawnpositions.Add (spot);
 		}	
+	}
+
+	public GameObject getParent()
+	{
+		return parentofall;
 	}
 }

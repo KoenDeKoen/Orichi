@@ -22,7 +22,7 @@ public class MechanicController : MonoBehaviour
 		{
 			if(Input.GetKeyDown("a") || pct > 0.2)
 			{
-				movingground.moveGround();
+				movingground.moveGround(movingground.s);
 				turn = 2;
 			}
 		}
