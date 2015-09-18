@@ -9,6 +9,8 @@ public class SpawnGroundAndProps : MonoBehaviour
 	private List<Vector3> decorationpawnpositions;
 	public Sprite bushsprite;
 	public Sprite floorsprite;
+	//public Animator grasscontroller;
+	public RuntimeAnimatorController grassRTController; 	
 	Vector3 position;
 	// Use this for initialization
 	void Start () 
@@ -85,6 +87,8 @@ public class SpawnGroundAndProps : MonoBehaviour
 			grass.transform.parent = parentground.transform;
 			grass.transform.position = position;
 			grass.GetComponent<SpriteRenderer>().sortingOrder = 2;
+			grass.AddComponent<Animator>();
+			grass.GetComponent<Animator>().runtimeAnimatorController = grassRTController;
 		}
 	}
 	
