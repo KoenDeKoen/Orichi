@@ -6,6 +6,7 @@ public class Custominput : MonoBehaviour {
 	public GameObject textobject;
 	public Text execrisetext;
 	public static float exercises;
+	public GameObject timeinput;
 	// Use this for initialization
 	void Start () {
 	
@@ -13,6 +14,7 @@ public class Custominput : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		//float TimeTextScript = timeinput.GetComponent<CustomSetTime>();
 		string text = GetComponent<Text> ().text;
 
 		if (text == "") {
@@ -23,7 +25,8 @@ public class Custominput : MonoBehaviour {
 		exercises = float.Parse (text);
 
 		if(Input.GetKey("space")){
-		
+			Debug.Log(exercises);
+			Debug.Log(CustomSetTime.amttime);
 			Application.LoadLevel("Evolution");
 
 		}

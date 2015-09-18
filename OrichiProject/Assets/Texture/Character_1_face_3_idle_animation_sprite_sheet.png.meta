@@ -1,0 +1,341 @@
+fileFormatVersion: 2
+guid: 4723fe45447e2ef419180b9c57b11300
+timeCreated: 1442566565
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Character_1_face_3_idle_animation_sprite_sheet_0
+    21300002: Character_1_face_3_idle_animation_sprite_sheet_1
+    21300004: Character_1_face_3_idle_animation_sprite_sheet_2
+    21300006: Character_1_face_3_idle_animation_sprite_sheet_3
+    21300008: Character_1_face_3_idle_animation_sprite_sheet_4
+    21300010: Character_1_face_3_idle_animation_sprite_sheet_5
+    21300012: Character_1_face_3_idle_animation_sprite_sheet_6
+    21300014: Character_1_face_3_idle_animation_sprite_sheet_7
+    21300016: Character_1_face_3_idle_animation_sprite_sheet_8
+    21300018: Character_1_face_3_idle_animation_sprite_sheet_9
+    21300020: Character_1_face_3_idle_animation_sprite_sheet_10
+    21300022: Character_1_face_3_idle_animation_sprite_sheet_11
+    21300024: Character_1_face_3_idle_animation_sprite_sheet_12
+    21300026: Character_1_face_3_idle_animation_sprite_sheet_13
+    21300028: Character_1_face_3_idle_animation_sprite_sheet_14
+    21300030: Character_1_face_3_idle_animation_sprite_sheet_15
+    21300032: Character_1_face_3_idle_animation_sprite_sheet_16
+    21300034: Character_1_face_3_idle_animation_sprite_sheet_17
+    21300036: Character_1_face_3_idle_animation_sprite_sheet_18
+    21300038: Character_1_face_3_idle_animation_sprite_sheet_19
+    21300040: Character_1_face_3_idle_animation_sprite_sheet_20
+    21300042: Character_1_face_3_idle_animation_sprite_sheet_21
+    21300044: Character_1_face_3_idle_animation_sprite_sheet_22
+    21300046: Character_1_face_3_idle_animation_sprite_sheet_23
+    21300048: Character_1_face_3_idle_animation_sprite_sheet_24
+    21300050: Character_1_face_3_idle_animation_sprite_sheet_25
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Character_1_face_3_idle_animation_sprite_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 7394
+        width: 728
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 7394
+        width: 728
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 7390
+        width: 688
+        height: 780
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2794
+        y: 7390
+        width: 688
+        height: 780
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 6590
+        width: 644
+        height: 804
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 5790
+        width: 635
+        height: 804
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 6590
+        width: 644
+        height: 804
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 5790
+        width: 644
+        height: 804
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 5790
+        width: 644
+        height: 804
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 6590
+        width: 635
+        height: 804
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2862
+        y: 6590
+        width: 628
+        height: 804
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2794
+        y: 5790
+        width: 688
+        height: 780
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 4990
+        width: 688
+        height: 780
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 4994
+        width: 728
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 4994
+        width: 728
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2698
+        y: 4990
+        width: 772
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 4190
+        width: 772
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 4190
+        width: 784
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 4190
+        width: 784
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 4190
+        width: 812
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 3390
+        width: 812
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 3390
+        width: 812
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 3390
+        width: 784
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2678
+        y: 3390
+        width: 784
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2590
+        width: 772
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_face_3_idle_animation_sprite_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 2590
+        width: 772
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
