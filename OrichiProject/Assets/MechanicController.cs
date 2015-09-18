@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using Pillo;
 public class MechanicController : MonoBehaviour 
 {
 	public MoveGround movingground;
@@ -14,10 +14,13 @@ public class MechanicController : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
+
+		float pct = PilloController.GetSensor (Pillo.PilloID.Pillo1);
+		float pct2 = PilloController.GetSensor (Pillo.PilloID.Pillo2);
 		//PLAYER 1 turn
 		if(turn == 1)
 		{
-			if(Input.GetKeyDown("a"))
+			if(Input.GetKeyDown("a") || pct > 0.2)
 			{
 				movingground.moveGround();
 				turn = 2;
@@ -27,7 +30,7 @@ public class MechanicController : MonoBehaviour
 		//PLAYER 2 turn
 		if(turn == 2)
 		{
-			if(Input.GetKeyDown("l"))
+			if(Input.GetKeyDown("l") || pct2 > 0.2 )
 			{
 				movingground.moveGround();
 				turn = 1;

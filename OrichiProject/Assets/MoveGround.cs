@@ -26,7 +26,7 @@ public class MoveGround : MonoBehaviour {
 			tempvector.y = spawngroundandprops.returnFloors()[i].transform.position.y;
 			tempvector.z = spawngroundandprops.returnFloors()[i].transform.position.z;
 			tempvector.x = spawngroundandprops.returnFloors()[i].transform.position.x - 5;
-			spawngroundandprops.returnFloors()[i].transform.position = Vector3.MoveTowards(spawngroundandprops.returnFloors()[i].transform.position, tempvector, Time.deltaTime * 5);
+			spawngroundandprops.returnFloors()[i].transform.position = Vector3.MoveTowards(spawngroundandprops.returnFloors()[i].transform.position, tempvector, Time.deltaTime * 10);
 		}
 
 	}
