@@ -6,7 +6,7 @@ public class MechanicController : MonoBehaviour
 	public MoveGround movingground;
 	public SpawnGroundAndProps spawningclass;
 	private int turn;
-	static int stepstaken;
+	public static int stepstaken;
 	// Use this for initialization
 	void Start () 
 	{

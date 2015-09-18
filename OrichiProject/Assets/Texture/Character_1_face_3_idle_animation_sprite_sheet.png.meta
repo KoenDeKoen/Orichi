@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 4723fe45447e2ef419180b9c57b11300
-timeCreated: 1442566565
+timeCreated: 1442580510
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -82,8 +82,8 @@ TextureImporter:
         y: 7394
         width: 728
         height: 720
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_1
       rect:
@@ -92,8 +92,8 @@ TextureImporter:
         y: 7394
         width: 728
         height: 720
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_2
       rect:
@@ -102,8 +102,8 @@ TextureImporter:
         y: 7390
         width: 688
         height: 780
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_3
       rect:
@@ -112,8 +112,8 @@ TextureImporter:
         y: 7390
         width: 688
         height: 780
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_4
       rect:
@@ -122,8 +122,8 @@ TextureImporter:
         y: 6590
         width: 644
         height: 804
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_5
       rect:
@@ -132,8 +132,8 @@ TextureImporter:
         y: 5790
         width: 635
         height: 804
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_6
       rect:
@@ -142,8 +142,8 @@ TextureImporter:
         y: 6590
         width: 644
         height: 804
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_7
       rect:
@@ -152,8 +152,8 @@ TextureImporter:
         y: 5790
         width: 644
         height: 804
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_8
       rect:
@@ -162,8 +162,8 @@ TextureImporter:
         y: 5790
         width: 644
         height: 804
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_9
       rect:
@@ -172,8 +172,8 @@ TextureImporter:
         y: 6590
         width: 635
         height: 804
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_10
       rect:
@@ -182,8 +182,8 @@ TextureImporter:
         y: 6590
         width: 628
         height: 804
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_11
       rect:
@@ -192,8 +192,8 @@ TextureImporter:
         y: 5790
         width: 688
         height: 780
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_12
       rect:
@@ -202,8 +202,8 @@ TextureImporter:
         y: 4990
         width: 688
         height: 780
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_13
       rect:
@@ -212,8 +212,8 @@ TextureImporter:
         y: 4994
         width: 728
         height: 720
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_14
       rect:
@@ -222,8 +222,8 @@ TextureImporter:
         y: 4994
         width: 728
         height: 720
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_15
       rect:
@@ -232,8 +232,8 @@ TextureImporter:
         y: 4990
         width: 772
         height: 652
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_16
       rect:
@@ -242,8 +242,8 @@ TextureImporter:
         y: 4190
         width: 772
         height: 652
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_17
       rect:
@@ -252,8 +252,8 @@ TextureImporter:
         y: 4190
         width: 784
         height: 644
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_18
       rect:
@@ -262,8 +262,8 @@ TextureImporter:
         y: 4190
         width: 784
         height: 644
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_19
       rect:
@@ -272,8 +272,8 @@ TextureImporter:
         y: 4190
         width: 812
         height: 640
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_20
       rect:
@@ -282,8 +282,8 @@ TextureImporter:
         y: 3390
         width: 812
         height: 640
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_21
       rect:
@@ -292,8 +292,8 @@ TextureImporter:
         y: 3390
         width: 812
         height: 640
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_22
       rect:
@@ -302,8 +302,8 @@ TextureImporter:
         y: 3390
         width: 784
         height: 644
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_23
       rect:
@@ -312,8 +312,8 @@ TextureImporter:
         y: 3390
         width: 784
         height: 644
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_24
       rect:
@@ -322,8 +322,8 @@ TextureImporter:
         y: 2590
         width: 772
         height: 652
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_face_3_idle_animation_sprite_sheet_25
       rect:
@@ -332,8 +332,8 @@ TextureImporter:
         y: 2590
         width: 772
         height: 652
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

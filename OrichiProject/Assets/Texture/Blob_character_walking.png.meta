@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d34079c721abc904190a68cfca0772d0
-timeCreated: 1442236225
+timeCreated: 1442580885
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -93,8 +93,8 @@ TextureImporter:
         y: 2851
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_1
       rect:
@@ -103,8 +103,8 @@ TextureImporter:
         y: 2851
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_2
       rect:
@@ -113,8 +113,8 @@ TextureImporter:
         y: 2851
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_3
       rect:
@@ -123,8 +123,8 @@ TextureImporter:
         y: 2851
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_4
       rect:
@@ -133,8 +133,8 @@ TextureImporter:
         y: 2851
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_5
       rect:
@@ -143,8 +143,8 @@ TextureImporter:
         y: 2851
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_6
       rect:
@@ -153,8 +153,8 @@ TextureImporter:
         y: 2851
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_7
       rect:
@@ -163,8 +163,8 @@ TextureImporter:
         y: 2384
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_8
       rect:
@@ -173,8 +173,8 @@ TextureImporter:
         y: 2384
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_9
       rect:
@@ -183,8 +183,8 @@ TextureImporter:
         y: 2385
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_10
       rect:
@@ -193,18 +193,18 @@ TextureImporter:
         y: 2385
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_11
       rect:
         serializedVersion: 2
-        x: 1465
-        y: 2385
+        x: 1461
+        y: 2381
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_12
       rect:
@@ -213,8 +213,8 @@ TextureImporter:
         y: 2385
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_13
       rect:
@@ -223,8 +223,8 @@ TextureImporter:
         y: 1924
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_14
       rect:
@@ -233,8 +233,8 @@ TextureImporter:
         y: 1924
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_15
       rect:
@@ -243,8 +243,8 @@ TextureImporter:
         y: 1924
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_16
       rect:
@@ -253,8 +253,8 @@ TextureImporter:
         y: 1924
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_17
       rect:
@@ -263,8 +263,8 @@ TextureImporter:
         y: 1924
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_18
       rect:
@@ -273,18 +273,8 @@ TextureImporter:
         y: 1924
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Blob_character_walking_19
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 1908
-        width: 1976
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_20
       rect:
@@ -293,8 +283,8 @@ TextureImporter:
         y: 1440
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_21
       rect:
@@ -303,8 +293,8 @@ TextureImporter:
         y: 1440
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_22
       rect:
@@ -313,8 +303,8 @@ TextureImporter:
         y: 1440
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_23
       rect:
@@ -323,8 +313,8 @@ TextureImporter:
         y: 1440
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_24
       rect:
@@ -333,8 +323,8 @@ TextureImporter:
         y: 972
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_25
       rect:
@@ -343,8 +333,8 @@ TextureImporter:
         y: 972
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_26
       rect:
@@ -353,8 +343,8 @@ TextureImporter:
         y: 972
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_27
       rect:
@@ -363,8 +353,8 @@ TextureImporter:
         y: 972
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_28
       rect:
@@ -373,8 +363,8 @@ TextureImporter:
         y: 500
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_29
       rect:
@@ -383,8 +373,8 @@ TextureImporter:
         y: 500
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_30
       rect:
@@ -393,8 +383,8 @@ TextureImporter:
         y: 500
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_31
       rect:
@@ -403,8 +393,8 @@ TextureImporter:
         y: 500
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_32
       rect:
@@ -413,8 +403,8 @@ TextureImporter:
         y: 32
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_33
       rect:
@@ -423,8 +413,8 @@ TextureImporter:
         y: 32
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_34
       rect:
@@ -433,8 +423,8 @@ TextureImporter:
         y: 32
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_35
       rect:
@@ -443,8 +433,8 @@ TextureImporter:
         y: 32
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Blob_character_walking_36
       rect:
@@ -453,8 +443,8 @@ TextureImporter:
         y: 2385
         width: 277
         height: 468
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
