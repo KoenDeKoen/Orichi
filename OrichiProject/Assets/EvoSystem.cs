@@ -8,28 +8,22 @@ public class EvoSystem : MonoBehaviour {
 	public GameObject ghost;
 	public Animator m_ani;
 
+	int evolevel;
+
+	public Transform prefab;
+
 	void FixedUpdate () {
 		points = Beat.evoPoints;
-	//	Debug.Log (points);
-		if(points >= 4){
-
-			m_ani.SetInteger("Evolve",1);
-		}
-
 		if(points >= 8){
-			//animatie
-
-		}
-
-		if(points >= 12){
-			//animatie
+			if(evolevel < 1)
+			{
+				evolevel = 1;
+			m_ani.SetInteger("Evolve",1);
+			Instantiate(prefab, new Vector3(0,0,-2), Quaternion.identity);
+			}
 		}
 
 		if(points >= 16){
-			//animatie
-		}
-
-		if(points >= 20){
 			//animatie
 		}
 
