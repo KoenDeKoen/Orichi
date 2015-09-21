@@ -4,29 +4,26 @@ using System.Collections;
 public class EvoSystem : MonoBehaviour {
 
 
-
+	public Transform prefab;
 	public Animator m_ani;
-
 	public int points;
 	int evolevel;
 
-	public Transform prefab;
+
 
 	void Update () {
-
 		points = MechanicController.stepstaken;
-		Debug.Log(points);
 
-		if(points >= 8){
+		if(points >= 20){
 			if(evolevel < 1)
 			{
 				evolevel = 1;
-			m_ani.SetInteger("Evolve",1);
-			Instantiate(prefab, new Vector3(0,0,-2), Quaternion.identity);
+				m_ani.SetInteger("Evolve",1);
+				Instantiate(prefab, new Vector3(0,0,-2), Quaternion.identity);
 			}
 		}
 
-		if(points >= 16){
+		if(points >= 60){
 			if(evolevel < 2)
 			{
 				evolevel = 2;
@@ -35,7 +32,7 @@ public class EvoSystem : MonoBehaviour {
 			}
 		}
 
-		if(points >= 24){
+		if(points >= 100){
 			if(evolevel < 3)
 			{
 				evolevel = 3;

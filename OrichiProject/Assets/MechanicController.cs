@@ -7,6 +7,8 @@ public class MechanicController : MonoBehaviour
 	public SpawnGroundAndProps spawningclass;
 	private int turn;
 	public static int stepstaken;
+	public Animator m_ani;
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -16,7 +18,6 @@ public class MechanicController : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-
 		float pct = PilloController.GetSensor (Pillo.PilloID.Pillo1);
 		float pct2 = PilloController.GetSensor (Pillo.PilloID.Pillo2);
 		//PLAYER 1 turn
@@ -27,6 +28,7 @@ public class MechanicController : MonoBehaviour
 				movingground.moveGround();
 				stepstaken++;
 				turn = 2;
+				m_ani.SetBool("Switch", true);
 			}
 		}
 
@@ -38,6 +40,7 @@ public class MechanicController : MonoBehaviour
 				movingground.moveGround();
 				stepstaken++;
 				turn = 1;
+				m_ani.SetBool("Switch", true);
 			}
 		}
 	}
