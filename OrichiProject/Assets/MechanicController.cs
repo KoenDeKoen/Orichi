@@ -23,7 +23,7 @@ public class MechanicController : MonoBehaviour
 		//PLAYER 1 turn
 		if(turn == 1)
 		{
-			if(Input.GetKeyDown("a") || pct > 0.2)
+			if(Input.GetKeyDown("a") || pct > 0.2 && pct2 == 0)
 			{
 				movingground.moveGround(spawningclass.getParent());
 				stepstaken++;
@@ -35,7 +35,7 @@ public class MechanicController : MonoBehaviour
 		//PLAYER 2 turn
 		if(turn == 2)
 		{
-			if(Input.GetKeyDown("l") || pct2 > 0.2 )
+			if(Input.GetKeyDown("l") || pct2 > 0.2 && pct == 0 )
 			{
 				movingground.moveGround(spawningclass.getParent());
 				stepstaken++;
