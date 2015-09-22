@@ -10,7 +10,7 @@ public class Creatures : MonoBehaviour
 	void Start () 
 	{
 		imagenames = new List<string> ();
-		imagenames.Add ("Koala");
+		//imagenames.Add ("Koala");
 		imagenames.Add ("Derp");
 	}
 	

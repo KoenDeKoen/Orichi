@@ -17,20 +17,30 @@ public class CreatureSelect : MonoBehaviour
 	public GameObject nextimageframe;
 	private string defaultimageroute;
 	private float temptime;
+	private bool startup;
 
 	void Start () 
 	{
-
+		startup = true;
 		defaultimageroute = "Images/";
 		creaturenumber = 1;
 		imageframe.GetComponent<Image> ().sprite = Resources.Load<Sprite> (defaultimageroute + creaturenumber.ToString());
-		previousimageframe.GetComponent<Image>().sprite = Resources.Load<Sprite>(defaultimageroute + (creaturenumber-1).ToString());
-		nextimageframe.GetComponent<Image>().sprite = Resources.Load<Sprite>(defaultimageroute + (creaturenumber+1).ToString());
+		//previousimageframe.GetComponent<Image>().sprite = Resources.Load<Sprite> (defaultimageroute + (creaturenumber-1).ToString());
+		//nextCreature ();
+
+		//previousimageframe.GetComponent<Image>().sprite = Resources.Load<Sprite>(defaultimageroute + (creaturenumber-1).ToString());
+		//nextimageframe.GetComponent<Image>().sprite = Resources.Load<Sprite>(defaultimageroute + (creaturenumber+1).ToString());
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
+		if(startup)
+		{
+			nextCreature();
+			previousCreature();
+			startup = false;
+		}
 		float accel = PilloController.GetAcceleroX (Pillo.PilloID.Pillo1);
 		float pct = PilloController.GetSensor (Pillo.PilloID.Pillo1);
 		
@@ -80,18 +90,24 @@ public class CreatureSelect : MonoBehaviour
 				nextimageframe.GetComponent<Image>().sprite = Resources.Load<Sprite>(defaultimageroute + "0");
 			}
 		}
+		else
+		{
+			nextimageframe.GetComponent<Image>().sprite = Resources.Load<Sprite>(defaultimageroute + "0");
+		}
 	}
 
 	public void previousCreature()
 	{
-	
-
 		if(creaturenumber > 1)
 		{
 			creaturenumber--;
 			imageframe.GetComponent<Image>().sprite = Resources.Load<Sprite>(defaultimageroute + creaturenumber.ToString());
 			previousimageframe.GetComponent<Image>().sprite = Resources.Load<Sprite>(defaultimageroute + (creaturenumber-1).ToString());
 			nextimageframe.GetComponent<Image>().sprite = Resources.Load<Sprite>(defaultimageroute + (creaturenumber+1).ToString());
+		}
+		else
+		{
+			previousimageframe.GetComponent<Image>().sprite = Resources.Load<Sprite>(defaultimageroute + "0");
 		}
 	}
 	// Use this for initialization
