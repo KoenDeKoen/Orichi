@@ -20,7 +20,7 @@ public class EvoSystem : MonoBehaviour {
 			{
 				evolevel = 1;
 				m_ani.SetInteger("Evolve",1);
-				Instantiate(prefab, new Vector3(0,0,-5), Quaternion.identity);
+				Instantiate(prefab, new Vector3(0,-1.25F,-5), Quaternion.identity);
 			}
 		}
 
@@ -29,7 +29,7 @@ public class EvoSystem : MonoBehaviour {
 			{
 				evolevel = 2;
 				m_ani.SetInteger("Evolve",2);
-				Instantiate(prefab, new Vector3(0,0,-2), Quaternion.identity);
+				Instantiate(prefab, new Vector3(0,-1.25F,-2), Quaternion.identity);
 			}
 		}
 
@@ -38,7 +38,7 @@ public class EvoSystem : MonoBehaviour {
 			{
 				evolevel = 3;
 				m_ani.SetInteger("Evolve",3);
-				Instantiate(prefab, new Vector3(0,0,-2), Quaternion.identity);
+				Instantiate(prefab, new Vector3(0,-1.25F,-2), Quaternion.identity);
 			}
 		}
 	}

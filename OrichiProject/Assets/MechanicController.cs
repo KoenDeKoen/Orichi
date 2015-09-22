@@ -25,7 +25,7 @@ public class MechanicController : MonoBehaviour
 		{
 			if(Input.GetKeyDown("a") || pct > 0.2)
 			{
-				movingground.moveGround();
+				movingground.moveGround(spawningclass.getParent());
 				stepstaken++;
 				turn = 2;
 				m_ani.SetBool("Switch", true);
@@ -37,7 +37,7 @@ public class MechanicController : MonoBehaviour
 		{
 			if(Input.GetKeyDown("l") || pct2 > 0.2 )
 			{
-				movingground.moveGround();
+				movingground.moveGround(spawningclass.getParent());
 				stepstaken++;
 				turn = 1;
 				m_ani.SetBool("Switch", true);

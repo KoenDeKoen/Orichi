@@ -2,58 +2,18 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class MoveGround : MonoBehaviour
-{
+public class MoveGround : MonoBehaviour {
+
 	// Use this for initialization
-	//public GameObject floorandshizzle;
-	public SpawnGroundAndProps spawngroundandprops;
-	void Start () 
-	{
-		
-	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-		//moveGround ();
-		//Debug.Log (floorandshizzle.transform.position.x + floorandshizzle.transform.localScale.x / 2);
-	}
-	
-	public void moveGround()
-	{
-		for(int i = 0; i < spawngroundandprops.returnFloors().Count; i++)
-		{
-			Vector3 tempvector;
-			tempvector.y = spawngroundandprops.returnFloors()[i].transform.position.y;
-			tempvector.z = spawngroundandprops.returnFloors()[i].transform.position.z;
-			tempvector.x = spawngroundandprops.returnFloors()[i].transform.position.x - 5;
-			spawngroundandprops.returnFloors()[i].transform.position = Vector3.MoveTowards(spawngroundandprops.returnFloors()[i].transform.position, tempvector, Time.deltaTime * 5);
-		}
-		
-	}
-
-
-	//WAS WORKING ON THIS!!!
-
-	/*// Use this for initialization
 	//public GameObject floorandshizzle;
 	//public SpawnGroundAndProps spawngroundandprops;
 	private bool hastolerp;
 	private GameObject parent;
-	private List<float> endpositions;
-	private int currentground;
-	//private Vector3 position;
-	private Vector3 position;
+	private Vector3 endposition;
+
 	void Start () 
 	{
-		position = new Vector3 (0, 0, 0);
-		endpositions = new List<float> ();
-		endpositions.Add (0);
-		endpositions.Add (0);
-		position = new Vector3 (0, 0, 0);
-		hastolerp = false;
-		currentground = 0;
-		position = new Vector3 (0, 0, 0);
+		endposition = new Vector3 (0, 0, 0);
 	}
 	
 	// Update is called once per frame
@@ -61,76 +21,19 @@ public class MoveGround : MonoBehaviour
 	{
 		if(hastolerp)
 		{
-			parent.transform.position = Vector3.MoveTowards(parent.transform.position, position, Time.deltaTime * (float)2);
-		}
-
-		if(parent.transform.position.x <= position.x)
-		{
-			hastolerp = false;
-		}
-		//if pos < targetpos
-			//moveground1
-			//moveground2
-		if(hastolerp)
-		{
-			//lerpPls(currentground, position);
-			position.x = endpositions[0];
-			spawngroundandprops.returnFloors()[0].transform.position = Vector3.MoveTowards(spawngroundandprops.returnFloors()[0].transform.position, position, Time.deltaTime * (float)2);
-			if(spawngroundandprops.returnFloors().Count == 2)
+			if(parent.transform.position.x <= endposition.x)
 			{
-				position.x = endpositions[1];
-				spawngroundandprops.returnFloors()[1].transform.position = Vector3.MoveTowards(spawngroundandprops.returnFloors()[1].transform.position, position, Time.deltaTime * (float)2);
+				hastolerp = false;
 			}
-
-			if(spawngroundandprops.returnFloors()[0].transform.position.x <= endpositions[0])
-			{
-				if(spawngroundandprops.returnFloors().Count == 2)
-				{
-					if(spawngroundandprops.returnFloors()[1].transform.position.x <= endpositions[1] && spawngroundandprops.returnFloors()[1].transform.position.x <= endpositions[1])
-					{
-						hastolerp = false;
-					}
-				}
-				else
-				{
-					hastolerp = false;
-				}
-			}
+			parent.transform.position = Vector3.Lerp(parent.transform.position, endposition, Time.deltaTime * 2);
 		}
-		//moveGround ();
-		//Debug.Log (floorandshizzle.transform.position.x + floorandshizzle.transform.localScale.x / 2);
 	}
-
-	public void moveGround()
-	{
-		hastolerp = true;
-		for(int i = 0; i < spawngroundandprops.returnFloors().Count; i++)
-		{
-			Vector3 tempvector;
-			endpositions[i] = 
-			//currentground = i;
-			position.y = spawngroundandprops.returnFloors()[i].transform.position.y;
-			position.z = spawngroundandprops.returnFloors()[i].transform.position.z;
-			endpositions[i] = spawngroundandprops.returnFloors()[i].transform.position.x - 1;
-
-			//hastolerp = true;
-		}
-
-	}
-
+	
 	public void moveGround(GameObject p)
 	{
 		hastolerp = true;
 		parent = p;
-		position.z = parent.transform.position.z;
-		position.y = parent.transform.position.y;
-		position.x = parent.transform.position.x - 1;
+		endposition = parent.transform.position;
+		endposition.x = parent.transform.position.x - 2;
 	}
-
-
-	public void lerpPls(int i, Vector3 vectorke)
-	{
-		spawngroundandprops.returnFloors()[i].transform.position = Vector3.MoveTowards(spawngroundandprops.returnFloors()[i].transform.position, vectorke, Time.deltaTime * (float)2);
-	}*/
-
 }

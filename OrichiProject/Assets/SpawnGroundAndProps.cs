@@ -2,24 +2,29 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class SpawnGroundAndProps : MonoBehaviour 
-{
+public class SpawnGroundAndProps : MonoBehaviour {
 
+	// Use this for initialization
 	private List<GameObject> floors;
-	private List<Vector3> decorationpawnpositions;
+	private GameObject parent;
+	private GameObject lastspawnedfloor;
 	public Sprite bushsprite;
 	public Sprite floorsprite;
-	//public Animator grasscontroller;
-	public RuntimeAnimatorController grassRTController; 	
-	Vector3 position;
-	// Use this for initialization
+	private List<Vector3> decorationpawnpositions;
+	public RuntimeAnimatorController grassRTController; 
+
 	void Start () 
 	{
+		floors = new List<GameObject> ();
+		Vector3 spawnpos = new Vector3 (0, -4, 0);
+		parent = new GameObject ();
+		parent.transform.position = spawnpos;
+
 		decorationpawnpositions = new List<Vector3> ();
 		addSpawnableDecorationSpots ();
-		floors = new List<GameObject> ();
-		position = new Vector3 (0, (float)-2.23, 0);
-		spawnFloor (position);
+
+		//UGLY FIRST SPAWN
+		spawnFloor (parent.transform.position);
 	}
 	
 	// Update is called once per frame
@@ -27,7 +32,7 @@ public class SpawnGroundAndProps : MonoBehaviour
 	{
 		checkForNextSpawn ();
 	}
-	
+
 	public void  spawnFloor(Vector3 spawnpos)
 	{
 		GameObject floor = new GameObject();
@@ -35,45 +40,42 @@ public class SpawnGroundAndProps : MonoBehaviour
 		floor.GetComponent<SpriteRenderer> ().sprite = floorsprite;
 		Vector3 spawnposition = spawnpos;
 		floor.transform.position = spawnposition;
-		floors.Add (floor);
 		placeGrass (floor);
 		addSpawnableDecorationSpots ();
+		lastspawnedfloor = floor;
+		floor.transform.SetParent (parent.transform);
+		floors.Add (floor);
 	}
-	
+
 	public void despawnFloor(GameObject floortodespawn)
 	{
-		floors.Remove (floortodespawn);
 		Destroy (floortodespawn);
+		floors.Remove (floortodespawn);
 	}
 	
 	public void checkForNextSpawn()
 	{
-		Vector3 endofspriteposleft = new Vector3 (0, 0, 0);
 		Vector3 endofspriteposright = new Vector3 (0, 0, 0);
 		for(int i = 0; i < floors.Count; i++)
 		{
-			endofspriteposleft.x = floors[i].GetComponent<SpriteRenderer>().bounds.min.x;
 			endofspriteposright.x = floors[i].GetComponent<SpriteRenderer>().bounds.max.x;
-			if(endofspriteposright.x <= (float)9 && floors.Count < 2)
-			{
-				position.x = endofspriteposright.x + (floors[i].GetComponent<SpriteRenderer>().bounds.extents.x)-(float)+0.1;//+0.1 omdat LOGICS
-				spawnFloor(position);
-			}
 			if(endofspriteposright.x <= (float)-9)
 			{
 				despawnFloor(floors[i]);
 			}
 		}
-	}
-	
-	public List<GameObject> returnFloors()
-	{
-		return floors;
+
+		if (lastspawnedfloor.GetComponent<SpriteRenderer>().bounds.max.x <= (float)9) 
+		{
+			Vector3 tempvector = lastspawnedfloor.transform.position;
+			tempvector.x = lastspawnedfloor.GetComponent<SpriteRenderer>().bounds.max.x + (lastspawnedfloor.GetComponent<SpriteRenderer> ().bounds.extents.x - (float)0.05);
+			spawnFloor (tempvector);
+		}
 	}
 	
 	public void placeGrass(GameObject parentground)
 	{
-		Vector3 position = new Vector3(parentground.transform.position.x,(float)-1.08,0);
+		Vector3 position = new Vector3(parentground.transform.position.x,parentground.transform.position.y + (float)0.95,0);
 		Vector3 positiontoremove = new Vector3 (0, 0, 0);
 		
 		for(int i = 0; i < Random.Range(3,6); i++)
@@ -86,6 +88,8 @@ public class SpawnGroundAndProps : MonoBehaviour
 			decorationpawnpositions.Remove(positiontoremove);
 			grass.transform.parent = parentground.transform;
 			grass.transform.position = position;
+			Vector3 tempscale = new Vector3(0.5F,0.5F,0.5F);
+			grass.transform.localScale = tempscale;
 			grass.GetComponent<SpriteRenderer>().sortingOrder = 1;
 			grass.AddComponent<Animator>();
 			grass.GetComponent<Animator>().runtimeAnimatorController = grassRTController;
@@ -101,113 +105,11 @@ public class SpawnGroundAndProps : MonoBehaviour
 			decorationpawnpositions.Add (spot);
 		}	
 	}
-
-
-	//WAS WORKING ON THIS DONT REMOVE!!!
-
-	/*private List<GameObject> floors;
-	private List<Vector3> decorationpawnpositions;
-	public Sprite bushsprite;
-	public Sprite floorsprite;
-	private GameObject parentofall;
-	private GameObject lastspawnedfloor;
-	Vector3 position;
-	// Use this for initialization
-	void Start () 
-	{
-		lastspawnedfloor = new GameObject ();
-		parentofall = new GameObject ();
-		decorationpawnpositions = new List<Vector3> ();
-		addSpawnableDecorationSpots ();
-		floors = new List<GameObject> ();
-		position = new Vector3 (0, (float)-2.23, 0);
-		parentofall.transform.position = position;
-		//spawnFloor (position);
-	}
 	
-	 Update is called once per frame
-	void Update () 
-	{
-		checkForNextSpawn ();
-	}
-
-	public void  spawnFloor(Vector3 spawnpos)
-	{
-
-		GameObject floor = new GameObject();
-		floor.AddComponent<SpriteRenderer> ();
-		floor.GetComponent<SpriteRenderer> ().sprite = floorsprite;
-		Vector3 spawnposition = spawnpos;
-		floor.transform.position = spawnposition;
-		floors.Add (floor);
-		placeGrass (floor);
-		addSpawnableDecorationSpots ();
-		lastspawnedfloor = floor;
-	}
-
-	public void despawnFloor(GameObject floortodespawn)
-	{
-		floors.Remove (floortodespawn);
-		Destroy (floortodespawn);
-	}
-
-	public void checkForNextSpawn()
-	{
-		Vector3 endofspriteposleft = new Vector3 (0, 0, 0);
-		Vector3 endofspriteposright = new Vector3 (0, 0, 0);
-
-		for(int i = 0; i < floors.Count; i++)
-		{
-			endofspriteposleft.x = floors[i].GetComponent<SpriteRenderer>().bounds.min.x;
-			endofspriteposright.x = lastspawnedfloor.GetComponent<SpriteRenderer>().bounds.max.x;
-			if(endofspriteposright.x <= (float)9 && floors.Count < 2)
-			{
-				position.x = lastspawnedfloor.transform.localPosition.x + (lastspawnedfloor.GetComponent<SpriteRenderer>().bounds.extents.x);//+0.1 omdat LOGICS
-				spawnFloor(position);
-			}
-			if(endofspriteposright.x <= (float)-9)
-			{
-				despawnFloor(floors[i]);
-			}
-		}
-	}
-
-	public List<GameObject> returnFloors()
-	{
-		return floors;
-	}
-
-	public void placeGrass(GameObject parentground)
-	{
-		Vector3 position = new Vector3(parentground.transform.position.x,(float)-1.08,0);
-		Vector3 positiontoremove = new Vector3 (0, 0, 0);
-
-		for(int i = 0; i < Random.Range(3,6); i++)
-		{
-			GameObject grass = new GameObject();
-			grass.AddComponent<SpriteRenderer>();
-			grass.GetComponent<SpriteRenderer>().sprite = bushsprite;
-			positiontoremove = decorationpawnpositions[Random.Range(0,decorationpawnpositions.Count)];
-			position.x += positiontoremove.x;
-			decorationpawnpositions.Remove(positiontoremove);
-			grass.transform.parent = parentground.transform;
-			grass.transform.position = position;
-			grass.GetComponent<SpriteRenderer>().sortingOrder = 2;
-		}
-	}
-
-	public void addSpawnableDecorationSpots()
-	{
-		Vector3 spot = new Vector3 (0, (float)-2.23, 0);
-		for(int i = -5; i < 5; i += 2)
-		{
-			spot.x = i;
-			decorationpawnpositions.Add (spot);
-		}	
-	}
-
 	public GameObject getParent()
 	{
-		return parentofall;
-	}*/
+		return parent;
+	}
+
+
 }
