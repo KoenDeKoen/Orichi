@@ -86,7 +86,7 @@ public class SpawnGroundAndProps : MonoBehaviour
 			decorationpawnpositions.Remove(positiontoremove);
 			grass.transform.parent = parentground.transform;
 			grass.transform.position = position;
-			grass.GetComponent<SpriteRenderer>().sortingOrder = 2;
+			grass.GetComponent<SpriteRenderer>().sortingOrder = 1;
 			grass.AddComponent<Animator>();
 			grass.GetComponent<Animator>().runtimeAnimatorController = grassRTController;
 		}

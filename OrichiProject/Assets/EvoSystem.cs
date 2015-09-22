@@ -6,6 +6,7 @@ public class EvoSystem : MonoBehaviour {
 
 	public Transform prefab;
 	public Animator m_ani;
+	private GameObject tempobj;
 	public int points;
 	int evolevel;
 
@@ -19,7 +20,7 @@ public class EvoSystem : MonoBehaviour {
 			{
 				evolevel = 1;
 				m_ani.SetInteger("Evolve",1);
-				Instantiate(prefab, new Vector3(0,0,-2), Quaternion.identity);
+				Instantiate(prefab, new Vector3(0,0,-5), Quaternion.identity);
 			}
 		}
 
