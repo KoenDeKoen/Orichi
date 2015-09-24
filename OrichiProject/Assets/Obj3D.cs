@@ -13,7 +13,7 @@ public class Obj3D : MonoBehaviour
 	public GameObject flower3;
 	private List<GameObject> objects;
 	// Use this for initialization
-	void Start () 
+	public void Initialise () 
 	{
 		objects = new List<GameObject> ();
 		//objects.Add (boom1);

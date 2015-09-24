@@ -20,7 +20,7 @@ public class Obj2D : MonoBehaviour {
 	private List<Sprite> sprites;
 	private List<RuntimeAnimatorController> controllers;
 
-	void Start () 
+	public void Initialise () 
 	{
 		sprites = new List<Sprite> ();
 		controllers = new List<RuntimeAnimatorController> ();

@@ -18,6 +18,8 @@ public class SpawnGroundAndProps : MonoBehaviour {
 
 	void Start () 
 	{
+		obj2d.Initialise ();
+		obj3d.Initialise ();
 		floors = new List<GameObject> ();
 		Vector3 spawnpos = new Vector3 (0, -4, 0);
 		parent = new GameObject ();
