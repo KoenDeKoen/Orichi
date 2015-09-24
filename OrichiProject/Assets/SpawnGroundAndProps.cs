@@ -30,7 +30,6 @@ public class SpawnGroundAndProps : MonoBehaviour {
 		addSpawnable2DDecorationSpots ();
 		addSpawnable3DDecorationSpots ();
 
-		//UGLY FIRST SPAWN
 		spawnFloor (parent.transform.position);
 	}
 	
