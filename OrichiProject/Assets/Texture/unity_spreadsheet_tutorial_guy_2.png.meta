@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 32185d1c91d5dc744863f601b3d3aff5
-timeCreated: 1443109132
+timeCreated: 1443167248
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -132,6 +132,7 @@ TextureImporter:
     21300250: unity_spreadsheet_tutorial_guy_2_125
     21300252: unity_spreadsheet_tutorial_guy_2_126
     21300254: unity_spreadsheet_tutorial_guy_2_127
+    21300256: unity_spreadsheet_tutorial_guy_2_128
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -235,7 +236,7 @@ TextureImporter:
         width: 516
         height: 840
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_6
       rect:
@@ -535,17 +536,17 @@ TextureImporter:
         width: 516
         height: 840
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_36
       rect:
         serializedVersion: 2
-        x: 3111
+        x: 3110
         y: 5658
         width: 516
         height: 844
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_37
       rect:
@@ -855,7 +856,7 @@ TextureImporter:
         width: 512
         height: 844
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_68
       rect:
