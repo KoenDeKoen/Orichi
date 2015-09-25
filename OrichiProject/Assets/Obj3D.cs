@@ -16,7 +16,7 @@ public class Obj3D : MonoBehaviour
 	public void Initialise () 
 	{
 		objects = new List<GameObject> ();
-		//objects.Add (boom1);
+		objects.Add (boom1);
 		objects.Add (boom2);
 		objects.Add (flower1);
 		objects.Add (flower2);

@@ -10,11 +10,10 @@ public class EvoSystem : MonoBehaviour {
 	public int points;
 	int evolevel;
 
-
-
 	void Update () {
 		points = MechanicController.stepstaken;
 
+		// Transformation 1
 		if(points >= 20){
 			if(evolevel < 1)
 			{
@@ -24,7 +23,8 @@ public class EvoSystem : MonoBehaviour {
 			}
 		}
 
-		if(points >= 60){
+		// Transformation 2
+		if(points >= 40){
 			if(evolevel < 2)
 			{
 				evolevel = 2;
@@ -33,7 +33,8 @@ public class EvoSystem : MonoBehaviour {
 			}
 		}
 
-		if(points >= 100){
+		// Transformation 3
+		if(points >= 60){
 			if(evolevel < 3)
 			{
 				evolevel = 3;
