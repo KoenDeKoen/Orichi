@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 32185d1c91d5dc744863f601b3d3aff5
-timeCreated: 1443167248
+timeCreated: 1443174328
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -133,6 +133,12 @@ TextureImporter:
     21300252: unity_spreadsheet_tutorial_guy_2_126
     21300254: unity_spreadsheet_tutorial_guy_2_127
     21300256: unity_spreadsheet_tutorial_guy_2_128
+    21300258: unity_spreadsheet_tutorial_guy_2_129
+    21300260: unity_spreadsheet_tutorial_guy_2_130
+    21300262: unity_spreadsheet_tutorial_guy_2_131
+    21300264: unity_spreadsheet_tutorial_guy_2_132
+    21300266: unity_spreadsheet_tutorial_guy_2_133
+    21300268: unity_spreadsheet_tutorial_guy_2_134
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -181,9 +187,9 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 7346
-        width: 516
+        x: 0
+        y: 7348
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -191,19 +197,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_1
       rect:
         serializedVersion: 2
-        x: 522
-        y: 7346
-        width: 516
-        height: 840
+        x: 518
+        y: 7348
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_2
       rect:
         serializedVersion: 2
-        x: 1038
-        y: 7346
-        width: 516
+        x: 1036
+        y: 7348
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -211,19 +217,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_3
       rect:
         serializedVersion: 2
-        x: 1558
-        y: 7346
-        width: 516
-        height: 840
+        x: 1554
+        y: 7348
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_4
       rect:
         serializedVersion: 2
-        x: 2074
-        y: 7346
-        width: 516
+        x: 2072
+        y: 7348
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -231,19 +237,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_5
       rect:
         serializedVersion: 2
-        x: 2594
-        y: 7346
-        width: 516
-        height: 840
+        x: 2590
+        y: 7348
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_6
       rect:
         serializedVersion: 2
-        x: 3110
-        y: 7346
-        width: 516
+        x: 3108
+        y: 7348
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -251,19 +257,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_7
       rect:
         serializedVersion: 2
-        x: 3630
-        y: 7346
-        width: 516
-        height: 840
+        x: 3626
+        y: 7348
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_8
       rect:
         serializedVersion: 2
-        x: 4146
-        y: 7346
-        width: 516
+        x: 4144
+        y: 7348
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -271,19 +277,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_9
       rect:
         serializedVersion: 2
-        x: 4666
-        y: 7346
-        width: 516
-        height: 840
+        x: 4662
+        y: 7348
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_10
       rect:
         serializedVersion: 2
-        x: 5182
-        y: 7346
-        width: 516
+        x: 5180
+        y: 7348
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -291,19 +297,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_11
       rect:
         serializedVersion: 2
-        x: 5702
-        y: 7346
-        width: 516
-        height: 840
+        x: 5698
+        y: 7348
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_12
       rect:
         serializedVersion: 2
-        x: 6218
-        y: 7346
-        width: 516
+        x: 6216
+        y: 7348
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -311,19 +317,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_13
       rect:
         serializedVersion: 2
-        x: 6736
-        y: 7346
+        x: 6734
+        y: 7348
         width: 518
-        height: 840
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_14
       rect:
         serializedVersion: 2
-        x: 7254
-        y: 7346
-        width: 516
+        x: 7252
+        y: 7348
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -331,9 +337,9 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_15
       rect:
         serializedVersion: 2
-        x: 2
-        y: 6502
-        width: 516
+        x: 0
+        y: 6504
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -341,19 +347,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_16
       rect:
         serializedVersion: 2
-        x: 522
-        y: 6502
-        width: 516
-        height: 840
+        x: 518
+        y: 6504
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_17
       rect:
         serializedVersion: 2
-        x: 1038
-        y: 6502
-        width: 516
+        x: 1036
+        y: 6504
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -361,19 +367,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_18
       rect:
         serializedVersion: 2
-        x: 1558
-        y: 6502
-        width: 516
-        height: 840
+        x: 1554
+        y: 6504
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_19
       rect:
         serializedVersion: 2
-        x: 2074
-        y: 6502
-        width: 516
+        x: 2072
+        y: 6504
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -381,19 +387,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_20
       rect:
         serializedVersion: 2
-        x: 2594
-        y: 6502
-        width: 516
-        height: 840
+        x: 2590
+        y: 6504
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_21
       rect:
         serializedVersion: 2
-        x: 3110
-        y: 6502
-        width: 516
+        x: 3108
+        y: 6504
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -401,19 +407,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_22
       rect:
         serializedVersion: 2
-        x: 3630
-        y: 6502
-        width: 516
-        height: 840
+        x: 3626
+        y: 6504
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_23
       rect:
         serializedVersion: 2
-        x: 4146
-        y: 6502
-        width: 516
+        x: 4144
+        y: 6504
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -421,19 +427,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_24
       rect:
         serializedVersion: 2
-        x: 4666
-        y: 6502
-        width: 516
-        height: 840
+        x: 4662
+        y: 6504
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_25
       rect:
         serializedVersion: 2
-        x: 5182
-        y: 6502
-        width: 516
+        x: 5180
+        y: 6504
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -441,19 +447,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_26
       rect:
         serializedVersion: 2
-        x: 5702
-        y: 6502
-        width: 516
-        height: 840
+        x: 5698
+        y: 6504
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_27
       rect:
         serializedVersion: 2
-        x: 6218
-        y: 6502
-        width: 516
+        x: 6216
+        y: 6504
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -461,19 +467,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_28
       rect:
         serializedVersion: 2
-        x: 6738
-        y: 6502
-        width: 516
-        height: 840
+        x: 6734
+        y: 6504
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_29
       rect:
         serializedVersion: 2
-        x: 7254
-        y: 6502
-        width: 516
+        x: 7252
+        y: 6504
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -481,9 +487,9 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_30
       rect:
         serializedVersion: 2
-        x: 2
-        y: 5658
-        width: 516
+        x: 0
+        y: 5660
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -491,19 +497,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_31
       rect:
         serializedVersion: 2
-        x: 522
-        y: 5658
-        width: 516
-        height: 840
+        x: 518
+        y: 5660
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_32
       rect:
         serializedVersion: 2
-        x: 1038
-        y: 5658
-        width: 516
+        x: 1036
+        y: 5660
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -511,19 +517,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_33
       rect:
         serializedVersion: 2
-        x: 1558
-        y: 5658
-        width: 516
-        height: 840
+        x: 1554
+        y: 5660
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_34
       rect:
         serializedVersion: 2
-        x: 2074
-        y: 5658
-        width: 516
+        x: 2072
+        y: 5660
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -531,19 +537,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_35
       rect:
         serializedVersion: 2
-        x: 2594
-        y: 5658
-        width: 516
-        height: 840
+        x: 2590
+        y: 5660
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_36
       rect:
         serializedVersion: 2
-        x: 3110
-        y: 5658
-        width: 516
+        x: 3108
+        y: 5660
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -551,19 +557,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_37
       rect:
         serializedVersion: 2
-        x: 3630
-        y: 5658
-        width: 516
-        height: 840
+        x: 3626
+        y: 5660
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_38
       rect:
         serializedVersion: 2
-        x: 4146
-        y: 5658
-        width: 516
+        x: 4144
+        y: 5660
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -571,19 +577,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_39
       rect:
         serializedVersion: 2
-        x: 4666
-        y: 5658
-        width: 516
-        height: 840
+        x: 4662
+        y: 5660
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_40
       rect:
         serializedVersion: 2
-        x: 5182
-        y: 5658
-        width: 516
+        x: 5180
+        y: 5660
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -591,19 +597,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_41
       rect:
         serializedVersion: 2
-        x: 5702
-        y: 5658
-        width: 516
-        height: 840
+        x: 5698
+        y: 5660
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_42
       rect:
         serializedVersion: 2
-        x: 6218
-        y: 5658
-        width: 516
+        x: 6216
+        y: 5660
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -611,19 +617,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_43
       rect:
         serializedVersion: 2
-        x: 6738
-        y: 5658
-        width: 516
-        height: 840
+        x: 6734
+        y: 5660
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_44
       rect:
         serializedVersion: 2
-        x: 7254
-        y: 5658
-        width: 516
+        x: 7252
+        y: 5660
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -631,9 +637,9 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_45
       rect:
         serializedVersion: 2
-        x: 2
-        y: 4814
-        width: 516
+        x: 0
+        y: 4816
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -642,148 +648,148 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 518
-        y: 4814
-        width: 516
+        y: 4816
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_47
       rect:
         serializedVersion: 2
-        x: 1038
-        y: 4814
-        width: 516
+        x: 1036
+        y: 4816
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_48
       rect:
         serializedVersion: 2
         x: 1554
-        y: 4814
-        width: 516
-        height: 840
+        y: 4816
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_49
       rect:
         serializedVersion: 2
-        x: 2070
-        y: 4814
-        width: 516
+        x: 2071
+        y: 4816
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_50
       rect:
         serializedVersion: 2
         x: 2586
-        y: 4814
-        width: 516
+        y: 4816
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_51
       rect:
         serializedVersion: 2
-        x: 3106
-        y: 4814
-        width: 512
+        x: 3105
+        y: 4816
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_52
       rect:
         serializedVersion: 2
-        x: 3622
-        y: 4814
-        width: 512
+        x: 3619
+        y: 4816
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_53
       rect:
         serializedVersion: 2
-        x: 4138
-        y: 4814
-        width: 512
+        x: 4134
+        y: 4816
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_54
       rect:
         serializedVersion: 2
-        x: 4646
-        y: 3970
-        width: 516
-        height: 846
+        x: 4653
+        y: 4816
+        width: 518
+        height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_55
       rect:
         serializedVersion: 2
-        x: 4654
-        y: 4814
-        width: 512
+        x: 5169
+        y: 4816
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_56
       rect:
         serializedVersion: 2
-        x: 5170
-        y: 4814
-        width: 512
+        x: 5684
+        y: 4816
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_57
       rect:
         serializedVersion: 2
-        x: 5686
-        y: 4814
-        width: 512
+        x: 6201
+        y: 4816
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_58
       rect:
         serializedVersion: 2
-        x: 6202
-        y: 4814
-        width: 512
+        x: 6713
+        y: 4816
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_59
       rect:
         serializedVersion: 2
-        x: 6718
-        y: 4814
-        width: 512
+        x: 7231
+        y: 4816
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_60
       rect:
         serializedVersion: 2
-        x: 7234
-        y: 4814
-        width: 512
+        x: 0
+        y: 3972
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -791,9 +797,9 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_61
       rect:
         serializedVersion: 2
-        x: 2
-        y: 3970
-        width: 516
+        x: 518
+        y: 3972
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -801,139 +807,139 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_62
       rect:
         serializedVersion: 2
-        x: 518
-        y: 3970
-        width: 512
+        x: 1032
+        y: 3972
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_63
       rect:
         serializedVersion: 2
-        x: 1034
-        y: 3970
-        width: 512
+        x: 1549
+        y: 3972
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_64
       rect:
         serializedVersion: 2
-        x: 1550
-        y: 3970
-        width: 512
+        x: 2066
+        y: 3972
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_65
       rect:
         serializedVersion: 2
-        x: 2066
-        y: 3970
-        width: 512
+        x: 2580
+        y: 3972
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_66
       rect:
         serializedVersion: 2
-        x: 2582
-        y: 3970
-        width: 512
+        x: 3096
+        y: 3972
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_67
       rect:
         serializedVersion: 2
-        x: 3098
-        y: 3970
-        width: 512
+        x: 3612
+        y: 3972
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_68
       rect:
         serializedVersion: 2
-        x: 3614
-        y: 3970
-        width: 512
+        x: 4130
+        y: 3972
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_69
       rect:
         serializedVersion: 2
-        x: 4128
-        y: 3970
-        width: 514
+        x: 4645
+        y: 3972
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_70
       rect:
         serializedVersion: 2
         x: 5162
-        y: 3970
-        width: 516
-        height: 840
+        y: 3972
+        width: 518
+        height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_71
       rect:
         serializedVersion: 2
-        x: 5678
-        y: 3970
-        width: 516
+        x: 5679
+        y: 3972
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_72
       rect:
         serializedVersion: 2
-        x: 6194
-        y: 3970
-        width: 516
+        x: 6196
+        y: 3972
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_73
       rect:
         serializedVersion: 2
-        x: 6714
-        y: 3970
-        width: 516
+        x: 6713
+        y: 3972
+        width: 518
         height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_74
       rect:
         serializedVersion: 2
-        x: 7230
-        y: 3970
-        width: 516
-        height: 840
+        x: 7231
+        y: 3972
+        width: 518
+        height: 844
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_75
       rect:
         serializedVersion: 2
-        x: 2
-        y: 3126
-        width: 516
+        x: 0
+        y: 3128
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -942,8 +948,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 518
-        y: 3126
-        width: 520
+        y: 3128
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -951,9 +957,9 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_77
       rect:
         serializedVersion: 2
-        x: 1038
-        y: 3126
-        width: 516
+        x: 1036
+        y: 3128
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -962,8 +968,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1554
-        y: 3126
-        width: 520
+        y: 3128
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -971,9 +977,9 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_79
       rect:
         serializedVersion: 2
-        x: 2074
-        y: 3126
-        width: 516
+        x: 2072
+        y: 3128
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -982,8 +988,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2590
-        y: 3126
-        width: 520
+        y: 3128
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -991,9 +997,9 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_81
       rect:
         serializedVersion: 2
-        x: 3110
-        y: 3126
-        width: 516
+        x: 3108
+        y: 3128
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1002,8 +1008,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3626
-        y: 3126
-        width: 520
+        y: 3128
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1011,9 +1017,9 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_83
       rect:
         serializedVersion: 2
-        x: 4146
-        y: 3126
-        width: 516
+        x: 4144
+        y: 3128
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1022,8 +1028,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4662
-        y: 3126
-        width: 520
+        y: 3128
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1031,9 +1037,9 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_85
       rect:
         serializedVersion: 2
-        x: 5182
-        y: 3126
-        width: 516
+        x: 5180
+        y: 3128
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1042,8 +1048,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5698
-        y: 3126
-        width: 520
+        y: 3128
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1051,9 +1057,9 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_87
       rect:
         serializedVersion: 2
-        x: 6218
-        y: 3126
-        width: 516
+        x: 6216
+        y: 3128
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1062,8 +1068,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 6734
-        y: 3126
-        width: 520
+        y: 3128
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1071,9 +1077,9 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_89
       rect:
         serializedVersion: 2
-        x: 7254
-        y: 3126
-        width: 516
+        x: 7252
+        y: 3128
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1081,9 +1087,9 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_90
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2282
-        width: 516
+        x: 0
+        y: 2284
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1091,19 +1097,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_91
       rect:
         serializedVersion: 2
-        x: 522
-        y: 2282
-        width: 516
-        height: 840
+        x: 518
+        y: 2284
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_92
       rect:
         serializedVersion: 2
-        x: 1038
-        y: 2282
-        width: 516
+        x: 1036
+        y: 2284
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1111,19 +1117,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_93
       rect:
         serializedVersion: 2
-        x: 1558
-        y: 2282
-        width: 516
-        height: 840
+        x: 1554
+        y: 2284
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_94
       rect:
         serializedVersion: 2
-        x: 2074
-        y: 2282
-        width: 516
+        x: 2072
+        y: 2284
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1131,19 +1137,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_95
       rect:
         serializedVersion: 2
-        x: 2594
-        y: 2282
-        width: 516
-        height: 840
+        x: 2590
+        y: 2284
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_96
       rect:
         serializedVersion: 2
-        x: 3110
-        y: 2282
-        width: 516
+        x: 3108
+        y: 2284
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1151,19 +1157,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_97
       rect:
         serializedVersion: 2
-        x: 3630
-        y: 2282
-        width: 516
-        height: 840
+        x: 3626
+        y: 2284
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_98
       rect:
         serializedVersion: 2
-        x: 4146
-        y: 2282
-        width: 516
+        x: 4144
+        y: 2284
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1171,19 +1177,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_99
       rect:
         serializedVersion: 2
-        x: 4666
-        y: 2282
-        width: 516
-        height: 840
+        x: 4662
+        y: 2284
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_100
       rect:
         serializedVersion: 2
-        x: 5182
-        y: 2282
-        width: 516
+        x: 5180
+        y: 2284
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1191,19 +1197,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_101
       rect:
         serializedVersion: 2
-        x: 5702
-        y: 2282
-        width: 516
-        height: 840
+        x: 5698
+        y: 2284
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_102
       rect:
         serializedVersion: 2
-        x: 6218
-        y: 2282
-        width: 516
+        x: 6216
+        y: 2284
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1211,19 +1217,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_103
       rect:
         serializedVersion: 2
-        x: 6738
-        y: 2282
-        width: 516
-        height: 840
+        x: 6734
+        y: 2284
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_104
       rect:
         serializedVersion: 2
-        x: 7254
-        y: 2282
-        width: 516
+        x: 7252
+        y: 2284
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1231,9 +1237,9 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_105
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1438
-        width: 516
+        x: 0
+        y: 1440
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1241,19 +1247,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_106
       rect:
         serializedVersion: 2
-        x: 522
-        y: 1438
-        width: 516
-        height: 840
+        x: 518
+        y: 1440
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_107
       rect:
         serializedVersion: 2
-        x: 1038
-        y: 1438
-        width: 516
+        x: 1036
+        y: 1440
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1261,19 +1267,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_108
       rect:
         serializedVersion: 2
-        x: 1558
-        y: 1438
-        width: 516
-        height: 840
+        x: 1554
+        y: 1440
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_109
       rect:
         serializedVersion: 2
-        x: 2074
-        y: 1438
-        width: 516
+        x: 2072
+        y: 1440
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1281,19 +1287,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_110
       rect:
         serializedVersion: 2
-        x: 2594
-        y: 1438
-        width: 516
-        height: 840
+        x: 2590
+        y: 1440
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_111
       rect:
         serializedVersion: 2
-        x: 3110
-        y: 1438
-        width: 516
+        x: 3108
+        y: 1440
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1301,19 +1307,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_112
       rect:
         serializedVersion: 2
-        x: 3630
-        y: 1438
-        width: 516
-        height: 840
+        x: 3626
+        y: 1440
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_113
       rect:
         serializedVersion: 2
-        x: 4146
-        y: 1438
-        width: 516
+        x: 4144
+        y: 1440
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1321,19 +1327,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_114
       rect:
         serializedVersion: 2
-        x: 4666
-        y: 1438
-        width: 516
-        height: 840
+        x: 4662
+        y: 1440
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_115
       rect:
         serializedVersion: 2
-        x: 5182
-        y: 1438
-        width: 516
+        x: 5180
+        y: 1440
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1341,19 +1347,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_116
       rect:
         serializedVersion: 2
-        x: 5702
-        y: 1438
-        width: 516
-        height: 840
+        x: 5698
+        y: 1440
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_117
       rect:
         serializedVersion: 2
-        x: 6218
-        y: 1438
-        width: 516
+        x: 6216
+        y: 1440
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1361,19 +1367,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_118
       rect:
         serializedVersion: 2
-        x: 6738
-        y: 1438
-        width: 516
-        height: 840
+        x: 6734
+        y: 1440
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_119
       rect:
         serializedVersion: 2
-        x: 7254
-        y: 1438
-        width: 516
+        x: 7252
+        y: 1440
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1381,9 +1387,9 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_120
       rect:
         serializedVersion: 2
-        x: 2
-        y: 594
-        width: 516
+        x: 0
+        y: 596
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1391,19 +1397,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_121
       rect:
         serializedVersion: 2
-        x: 522
-        y: 594
-        width: 516
-        height: 840
+        x: 518
+        y: 596
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_122
       rect:
         serializedVersion: 2
-        x: 1038
-        y: 594
-        width: 516
+        x: 1036
+        y: 596
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1411,19 +1417,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_123
       rect:
         serializedVersion: 2
-        x: 1558
-        y: 594
-        width: 516
-        height: 840
+        x: 1554
+        y: 596
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_124
       rect:
         serializedVersion: 2
-        x: 2074
-        y: 594
-        width: 516
+        x: 2072
+        y: 596
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1431,19 +1437,19 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_125
       rect:
         serializedVersion: 2
-        x: 2594
-        y: 594
-        width: 516
-        height: 840
+        x: 2590
+        y: 596
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: unity_spreadsheet_tutorial_guy_2_126
       rect:
         serializedVersion: 2
-        x: 3110
-        y: 594
-        width: 516
+        x: 3108
+        y: 596
+        width: 518
         height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1451,10 +1457,80 @@ TextureImporter:
     - name: unity_spreadsheet_tutorial_guy_2_127
       rect:
         serializedVersion: 2
-        x: 3630
-        y: 594
-        width: 516
-        height: 840
+        x: 3626
+        y: 596
+        width: 518
+        height: 844
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unity_spreadsheet_tutorial_guy_2_128
+      rect:
+        serializedVersion: 2
+        x: 4144
+        y: 596
+        width: 518
+        height: 844
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unity_spreadsheet_tutorial_guy_2_129
+      rect:
+        serializedVersion: 2
+        x: 4662
+        y: 596
+        width: 518
+        height: 844
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unity_spreadsheet_tutorial_guy_2_130
+      rect:
+        serializedVersion: 2
+        x: 5180
+        y: 596
+        width: 518
+        height: 844
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unity_spreadsheet_tutorial_guy_2_131
+      rect:
+        serializedVersion: 2
+        x: 5698
+        y: 596
+        width: 518
+        height: 844
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unity_spreadsheet_tutorial_guy_2_132
+      rect:
+        serializedVersion: 2
+        x: 6216
+        y: 596
+        width: 518
+        height: 844
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unity_spreadsheet_tutorial_guy_2_133
+      rect:
+        serializedVersion: 2
+        x: 6734
+        y: 596
+        width: 518
+        height: 844
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unity_spreadsheet_tutorial_guy_2_134
+      rect:
+        serializedVersion: 2
+        x: 7252
+        y: 596
+        width: 518
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
