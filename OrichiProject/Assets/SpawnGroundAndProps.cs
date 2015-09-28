@@ -8,7 +8,7 @@ public class SpawnGroundAndProps : MonoBehaviour {
 	private List<GameObject> floors;
 	private GameObject parent;
 	private GameObject lastspawnedfloor;
-	public Sprite bushsprite;
+	//public Sprite bushsprite;
 	public Sprite floorsprite;
 	private List<Vector3> decorationspawn2dpositions;
 	private List<Vector3> decorationspawn3dpositions;
