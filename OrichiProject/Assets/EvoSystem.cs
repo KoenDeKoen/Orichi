@@ -42,5 +42,9 @@ public class EvoSystem : MonoBehaviour {
 				Instantiate(prefab, new Vector3(0,-1.5f,-2), Quaternion.identity);
 			}
 		}
+
+		if(Input.GetKeyDown(KeyCode.R)){
+			Application.LoadLevel ("MainMenu");
+		}
 	}
 }
