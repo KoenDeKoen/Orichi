@@ -11,7 +11,6 @@ public class Obj3D : MonoBehaviour
 	public GameObject flower1;
 	public GameObject flower2;
 	public GameObject flower3;
-	//martijn
 	public GameObject bush1;
 	public GameObject bush2;
 
