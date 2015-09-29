@@ -1,0 +1,1478 @@
+fileFormatVersion: 2
+guid: e4f2f0b92cf625345a5af5f5381ccb92
+timeCreated: 1443522349
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: tutorial_guy_animation_blink_dwart_sprite_sheet_0
+    21300002: tutorial_guy_animation_blink_dwart_sprite_sheet_1
+    21300004: tutorial_guy_animation_blink_dwart_sprite_sheet_2
+    21300006: tutorial_guy_animation_blink_dwart_sprite_sheet_3
+    21300008: tutorial_guy_animation_blink_dwart_sprite_sheet_4
+    21300010: tutorial_guy_animation_blink_dwart_sprite_sheet_5
+    21300012: tutorial_guy_animation_blink_dwart_sprite_sheet_6
+    21300014: tutorial_guy_animation_blink_dwart_sprite_sheet_7
+    21300016: tutorial_guy_animation_blink_dwart_sprite_sheet_8
+    21300018: tutorial_guy_animation_blink_dwart_sprite_sheet_9
+    21300020: tutorial_guy_animation_blink_dwart_sprite_sheet_10
+    21300022: tutorial_guy_animation_blink_dwart_sprite_sheet_11
+    21300024: tutorial_guy_animation_blink_dwart_sprite_sheet_12
+    21300026: tutorial_guy_animation_blink_dwart_sprite_sheet_13
+    21300028: tutorial_guy_animation_blink_dwart_sprite_sheet_14
+    21300030: tutorial_guy_animation_blink_dwart_sprite_sheet_15
+    21300032: tutorial_guy_animation_blink_dwart_sprite_sheet_16
+    21300034: tutorial_guy_animation_blink_dwart_sprite_sheet_17
+    21300036: tutorial_guy_animation_blink_dwart_sprite_sheet_18
+    21300038: tutorial_guy_animation_blink_dwart_sprite_sheet_19
+    21300040: tutorial_guy_animation_blink_dwart_sprite_sheet_20
+    21300042: tutorial_guy_animation_blink_dwart_sprite_sheet_21
+    21300044: tutorial_guy_animation_blink_dwart_sprite_sheet_22
+    21300046: tutorial_guy_animation_blink_dwart_sprite_sheet_23
+    21300048: tutorial_guy_animation_blink_dwart_sprite_sheet_24
+    21300050: tutorial_guy_animation_blink_dwart_sprite_sheet_25
+    21300052: tutorial_guy_animation_blink_dwart_sprite_sheet_26
+    21300054: tutorial_guy_animation_blink_dwart_sprite_sheet_27
+    21300056: tutorial_guy_animation_blink_dwart_sprite_sheet_28
+    21300058: tutorial_guy_animation_blink_dwart_sprite_sheet_29
+    21300060: tutorial_guy_animation_blink_dwart_sprite_sheet_30
+    21300062: tutorial_guy_animation_blink_dwart_sprite_sheet_31
+    21300064: tutorial_guy_animation_blink_dwart_sprite_sheet_32
+    21300066: tutorial_guy_animation_blink_dwart_sprite_sheet_33
+    21300068: tutorial_guy_animation_blink_dwart_sprite_sheet_34
+    21300070: tutorial_guy_animation_blink_dwart_sprite_sheet_35
+    21300072: tutorial_guy_animation_blink_dwart_sprite_sheet_36
+    21300074: tutorial_guy_animation_blink_dwart_sprite_sheet_37
+    21300076: tutorial_guy_animation_blink_dwart_sprite_sheet_38
+    21300078: tutorial_guy_animation_blink_dwart_sprite_sheet_39
+    21300080: tutorial_guy_animation_blink_dwart_sprite_sheet_40
+    21300082: tutorial_guy_animation_blink_dwart_sprite_sheet_41
+    21300084: tutorial_guy_animation_blink_dwart_sprite_sheet_42
+    21300086: tutorial_guy_animation_blink_dwart_sprite_sheet_43
+    21300088: tutorial_guy_animation_blink_dwart_sprite_sheet_44
+    21300090: tutorial_guy_animation_blink_dwart_sprite_sheet_45
+    21300092: tutorial_guy_animation_blink_dwart_sprite_sheet_46
+    21300094: tutorial_guy_animation_blink_dwart_sprite_sheet_47
+    21300096: tutorial_guy_animation_blink_dwart_sprite_sheet_48
+    21300098: tutorial_guy_animation_blink_dwart_sprite_sheet_49
+    21300100: tutorial_guy_animation_blink_dwart_sprite_sheet_50
+    21300102: tutorial_guy_animation_blink_dwart_sprite_sheet_51
+    21300104: tutorial_guy_animation_blink_dwart_sprite_sheet_52
+    21300106: tutorial_guy_animation_blink_dwart_sprite_sheet_53
+    21300108: tutorial_guy_animation_blink_dwart_sprite_sheet_54
+    21300110: tutorial_guy_animation_blink_dwart_sprite_sheet_55
+    21300112: tutorial_guy_animation_blink_dwart_sprite_sheet_56
+    21300114: tutorial_guy_animation_blink_dwart_sprite_sheet_57
+    21300116: tutorial_guy_animation_blink_dwart_sprite_sheet_58
+    21300118: tutorial_guy_animation_blink_dwart_sprite_sheet_59
+    21300120: tutorial_guy_animation_blink_dwart_sprite_sheet_60
+    21300122: tutorial_guy_animation_blink_dwart_sprite_sheet_61
+    21300124: tutorial_guy_animation_blink_dwart_sprite_sheet_62
+    21300126: tutorial_guy_animation_blink_dwart_sprite_sheet_63
+    21300128: tutorial_guy_animation_blink_dwart_sprite_sheet_64
+    21300130: tutorial_guy_animation_blink_dwart_sprite_sheet_65
+    21300132: tutorial_guy_animation_blink_dwart_sprite_sheet_66
+    21300134: tutorial_guy_animation_blink_dwart_sprite_sheet_67
+    21300136: tutorial_guy_animation_blink_dwart_sprite_sheet_68
+    21300138: tutorial_guy_animation_blink_dwart_sprite_sheet_69
+    21300140: tutorial_guy_animation_blink_dwart_sprite_sheet_70
+    21300142: tutorial_guy_animation_blink_dwart_sprite_sheet_71
+    21300144: tutorial_guy_animation_blink_dwart_sprite_sheet_72
+    21300146: tutorial_guy_animation_blink_dwart_sprite_sheet_73
+    21300148: tutorial_guy_animation_blink_dwart_sprite_sheet_74
+    21300150: tutorial_guy_animation_blink_dwart_sprite_sheet_75
+    21300152: tutorial_guy_animation_blink_dwart_sprite_sheet_76
+    21300154: tutorial_guy_animation_blink_dwart_sprite_sheet_77
+    21300156: tutorial_guy_animation_blink_dwart_sprite_sheet_78
+    21300158: tutorial_guy_animation_blink_dwart_sprite_sheet_79
+    21300160: tutorial_guy_animation_blink_dwart_sprite_sheet_80
+    21300162: tutorial_guy_animation_blink_dwart_sprite_sheet_81
+    21300164: tutorial_guy_animation_blink_dwart_sprite_sheet_82
+    21300166: tutorial_guy_animation_blink_dwart_sprite_sheet_83
+    21300168: tutorial_guy_animation_blink_dwart_sprite_sheet_84
+    21300170: tutorial_guy_animation_blink_dwart_sprite_sheet_85
+    21300172: tutorial_guy_animation_blink_dwart_sprite_sheet_86
+    21300174: tutorial_guy_animation_blink_dwart_sprite_sheet_87
+    21300176: tutorial_guy_animation_blink_dwart_sprite_sheet_88
+    21300178: tutorial_guy_animation_blink_dwart_sprite_sheet_89
+    21300180: tutorial_guy_animation_blink_dwart_sprite_sheet_90
+    21300182: tutorial_guy_animation_blink_dwart_sprite_sheet_91
+    21300184: tutorial_guy_animation_blink_dwart_sprite_sheet_92
+    21300186: tutorial_guy_animation_blink_dwart_sprite_sheet_93
+    21300188: tutorial_guy_animation_blink_dwart_sprite_sheet_94
+    21300190: tutorial_guy_animation_blink_dwart_sprite_sheet_95
+    21300192: tutorial_guy_animation_blink_dwart_sprite_sheet_96
+    21300194: tutorial_guy_animation_blink_dwart_sprite_sheet_97
+    21300196: tutorial_guy_animation_blink_dwart_sprite_sheet_98
+    21300198: tutorial_guy_animation_blink_dwart_sprite_sheet_99
+    21300200: tutorial_guy_animation_blink_dwart_sprite_sheet_100
+    21300202: tutorial_guy_animation_blink_dwart_sprite_sheet_101
+    21300204: tutorial_guy_animation_blink_dwart_sprite_sheet_102
+    21300206: tutorial_guy_animation_blink_dwart_sprite_sheet_103
+    21300208: tutorial_guy_animation_blink_dwart_sprite_sheet_104
+    21300210: tutorial_guy_animation_blink_dwart_sprite_sheet_105
+    21300212: tutorial_guy_animation_blink_dwart_sprite_sheet_106
+    21300214: tutorial_guy_animation_blink_dwart_sprite_sheet_107
+    21300216: tutorial_guy_animation_blink_dwart_sprite_sheet_108
+    21300218: tutorial_guy_animation_blink_dwart_sprite_sheet_109
+    21300220: tutorial_guy_animation_blink_dwart_sprite_sheet_110
+    21300222: tutorial_guy_animation_blink_dwart_sprite_sheet_111
+    21300224: tutorial_guy_animation_blink_dwart_sprite_sheet_112
+    21300226: tutorial_guy_animation_blink_dwart_sprite_sheet_113
+    21300228: tutorial_guy_animation_blink_dwart_sprite_sheet_114
+    21300230: tutorial_guy_animation_blink_dwart_sprite_sheet_115
+    21300232: tutorial_guy_animation_blink_dwart_sprite_sheet_116
+    21300234: tutorial_guy_animation_blink_dwart_sprite_sheet_117
+    21300236: tutorial_guy_animation_blink_dwart_sprite_sheet_118
+    21300238: tutorial_guy_animation_blink_dwart_sprite_sheet_119
+    21300240: tutorial_guy_animation_blink_dwart_sprite_sheet_120
+    21300242: tutorial_guy_animation_blink_dwart_sprite_sheet_121
+    21300244: tutorial_guy_animation_blink_dwart_sprite_sheet_122
+    21300246: tutorial_guy_animation_blink_dwart_sprite_sheet_123
+    21300248: tutorial_guy_animation_blink_dwart_sprite_sheet_124
+    21300250: tutorial_guy_animation_blink_dwart_sprite_sheet_125
+    21300252: tutorial_guy_animation_blink_dwart_sprite_sheet_126
+    21300254: tutorial_guy_animation_blink_dwart_sprite_sheet_127
+    21300256: tutorial_guy_animation_blink_dwart_sprite_sheet_128
+    21300258: tutorial_guy_animation_blink_dwart_sprite_sheet_129
+    21300260: tutorial_guy_animation_blink_dwart_sprite_sheet_130
+    21300262: tutorial_guy_animation_blink_dwart_sprite_sheet_131
+    21300264: tutorial_guy_animation_blink_dwart_sprite_sheet_132
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 15212
+        width: 518
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 15212
+        width: 517
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 15212
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 15212
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 15212
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 15212
+        width: 517
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 15212
+        width: 518
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 14369
+        width: 518
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 14369
+        width: 517
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 14369
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 14369
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 14369
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 14369
+        width: 517
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 14369
+        width: 518
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 13522
+        width: 518
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 13522
+        width: 517
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 13522
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 13522
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 13522
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 13522
+        width: 517
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 13522
+        width: 518
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 12679
+        width: 518
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 12679
+        width: 517
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 12679
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 12679
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 12679
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 12679
+        width: 517
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 12679
+        width: 518
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 11832
+        width: 518
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 11832
+        width: 517
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 11832
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 11832
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 11832
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 11832
+        width: 517
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 11832
+        width: 518
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 10989
+        width: 518
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 10989
+        width: 517
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 10989
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 10989
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 10989
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 10989
+        width: 517
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 10989
+        width: 518
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 10142
+        width: 518
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 10142
+        width: 517
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 10142
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 10142
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 10142
+        width: 518
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 10142
+        width: 517
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 3108
+        y: 10142
+        width: 518
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 9299
+        width: 518
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 9299
+        width: 517
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 9299
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 9299
+        width: 514
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 9299
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 9299
+        width: 514
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 3101
+        y: 9299
+        width: 517
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 8452
+        width: 518
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 8452
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 8452
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 8452
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 8452
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 8452
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 2889
+        y: 9292
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 3097
+        y: 8452
+        width: 513
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 7609
+        width: 518
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 7609
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 7609
+        width: 514
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 7609
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 7609
+        width: 514
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 7609
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 3101
+        y: 7609
+        width: 513
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6762
+        width: 518
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 6762
+        width: 517
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 6762
+        width: 518
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 6762
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 6762
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 6762
+        width: 517
+        height: 846
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 6762
+        width: 517
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5919
+        width: 518
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 5919
+        width: 517
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 5919
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 5919
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 5919
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 5919
+        width: 517
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_84
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 5919
+        width: 518
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_85
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5072
+        width: 518
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_86
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 5072
+        width: 517
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_87
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 5072
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_88
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 5072
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_89
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 5072
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_90
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 5072
+        width: 517
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_91
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 5072
+        width: 518
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_92
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4229
+        width: 518
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_93
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 4229
+        width: 517
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_94
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 4229
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_95
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 4229
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_96
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 4229
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_97
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 4229
+        width: 517
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_98
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 4229
+        width: 518
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_99
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3382
+        width: 518
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_100
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 3382
+        width: 517
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_101
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 3382
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_102
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 3382
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_103
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 3382
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_104
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 3382
+        width: 517
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_105
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 3382
+        width: 518
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_106
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2539
+        width: 518
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_107
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 2539
+        width: 517
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_108
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 2539
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_109
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 2539
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_110
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 2539
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_111
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 2539
+        width: 517
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_112
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 2539
+        width: 518
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_113
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1692
+        width: 518
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_114
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1692
+        width: 517
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_115
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1692
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_116
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 1692
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_117
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 1692
+        width: 514
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_118
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 1692
+        width: 517
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_119
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 1692
+        width: 518
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_120
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 849
+        width: 518
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_121
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 849
+        width: 517
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_122
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 849
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_123
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 849
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_124
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 849
+        width: 514
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_125
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 849
+        width: 517
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_126
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 849
+        width: 518
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_127
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 518
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tutorial_guy_animation_blink_dwart_sprite_sheet_128
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 2
+        width: 517
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
