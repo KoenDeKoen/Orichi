@@ -5,9 +5,10 @@ using System.Collections.Generic;
 public class CloudMovement : MonoBehaviour {
 
 	// Use this for initialization
+	public CloudPrefabs cloudprefabs;
 	Vector3 spawnpos = new Vector3 (0, 5, 0);
 	private GameObject parent;
-	public GameObject cloudprefab;
+	//public GameObject cloudprefab;
 	private List<GameObject> clouds;
 	//private float passedtime;
 	private float countdown;
@@ -15,9 +16,10 @@ public class CloudMovement : MonoBehaviour {
 
 	void Start () 
 	{
+		createParentObject ();
+		cloudprefabs.Initialise ();
 		countdown = 0F;
 		clouds = new List<GameObject> ();
-		createParentObject ();
 		endpos = new Vector3 (-15F, parent.transform.position.y, parent.transform.position.z);
 	}
 	
@@ -37,8 +39,9 @@ public class CloudMovement : MonoBehaviour {
 
 	private void spawnCloud()
 	{
+		int randomcloud = Random.Range(0,cloudprefabs.returnClouds().Count);
 		Vector3 tempvector = new Vector3 (15, Random.Range (2.0F, 6.0F), 7); 
-		GameObject cloud = Instantiate(cloudprefab,tempvector, Quaternion.identity) as GameObject;
+		GameObject cloud = Instantiate(cloudprefabs.returnClouds()[randomcloud],tempvector, Quaternion.identity) as GameObject;
 		cloud.transform.parent = parent.transform;
 		clouds.Add (cloud);
 	}
