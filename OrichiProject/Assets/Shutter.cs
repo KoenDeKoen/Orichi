@@ -17,16 +17,16 @@ public class Shutter : MonoBehaviour {
 	private Vector3 rightdooropenpos;
 	private bool timerclosefinished;
 	private bool timeropenfinished;
-	private bool starttimer;
+	private bool openandclosed;
 
 	void Start () 
 	{
-		starttimer = true;
 		donelerpingclose = true;
 		donelerpingopen = false;
+		openandclosed = false;
 		time = 0;
-		timeclose = 2F;
-		timeopen = 2F;
+		timeclose = 1F;
+		timeopen = 1F;
 		leftdoorclosepos = new Vector3 (0 - leftdoor.GetComponent<SpriteRenderer>().bounds.extents.x * 3.56F, leftdoor.transform.localPosition.y, leftdoor.transform.localPosition.z);
 		rightdoorclosepos = new Vector3 (0 + rightdoor.GetComponent<SpriteRenderer>().bounds.extents.x * 3.56F, rightdoor.transform.localPosition.y, rightdoor.transform.localPosition.z);
 		leftdooropenpos = new Vector3 (-570, leftdoor.transform.localPosition.y, leftdoor.transform.localPosition.z);
@@ -38,25 +38,29 @@ public class Shutter : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		countDownForOpenUp ();
-		checkForDoneLerpClose (leftdoor.transform.localPosition, rightdoor.transform.localPosition);
-		checkForDoneLerpOpen (leftdoor.transform.localPosition, rightdoor.transform.localPosition);
-		if(timerclosefinished)
+		if (!openandclosed) 
 		{
-			if(donelerpingopen)
-			{
-				shutDoors();
+			countDownForOpenUp ();
+			//Debug.Log("Closed =" + donelerpingclose + "    " + "Open =" + donelerpingopen);
+			if (timeropenfinished && donelerpingclose) 
+			{			
+				checkForDoneLerpOpen (leftdoor.transform.localPosition, rightdoor.transform.localPosition);
+				openDoors ();
 			}
-		}
-		if(donelerpingclose)
-		{
-		    if(starttimer)
+			if (donelerpingopen) 
 			{
-				time = Time.deltaTime;
-				starttimer = false;
+				timeopen = 1F;
+				countDownForShutDown ();
 			}
-			countDownForShutDown();
-			openDoors();
+			if (timerclosefinished && donelerpingopen) 
+			{
+				checkForDoneLerpClose (leftdoor.transform.localPosition, rightdoor.transform.localPosition);
+				shutDoors ();
+				if(donelerpingclose)
+				{
+					openandclosed = true;
+				}
+			}
 		}
 	}
 
@@ -78,18 +82,19 @@ public class Shutter : MonoBehaviour {
 
 	private void checkForDoneLerpClose(Vector3 leftdoorpos, Vector3 rightdoorpos)
 	{
-		Debug.Log (donelerpingclose);
 		if(leftdoor.transform.localPosition.x >= leftdoorclosepos.x - 0.1F && rightdoor.transform.localPosition.x <= rightdoorclosepos.x + 0.1F)
 		{
 			donelerpingclose = true;
+			donelerpingopen = false;
 		}
 	}
 
 	private void checkForDoneLerpOpen(Vector3 leftdoorpos, Vector3 rightdoorpos)
 	{
-		if(leftdoor.transform.localPosition.x >= leftdooropenpos.x + 0.1F && rightdoor.transform.localPosition.x <= rightdooropenpos.x - 0.1F)
+		if(leftdoor.transform.localPosition.x <= leftdooropenpos.x + 0.1F && rightdoor.transform.localPosition.x >= rightdooropenpos.x - 0.1F)
 		{
 			donelerpingopen = true;
+			donelerpingclose = false;
 		}
 	}
 
@@ -111,7 +116,8 @@ public class Shutter : MonoBehaviour {
 
 	private void countDownForShutDown()
 	{
-		timeclose -= Time.deltaTime - time;
+		//Debug.Log (timeclose);
+		timeclose -= Time.deltaTime;
 		if(timeclose <= 0)
 		{
 			timerclosefinished = true;
@@ -124,6 +130,7 @@ public class Shutter : MonoBehaviour {
 		if(timeopen <= 0)
 		{
 			timeropenfinished = true;
+			time = Time.deltaTime;
 		}
 	}
 }
