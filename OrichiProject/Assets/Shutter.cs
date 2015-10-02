@@ -4,11 +4,11 @@ using System.Collections;
 public class Shutter : MonoBehaviour {
 
 	// Use this for initialization
+	public SceneLoader sceneloader;
 	public GameObject leftdoor;
 	public GameObject rightdoor;
 	private float timeclose;
 	private float timeopen;
-	private float time;
 	private bool donelerpingopen;
 	private bool donelerpingclose;
 	private Vector3 leftdoorclosepos;
@@ -18,17 +18,22 @@ public class Shutter : MonoBehaviour {
 	private bool timerclosefinished;
 	private bool timeropenfinished;
 	private bool openandclosed;
+	public bool stayopen;
+	private bool switchscene;
+	private string scenetoswitchto;
+	public bool introscene;
 
 	void Start () 
 	{
+		scenetoswitchto = "";
+		switchscene = false;
 		donelerpingclose = true;
 		donelerpingopen = false;
 		openandclosed = false;
-		time = 0;
 		timeclose = 1F;
 		timeopen = 1F;
-		leftdoorclosepos = new Vector3 (0 - leftdoor.GetComponent<SpriteRenderer>().bounds.extents.x * 3.56F, leftdoor.transform.localPosition.y, leftdoor.transform.localPosition.z);
-		rightdoorclosepos = new Vector3 (0 + rightdoor.GetComponent<SpriteRenderer>().bounds.extents.x * 3.56F, rightdoor.transform.localPosition.y, rightdoor.transform.localPosition.z);
+		leftdoorclosepos = new Vector3 (-190, leftdoor.transform.localPosition.y, leftdoor.transform.localPosition.z);
+		rightdoorclosepos = new Vector3 (190, rightdoor.transform.localPosition.y, rightdoor.transform.localPosition.z);
 		leftdooropenpos = new Vector3 (-570, leftdoor.transform.localPosition.y, leftdoor.transform.localPosition.z);
 		rightdooropenpos = new Vector3 (570, rightdoor.transform.localPosition.y, rightdoor.transform.localPosition.z);
 		timerclosefinished = false;
@@ -38,10 +43,13 @@ public class Shutter : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
+		if(switchscene && donelerpingclose)
+		{
+			sceneloader.loadScene(scenetoswitchto);
+		}
 		if (!openandclosed) 
 		{
 			countDownForOpenUp ();
-			//Debug.Log("Closed =" + donelerpingclose + "    " + "Open =" + donelerpingopen);
 			if (timeropenfinished && donelerpingclose) 
 			{			
 				checkForDoneLerpOpen (leftdoor.transform.localPosition, rightdoor.transform.localPosition);
@@ -52,14 +60,22 @@ public class Shutter : MonoBehaviour {
 				timeopen = 1F;
 				countDownForShutDown ();
 			}
-			if (timerclosefinished && donelerpingopen) 
+			if (timerclosefinished && donelerpingopen && !stayopen) 
 			{
 				checkForDoneLerpClose (leftdoor.transform.localPosition, rightdoor.transform.localPosition);
 				shutDoors ();
 				if(donelerpingclose)
 				{
 					openandclosed = true;
+
 				}
+			}
+		}
+		else 
+		{
+			if(introscene)
+			{
+				sceneloader.loadScene("MainMenu");;
 			}
 		}
 	}
@@ -116,7 +132,6 @@ public class Shutter : MonoBehaviour {
 
 	private void countDownForShutDown()
 	{
-		//Debug.Log (timeclose);
 		timeclose -= Time.deltaTime;
 		if(timeclose <= 0)
 		{
@@ -130,7 +145,16 @@ public class Shutter : MonoBehaviour {
 		if(timeopen <= 0)
 		{
 			timeropenfinished = true;
-			time = Time.deltaTime;
 		}
 	}
+
+	public void loadSceneAfterClosing(string scenename)
+	{
+		scenetoswitchto = scenename;
+		switchscene = true;
+		donelerpingopen = true;
+		donelerpingclose = false;
+		stayopen = false;
+	}
+
 }
