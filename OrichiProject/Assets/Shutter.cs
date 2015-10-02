@@ -36,6 +36,8 @@ public class Shutter : MonoBehaviour {
 		rightdoorclosepos = new Vector3 (190, rightdoor.transform.localPosition.y, rightdoor.transform.localPosition.z);
 		leftdooropenpos = new Vector3 (-570, leftdoor.transform.localPosition.y, leftdoor.transform.localPosition.z);
 		rightdooropenpos = new Vector3 (570, rightdoor.transform.localPosition.y, rightdoor.transform.localPosition.z);
+		leftdoor.transform.localPosition = leftdoorclosepos;
+		rightdoor.transform.localPosition = rightdoorclosepos;
 		timerclosefinished = false;
 		timeropenfinished = false;
 	}
