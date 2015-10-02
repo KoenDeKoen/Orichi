@@ -48,4 +48,8 @@ public class TutorialGuy : MonoBehaviour {
 		oldGuy.transform.localScale = new Vector3(size,size);
 		oldGuy.transform.localPosition = new Vector3(x,y);
 	}
+
+	public void Popup () {
+
+	}
 }
