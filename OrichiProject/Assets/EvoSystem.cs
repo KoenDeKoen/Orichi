@@ -9,7 +9,7 @@ public class EvoSystem : MonoBehaviour {
 	private GameObject tempobj;
 	public int points;
 	int evolevel;
-
+	
 	void Update () {
 		points = MechanicController.stepstaken;
 
@@ -42,11 +42,6 @@ public class EvoSystem : MonoBehaviour {
 				Instantiate(prefab, new Vector3(0,-1.5f,-2), Quaternion.identity);
 			}
 			break;
-		}
-
-		switch(Tpoint)
-		{
-
 		}
 
 		/*
