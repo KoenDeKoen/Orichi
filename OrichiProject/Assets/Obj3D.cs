@@ -8,6 +8,9 @@ public class Obj3D : MonoBehaviour
 	public GameObject boom1;
 	public GameObject boom2;
 	public GameObject boom3;
+	public GameObject boom4;
+	public GameObject boom5;
+	public GameObject boom6;
 	public GameObject flower1;
 	public GameObject flower2;
 	public GameObject flower3;
@@ -21,6 +24,9 @@ public class Obj3D : MonoBehaviour
 		objects = new List<GameObject> ();
 		objects.Add (boom1);
 		objects.Add (boom2);
+		objects.Add (boom3);
+		objects.Add (boom4);
+		objects.Add (boom5);
 		objects.Add (flower1);
 		objects.Add (flower2);
 		objects.Add (flower3);
