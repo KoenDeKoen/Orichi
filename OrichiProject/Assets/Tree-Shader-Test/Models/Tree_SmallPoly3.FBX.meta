@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 4b3af7e0c23904c4483bb4ca89d2e833
+timeCreated: 1443708887
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Line045
+    100002: Line047
+    100004: Line048
+    100006: Line049
+    100008: Line050
+    100010: Line051
+    100012: Line053
+    100014: Line054
+    100016: //RootNode
+    100018: Line018
+    100020: Line020
+    100022: Line027
+    100024: Line028
+    100026: Line029
+    100028: Line030
+    100030: Line031
+    100032: Line032
+    100034: Line033
+    100036: Line034
+    100038: Line035
+    400000: Line045
+    400002: Line047
+    400004: Line048
+    400006: Line049
+    400008: Line050
+    400010: Line051
+    400012: Line053
+    400014: Line054
+    400016: //RootNode
+    400018: Line018
+    400020: Line020
+    400022: Line027
+    400024: Line028
+    400026: Line029
+    400028: Line030
+    400030: Line031
+    400032: Line032
+    400034: Line033
+    400036: Line034
+    400038: Line035
+    2300000: Line045
+    2300002: Line047
+    2300004: Line048
+    2300006: Line049
+    2300008: Line050
+    2300010: Line051
+    2300012: Line053
+    2300014: Line054
+    2300016: //RootNode
+    2300018: Line018
+    2300020: Line020
+    2300022: Line027
+    2300024: Line028
+    2300026: Line029
+    2300028: Line030
+    2300030: Line031
+    2300032: Line032
+    2300034: Line033
+    2300036: Line034
+    2300038: Line035
+    3300000: Line045
+    3300002: Line047
+    3300004: Line048
+    3300006: Line049
+    3300008: Line050
+    3300010: Line051
+    3300012: Line053
+    3300014: Line054
+    3300016: //RootNode
+    3300018: Line018
+    3300020: Line020
+    3300022: Line027
+    3300024: Line028
+    3300026: Line029
+    3300028: Line030
+    3300030: Line031
+    3300032: Line032
+    3300034: Line033
+    3300036: Line034
+    3300038: Line035
+    4300000: Line036
+    4300002: Line045
+    4300004: Line047
+    4300006: Line048
+    4300008: Line049
+    4300010: Line051
+    4300012: Line050
+    4300014: Line053
+    4300016: Line054
+    4300018: Line018
+    4300020: Line020
+    4300022: Line035
+    4300024: Line034
+    4300026: Line033
+    4300028: Line028
+    4300030: Line027
+    4300032: Line029
+    4300034: Line032
+    4300036: Line031
+    4300038: Line030
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
