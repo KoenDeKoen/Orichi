@@ -21,14 +21,14 @@ public class TutorialGuy : MonoBehaviour {
 
 	public void SummonOldGuy (){
 		time += Time.deltaTime;
-		size += 0.005f;
-		x -= 0.013f;
-		y -= 0.018f;
+		size += 0.0084f;
+		x -= 0.022f;
+		y -= 0.059f;
 
 		if(time >= 1){
-			size = 0.4f;
-			x = 6.5f;
-			y = 2.3f;
+			size = 0.6f;
+			x = 6f;
+			y = 0.15f;
 		}
 		oldGuy.transform.localScale = new Vector3(size,size);
 		oldGuy.transform.localPosition = new Vector3(x,y);
@@ -36,9 +36,9 @@ public class TutorialGuy : MonoBehaviour {
 
 	public void DispelOldGuy (){
 		time += Time.deltaTime;
-		size -= 0.005f;
-		x += 0.013f;
-		y += 0.018f;
+		size -= 0.0084f;
+		x += 0.022f;
+		y += 0.059f;
 		
 		if(time >= 1){
 			size = 0.2f;
@@ -47,9 +47,5 @@ public class TutorialGuy : MonoBehaviour {
 		}
 		oldGuy.transform.localScale = new Vector3(size,size);
 		oldGuy.transform.localPosition = new Vector3(x,y);
-	}
-
-	public void Popup () {
-
 	}
 }
