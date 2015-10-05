@@ -8,10 +8,13 @@ public class MechanicController : MonoBehaviour
 	private int turn;
 	public static int stepstaken;
 	public Animator m_ani;
+	public Animator help;
 
 	// Use this for initialization
 	void Start () 
 	{
+		PilloController.ConfigureSensorRange(0x40, 0x60);
+
 		turn = 1;
 	}
 	
@@ -28,6 +31,7 @@ public class MechanicController : MonoBehaviour
 				movingground.moveGround(spawningclass.getParent());
 				stepstaken++;
 				turn = 2;
+				help.SetInteger("MoveSet",1);
 				m_ani.SetBool("Switch", true);
 			}
 		}
@@ -40,8 +44,23 @@ public class MechanicController : MonoBehaviour
 				movingground.moveGround(spawningclass.getParent());
 				stepstaken++;
 				turn = 1;
+				help.SetInteger("MoveSet",2);
 				m_ani.SetBool("Switch", true);
 			}
+		}
+
+		if(Input.GetKeyDown("a") || pct > 0.2 && pct2 == 0)
+		{
+			help.SetInteger("MoveSet",1);
+		}
+
+		if(Input.GetKeyDown("l") || pct2 > 0.2 && pct == 0 )
+		{
+			help.SetInteger("MoveSet",2);
+		}
+		
+		if((Input.GetKeyDown("a") && Input.GetKeyDown("l")) || (pct > 0.2 && pct2 > 0.2)){
+			help.SetInteger("MoveSet",3);
 		}
 	}
 }

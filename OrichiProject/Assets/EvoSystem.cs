@@ -13,9 +13,12 @@ public class EvoSystem : MonoBehaviour {
 	public int points;
 	int evolevel;
 	public float HelpTime;
-
+	
 	void Update () {
 		points = MechanicController.stepstaken;
+
+		float pct = PilloController.GetSensor (Pillo.PilloID.Pillo1);
+		float pct2 = PilloController.GetSensor (Pillo.PilloID.Pillo2);
 
 		switch(points)
 		{
@@ -76,9 +79,11 @@ public class EvoSystem : MonoBehaviour {
 			tg.DispelOldGuy();
 		}
 
-		float pct = PilloController.GetSensor (Pillo.PilloID.Pillo1);
-		float pct2 = PilloController.GetSensor (Pillo.PilloID.Pillo2);
+		if(Input.anyKey == false){
+			help.SetInteger("MoveSet",0);
+		}
 
+		/*
 		if(Input.GetKeyDown("a") || pct > 0.2 && pct2 == 0){
 			help.SetInteger("MoveSet",1);
 		}
@@ -88,10 +93,8 @@ public class EvoSystem : MonoBehaviour {
 		if(Input.GetKeyDown("a") && Input.GetKeyDown("l") || pct2 > 0.2 && pct2 > 0.2){
 			help.SetInteger("MoveSet",3);
 		}
-		if(Input.anyKey == false){
-			help.SetInteger("MoveSet",0);
-		}
-		/*
+
+
 		// Transformation 1
 		if(points >= 20){
 			if(evolevel < 1)
