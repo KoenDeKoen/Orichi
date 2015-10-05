@@ -13,8 +13,6 @@ public class MechanicController : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		PilloController.ConfigureSensorRange(0x40, 0x60);
-
 		turn = 1;
 	}
 	
