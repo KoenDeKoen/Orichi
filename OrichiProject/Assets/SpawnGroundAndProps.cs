@@ -12,7 +12,7 @@ public class SpawnGroundAndProps : MonoBehaviour {
 	public Sprite floorsprite;
 	private List<Vector3> decorationspawn2dpositions;
 	private List<Vector3> decorationspawn3dpositions;
-	public RuntimeAnimatorController grassRTController; 
+	//public RuntimeAnimatorController grassRTController; 
 	public Obj2D obj2d;
 	public Obj3D obj3d;
 
@@ -120,8 +120,6 @@ public class SpawnGroundAndProps : MonoBehaviour {
 			decorationspawn3dpositions.Remove(positiontoremove);
 			GameObject object3d = Instantiate(obj3d.returnObjects()[objectnumber],position, Quaternion.identity) as GameObject;
 			object3d.transform.parent = parentground.transform;
-			//object3d.AddComponent<Animator>();
-			//object3d.GetComponent<Animator>().runtimeAnimatorController = obj3d.returnControllers()[objectnumber];
 		}
 	}
 	
