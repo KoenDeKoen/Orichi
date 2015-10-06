@@ -17,7 +17,7 @@ public class ScreenShake : MonoBehaviour {
 		leftpos = spasmcamera.transform.position;
 		rightpos.x += 0.1F;
 		leftpos.x -= 0.1F;
-		time = 1F;;
+		time = 1F;
 	}
 	
 	// Update is called once per frame
