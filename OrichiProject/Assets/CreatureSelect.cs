@@ -41,10 +41,10 @@ public class CreatureSelect : MonoBehaviour
 			previousCreature();
 			startup = false;
 		}
-		float accel = PilloController.GetAcceleroX (Pillo.PilloID.Pillo1);
-		float pct = PilloController.GetSensor (Pillo.PilloID.Pillo1);
+		//float accel = PilloController.GetAcceleroX (Pillo.PilloID.Pillo1);
+		//float pct = PilloController.GetSensor (Pillo.PilloID.Pillo1);
 		
-		if (pct > 0 || Input.GetKey ("space")) 
+		if (/*pct > 0 || */Input.GetKey ("space")) 
 		{
 			if(temptime == 0)
 			{
@@ -63,11 +63,11 @@ public class CreatureSelect : MonoBehaviour
 		}
 	
 	//	Debug.Log (accel);
-		if (accel > 100 || Input.GetKey("space") && Input.GetKey("right")) {
+		if (/*accel > 100 ||*/ Input.GetKey("space") && Input.GetKey("right")) {
 			nextCreature();
 
 		}
-		if (accel < -100 ||Input.GetKey("space") && Input.GetKey("left")) {
+		if (/*accel < -100 ||*/Input.GetKey("space") && Input.GetKey("left")) {
 			previousCreature();
 			
 		}
