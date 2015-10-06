@@ -13,13 +13,23 @@ public class EvoSystem : MonoBehaviour {
 	public int points;
 	int evolevel;
 	public float HelpTime;
+	public ScreenShake screenshaker;
+	private bool hastoshake;
+
+	void Start()
+	{
+		hastoshake = false;
+	}
 	
 	void Update () {
 		points = MechanicController.stepstaken;
 
 		float pct = PilloController.GetSensor (Pillo.PilloID.Pillo1);
 		float pct2 = PilloController.GetSensor (Pillo.PilloID.Pillo2);
-
+		if(hastoshake)
+		{
+			hastoshake = screenshaker.shakeScreen();
+		}
 		switch(points)
 		{
 		case 20:
@@ -29,6 +39,7 @@ public class EvoSystem : MonoBehaviour {
 				evolevel = 1;
 				m_ani.SetInteger("Evolve",1);
 				Instantiate(prefab, new Vector3(0,-1.5F,-2), Quaternion.identity);
+				hastoshake = true;
 			}
 			break;
 		case 40:
@@ -38,6 +49,7 @@ public class EvoSystem : MonoBehaviour {
 				evolevel = 2;
 				m_ani.SetInteger("Evolve",2);
 				Instantiate(prefab, new Vector3(0,-1.5f,-2), Quaternion.identity);
+				hastoshake = true;
 			}
 			break;
 		case 60:
@@ -47,6 +59,7 @@ public class EvoSystem : MonoBehaviour {
 				evolevel = 3;
 				m_ani.SetInteger("Evolve",3);
 				Instantiate(prefab, new Vector3(0,-1.5f,-2), Quaternion.identity);
+				hastoshake = true;
 			}
 			break;
 		}
