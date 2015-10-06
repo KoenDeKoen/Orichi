@@ -9,6 +9,7 @@ public class ScreenShake : MonoBehaviour {
 	private Vector3 rightpos;
 	private Vector3 leftpos;
 	private float time;
+
 	void Start () 
 	{
 		startpos = spasmcamera.transform.position;
@@ -16,7 +17,7 @@ public class ScreenShake : MonoBehaviour {
 		leftpos = spasmcamera.transform.position;
 		rightpos.x += 0.1F;
 		leftpos.x -= 0.1F;
-		time = 1F;
+		time = 1F;;
 	}
 	
 	// Update is called once per frame
@@ -42,6 +43,7 @@ public class ScreenShake : MonoBehaviour {
 
 	public bool shakeScreen()
 	{
+		//FOOKIN UGLY
 		time -= Time.deltaTime;
 		if(time < 0.05F)
 		{
