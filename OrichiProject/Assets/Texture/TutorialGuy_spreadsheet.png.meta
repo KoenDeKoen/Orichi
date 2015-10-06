@@ -1,0 +1,1475 @@
+fileFormatVersion: 2
+guid: 689ef32f93bc26e49ba9b5d7037725bc
+timeCreated: 1444132043
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TutorialGuy_spreadsheet_0
+    21300002: TutorialGuy_spreadsheet_1
+    21300004: TutorialGuy_spreadsheet_2
+    21300006: TutorialGuy_spreadsheet_3
+    21300008: TutorialGuy_spreadsheet_4
+    21300010: TutorialGuy_spreadsheet_5
+    21300012: TutorialGuy_spreadsheet_6
+    21300014: TutorialGuy_spreadsheet_7
+    21300016: TutorialGuy_spreadsheet_8
+    21300018: TutorialGuy_spreadsheet_9
+    21300020: TutorialGuy_spreadsheet_10
+    21300022: TutorialGuy_spreadsheet_11
+    21300024: TutorialGuy_spreadsheet_12
+    21300026: TutorialGuy_spreadsheet_13
+    21300028: TutorialGuy_spreadsheet_14
+    21300030: TutorialGuy_spreadsheet_15
+    21300032: TutorialGuy_spreadsheet_16
+    21300034: TutorialGuy_spreadsheet_17
+    21300036: TutorialGuy_spreadsheet_18
+    21300038: TutorialGuy_spreadsheet_19
+    21300040: TutorialGuy_spreadsheet_20
+    21300042: TutorialGuy_spreadsheet_21
+    21300044: TutorialGuy_spreadsheet_22
+    21300046: TutorialGuy_spreadsheet_23
+    21300048: TutorialGuy_spreadsheet_24
+    21300050: TutorialGuy_spreadsheet_25
+    21300052: TutorialGuy_spreadsheet_26
+    21300054: TutorialGuy_spreadsheet_27
+    21300056: TutorialGuy_spreadsheet_28
+    21300058: TutorialGuy_spreadsheet_29
+    21300060: TutorialGuy_spreadsheet_30
+    21300062: TutorialGuy_spreadsheet_31
+    21300064: TutorialGuy_spreadsheet_32
+    21300066: TutorialGuy_spreadsheet_33
+    21300068: TutorialGuy_spreadsheet_34
+    21300070: TutorialGuy_spreadsheet_35
+    21300072: TutorialGuy_spreadsheet_36
+    21300074: TutorialGuy_spreadsheet_37
+    21300076: TutorialGuy_spreadsheet_38
+    21300078: TutorialGuy_spreadsheet_39
+    21300080: TutorialGuy_spreadsheet_40
+    21300082: TutorialGuy_spreadsheet_41
+    21300084: TutorialGuy_spreadsheet_42
+    21300086: TutorialGuy_spreadsheet_43
+    21300088: TutorialGuy_spreadsheet_44
+    21300090: TutorialGuy_spreadsheet_45
+    21300092: TutorialGuy_spreadsheet_46
+    21300094: TutorialGuy_spreadsheet_47
+    21300096: TutorialGuy_spreadsheet_48
+    21300098: TutorialGuy_spreadsheet_49
+    21300100: TutorialGuy_spreadsheet_50
+    21300102: TutorialGuy_spreadsheet_51
+    21300104: TutorialGuy_spreadsheet_52
+    21300106: TutorialGuy_spreadsheet_53
+    21300108: TutorialGuy_spreadsheet_54
+    21300110: TutorialGuy_spreadsheet_55
+    21300112: TutorialGuy_spreadsheet_56
+    21300114: TutorialGuy_spreadsheet_57
+    21300116: TutorialGuy_spreadsheet_58
+    21300118: TutorialGuy_spreadsheet_59
+    21300120: TutorialGuy_spreadsheet_60
+    21300122: TutorialGuy_spreadsheet_61
+    21300124: TutorialGuy_spreadsheet_62
+    21300126: TutorialGuy_spreadsheet_63
+    21300128: TutorialGuy_spreadsheet_64
+    21300130: TutorialGuy_spreadsheet_65
+    21300132: TutorialGuy_spreadsheet_66
+    21300134: TutorialGuy_spreadsheet_67
+    21300136: TutorialGuy_spreadsheet_68
+    21300138: TutorialGuy_spreadsheet_69
+    21300140: TutorialGuy_spreadsheet_70
+    21300142: TutorialGuy_spreadsheet_71
+    21300144: TutorialGuy_spreadsheet_72
+    21300146: TutorialGuy_spreadsheet_73
+    21300148: TutorialGuy_spreadsheet_74
+    21300150: TutorialGuy_spreadsheet_75
+    21300152: TutorialGuy_spreadsheet_76
+    21300154: TutorialGuy_spreadsheet_77
+    21300156: TutorialGuy_spreadsheet_78
+    21300158: TutorialGuy_spreadsheet_79
+    21300160: TutorialGuy_spreadsheet_80
+    21300162: TutorialGuy_spreadsheet_81
+    21300164: TutorialGuy_spreadsheet_82
+    21300166: TutorialGuy_spreadsheet_83
+    21300168: TutorialGuy_spreadsheet_84
+    21300170: TutorialGuy_spreadsheet_85
+    21300172: TutorialGuy_spreadsheet_86
+    21300174: TutorialGuy_spreadsheet_87
+    21300176: TutorialGuy_spreadsheet_88
+    21300178: TutorialGuy_spreadsheet_89
+    21300180: TutorialGuy_spreadsheet_90
+    21300182: TutorialGuy_spreadsheet_91
+    21300184: TutorialGuy_spreadsheet_92
+    21300186: TutorialGuy_spreadsheet_93
+    21300188: TutorialGuy_spreadsheet_94
+    21300190: TutorialGuy_spreadsheet_95
+    21300192: TutorialGuy_spreadsheet_96
+    21300194: TutorialGuy_spreadsheet_97
+    21300196: TutorialGuy_spreadsheet_98
+    21300198: TutorialGuy_spreadsheet_99
+    21300200: TutorialGuy_spreadsheet_100
+    21300202: TutorialGuy_spreadsheet_101
+    21300204: TutorialGuy_spreadsheet_102
+    21300206: TutorialGuy_spreadsheet_103
+    21300208: TutorialGuy_spreadsheet_104
+    21300210: TutorialGuy_spreadsheet_105
+    21300212: TutorialGuy_spreadsheet_106
+    21300214: TutorialGuy_spreadsheet_107
+    21300216: TutorialGuy_spreadsheet_108
+    21300218: TutorialGuy_spreadsheet_109
+    21300220: TutorialGuy_spreadsheet_110
+    21300222: TutorialGuy_spreadsheet_111
+    21300224: TutorialGuy_spreadsheet_112
+    21300226: TutorialGuy_spreadsheet_113
+    21300228: TutorialGuy_spreadsheet_114
+    21300230: TutorialGuy_spreadsheet_115
+    21300232: TutorialGuy_spreadsheet_116
+    21300234: TutorialGuy_spreadsheet_117
+    21300236: TutorialGuy_spreadsheet_118
+    21300238: TutorialGuy_spreadsheet_119
+    21300240: TutorialGuy_spreadsheet_120
+    21300242: TutorialGuy_spreadsheet_121
+    21300244: TutorialGuy_spreadsheet_122
+    21300246: TutorialGuy_spreadsheet_123
+    21300248: TutorialGuy_spreadsheet_124
+    21300250: TutorialGuy_spreadsheet_125
+    21300252: TutorialGuy_spreadsheet_126
+    21300254: TutorialGuy_spreadsheet_127
+    21300256: TutorialGuy_spreadsheet_128
+    21300258: TutorialGuy_spreadsheet_129
+    21300260: TutorialGuy_spreadsheet_130
+    21300262: TutorialGuy_spreadsheet_131
+    21300264: TutorialGuy_spreadsheet_132
+    21300266: TutorialGuy_spreadsheet_133
+    21300268: TutorialGuy_spreadsheet_134
+    21300270: TutorialGuy_spreadsheet_135
+    21300272: TutorialGuy_spreadsheet_136
+    21300274: TutorialGuy_spreadsheet_137
+    21300276: TutorialGuy_spreadsheet_138
+    21300278: TutorialGuy_spreadsheet_139
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: TutorialGuy_spreadsheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15210
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_1
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 15210
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_2
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 15210
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_3
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 15210
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_4
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 15210
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_5
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 15210
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_6
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 15210
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14365
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_8
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 14365
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_9
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 14365
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_10
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 14365
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_11
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 14365
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_12
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 14365
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_13
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 14365
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13520
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_15
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 13520
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_16
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 13520
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_17
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 13520
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_18
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 13520
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_19
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 13520
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_20
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 13520
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12675
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_22
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 12675
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_23
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 12675
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_24
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 12675
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_25
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 12675
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_26
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 12675
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_27
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 12675
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11830
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_29
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 11830
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_30
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 11830
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_31
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 11830
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_32
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 11830
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_33
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 11830
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_34
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 11830
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10985
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_36
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 10985
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_37
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 10985
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_38
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 10985
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_39
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 10985
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_40
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 10985
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_41
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 10985
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10140
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_43
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 10140
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_44
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 10140
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_45
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 10140
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_46
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 10140
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_47
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 10140
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_48
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 10140
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9295
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_50
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 9295
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_51
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 9295
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_52
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 9295
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_53
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 9295
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_54
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 9295
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_55
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 9295
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8450
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_57
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 8450
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_58
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 8450
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_59
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 8450
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_60
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 8450
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_61
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 8450
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_62
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 8450
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7605
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_64
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 7605
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_65
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 7605
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_66
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 7605
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_67
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 7605
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_68
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 7605
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_69
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 7605
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6760
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_71
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 6760
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_72
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 6760
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_73
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 6760
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_74
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 6760
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_75
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 6760
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_76
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 6760
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5915
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_78
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 5915
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_79
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 5915
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_80
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 5915
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_81
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 5915
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_82
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 5915
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_83
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 5915
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5070
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_85
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 5070
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_86
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 5070
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_87
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 5070
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_88
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 5070
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_89
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 5070
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_90
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 5070
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4225
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_92
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 4225
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_93
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 4225
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_94
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 4225
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_95
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 4225
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_96
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 4225
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_97
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 4225
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3380
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_99
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 3380
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_100
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 3380
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_101
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 3380
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_102
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 3380
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_103
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 3380
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_104
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 3380
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2535
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_106
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 2535
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_107
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 2535
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_108
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 2535
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_109
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 2535
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_110
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 2535
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_111
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 2535
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1690
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_113
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1690
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_114
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1690
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_115
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1690
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_116
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 1690
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_117
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 1690
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_118
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 1690
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 845
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_120
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 845
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_121
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 845
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_122
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 844
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_123
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 845
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_124
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 845
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_125
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 845
+        width: 517
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 518
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TutorialGuy_spreadsheet_127
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 0
+        width: 519
+        height: 845
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

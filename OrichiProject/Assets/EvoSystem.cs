@@ -8,7 +8,7 @@ public class EvoSystem : MonoBehaviour {
 	public Transform prefab;
 	public Animator m_ani;
 	public Animator help;
-	public TutorialGuy tg;
+	public Animator tutorial;
 	private GameObject tempobj;
 	public int points;
 	int evolevel;
@@ -19,6 +19,7 @@ public class EvoSystem : MonoBehaviour {
 	void Start()
 	{
 		hastoshake = false;
+		tutorial.SetInteger("Grow",1);
 	}
 	
 	void Update () {
@@ -73,7 +74,7 @@ public class EvoSystem : MonoBehaviour {
 		HelpTime += Time.deltaTime;
 
 		if(HelpTime >= 0f){
-			tg.SummonOldGuy();
+			//tg.SummonOldGuy();
 		}
 		if(HelpTime >= 5f){
 			help.SetInteger("HelpStep",1);
@@ -89,7 +90,7 @@ public class EvoSystem : MonoBehaviour {
 		}
 		if(HelpTime >= 55f){
 			help.SetInteger("HelpStep",5);
-			tg.DispelOldGuy();
+			tutorial.SetInteger("Grow",2);
 		}
 
 		if(Input.anyKey == false){
