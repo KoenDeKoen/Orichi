@@ -19,7 +19,7 @@ public class AbsolutelyNoEasterEggScript : MonoBehaviour
 	{
 		checkForButtonPresses ();
 		checkForWords ();
-		Debug.Log(enteredstring);
+		//Debug.Log(enteredstring);
 	}
 
 

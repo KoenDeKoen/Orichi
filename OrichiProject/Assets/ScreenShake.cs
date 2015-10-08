@@ -127,7 +127,6 @@ public class ScreenShake : MonoBehaviour {
 		else if(time < 0.7F)
 		{
 			shakeScreenRight ();
-			Debug.Log ("10");
 			return true;
 		}
 
@@ -140,7 +139,6 @@ public class ScreenShake : MonoBehaviour {
 		else if(time < 0.8F)
 		{
 			shakeScreenRight ();
-			Debug.Log ("10");
 			return true;
 		}
 
@@ -159,7 +157,6 @@ public class ScreenShake : MonoBehaviour {
 		else if(time < 0.95F)
 		{
 			shakeScreenRight ();
-			Debug.Log ("10");
 			return true;
 		}
 
