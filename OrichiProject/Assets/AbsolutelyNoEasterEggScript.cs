@@ -33,7 +33,7 @@ public class AbsolutelyNoEasterEggScript : MonoBehaviour
 			thomasmusicplayer.GetComponent<AudioSource>().Play();
 			orichiplayer.GetComponent<AudioSource>().Pause();
 		}
-		if(enteredstring.Length == 6)
+		if(enteredstring.Length >= 6)
 		{
 			enteredstring = "";
 		}
