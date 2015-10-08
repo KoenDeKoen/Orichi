@@ -380,8 +380,4 @@ public class PilloController : MonoBehaviour
 	{
 		calibration_AcceleroValue[pilloIndex] = GetAccelero ((PilloID)pilloIndex);
 	}
-
-
-
-
 }
