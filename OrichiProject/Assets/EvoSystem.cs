@@ -15,7 +15,7 @@ public class EvoSystem : MonoBehaviour {
 	public float HelpTime;
 	public ScreenShake screenshaker;
 	private bool hastoshake;
-
+	public float progresspercentage;
 	void Start()
 	{
 		hastoshake = false;
@@ -98,6 +98,9 @@ public class EvoSystem : MonoBehaviour {
 			help.SetInteger("MoveSet",0);
 		}
 
+
+		progresspercentage = MechanicController.stepstaken / Custominput.exercises;
+		Debug.Log (progresspercentage);
 		/*
 		if(Input.GetKeyDown("a") || pct > 0.2 && pct2 == 0){
 			help.SetInteger("MoveSet",1);

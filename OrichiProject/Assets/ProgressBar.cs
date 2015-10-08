@@ -38,6 +38,6 @@ public class ProgressBar : MonoBehaviour {
 		//eg, the loading progress, the player's health, or whatever.
 		barDisplay = progresspercentage;
 		//        barDisplay = MyControlScript.staticHealth;
-		Debug.Log (barDisplay);
+
 	}
 }
