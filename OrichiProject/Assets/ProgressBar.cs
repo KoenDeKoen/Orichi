@@ -2,42 +2,49 @@
 using System.Collections;
 
 public class ProgressBar : MonoBehaviour {
-	public float barDisplay; //current progress
-	public Vector2 pos = new Vector2(20,40);
-	public Vector2 size = new Vector2(60,20);
-	public Texture2D emptyTex;
-	public Texture2D fullTex;
+
 	public float progresspercentage;
-
+	public Sprite evostatus7;
+	public Sprite evostatus6;
+	public Sprite evostatus5;
+	public Sprite evostatus4;
+	public Sprite evostatus3;
+	public Sprite evostatus2;
+	public Sprite evostatus1;
+	public Sprite currentsprite;
 	void Start(){
-
-
-	}
-	void OnGUI() {
-		//draw the background:
-		GUI.BeginGroup(new Rect(pos.x, pos.y, size.x, size.y));
-		GUI.Box(new Rect(0,0, size.x, size.y), emptyTex);
-		
-		//draw the filled-in part:
-		GUI.BeginGroup(new Rect(0,0, size.x * barDisplay, size.y));
-		GUI.Box(new Rect(0,0, size.x, size.y), fullTex);
-		GUI.EndGroup();
-		GUI.EndGroup();
-
+	
 
 	}
+
 
 
 	void Update() {
-
+		this.gameObject.GetComponent<SpriteRenderer> ().sprite = currentsprite;
 		progresspercentage = MechanicController.stepstaken / Custominput.exercises;
+		if (progresspercentage == 0) {
+			currentsprite = evostatus1;
+		}
 
+		if (progresspercentage > 0.1666666666666667 && currentsprite == evostatus1 ) {
+			currentsprite = evostatus2;
+		}
 
-		//for this example, the bar display is linked to the current time,
-		//however you would set this value based on your desired display
-		//eg, the loading progress, the player's health, or whatever.
-		barDisplay = progresspercentage;
-		//        barDisplay = MyControlScript.staticHealth;
+		if (progresspercentage > 0.3333333333333333 && currentsprite == evostatus2 ) {
+			currentsprite = evostatus3;
+		}
+		if (progresspercentage > 0.5 && currentsprite == evostatus3 ) {
+			currentsprite = evostatus4;
+		}
+		if (progresspercentage > 0.6666666666666667 && currentsprite == evostatus4 ) {
+			currentsprite = evostatus5;
+		}
+		if (progresspercentage > 0.8333333333333333 && currentsprite == evostatus5 ) {
+			currentsprite = evostatus6;
+		}
 
+		if (progresspercentage == 1 && currentsprite == evostatus6 ) {
+			currentsprite = evostatus7;
+		}
 	}
 }
