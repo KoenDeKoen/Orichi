@@ -89,11 +89,11 @@ public class SpawnGroundAndProps : MonoBehaviour {
 		for(int i = 0; i <= Random.Range(3,6); i++)
 		{
 			int spritenumber = 0;
-			spritenumber = Random.Range(0, obj2d.returnSprites().Count -1);
+			spritenumber = Random.Range(0, obj2d.returnSprites().Count);
 			GameObject sprite = new GameObject();
 			sprite.AddComponent<SpriteRenderer>();
 			sprite.GetComponent<SpriteRenderer>().sprite = obj2d.returnSprites()[spritenumber];
-			positiontoremove = decorationspawn2dpositions[Random.Range(0,decorationspawn2dpositions.Count -1)];
+			positiontoremove = decorationspawn2dpositions[Random.Range(0,decorationspawn2dpositions.Count)];
 			position.x = positiontoremove.x;
 			decorationspawn2dpositions.Remove(positiontoremove);
 			sprite.transform.parent = parentground.transform;
@@ -114,8 +114,8 @@ public class SpawnGroundAndProps : MonoBehaviour {
 		for(int i = 0; i < Random.Range(3,6); i++)
 		{
 			int objectnumber = 0;
-			objectnumber = Random.Range(0, obj3d.returnObjects().Count -1);
-			positiontoremove = decorationspawn3dpositions[Random.Range(0,decorationspawn3dpositions.Count-1)];
+			objectnumber = Random.Range(0, obj3d.returnObjects().Count);
+			positiontoremove = decorationspawn3dpositions[Random.Range(0,decorationspawn3dpositions.Count)];
 			position.x = positiontoremove.x;
 			decorationspawn3dpositions.Remove(positiontoremove);
 			GameObject object3d = Instantiate(obj3d.returnObjects()[objectnumber],position, Quaternion.identity) as GameObject;
@@ -132,8 +132,8 @@ public class SpawnGroundAndProps : MonoBehaviour {
 		for(int i = 0; i < Random.Range(2,4); i++)
 		{
 			int objectnumber = 0;
-			objectnumber = Random.Range(0, trees.returnObjects().Count-1);
-			positiontoremove = tree3dspots[Random.Range(0,decorationspawn3dpositions.Count-1)];
+			objectnumber = Random.Range(0, trees.returnObjects().Count);
+			positiontoremove = tree3dspots[Random.Range(0,decorationspawn3dpositions.Count)];
 			position.x = positiontoremove.x;
 			tree3dspots.Remove(positiontoremove);
 			GameObject tree = Instantiate(trees.returnObjects()[objectnumber],position, Quaternion.identity) as GameObject;

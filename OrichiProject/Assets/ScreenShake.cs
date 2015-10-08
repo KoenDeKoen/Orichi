@@ -17,7 +17,7 @@ public class ScreenShake : MonoBehaviour {
 		leftpos = spasmcamera.transform.position;
 		rightpos.x += 0.1F;
 		leftpos.x -= 0.1F;
-		time = 1F;
+		time = 2F;
 	}
 	
 	// Update is called once per frame
@@ -48,7 +48,7 @@ public class ScreenShake : MonoBehaviour {
 		if(time < 0.05F)
 		{
 			shakeScreenMid ();
-			time = 1F;
+			time = 2F;
 			return false;
 		}
 
@@ -161,6 +161,123 @@ public class ScreenShake : MonoBehaviour {
 		}
 
 		else if(time < 1F)
+		{
+			shakeScreenRight ();
+			return true;
+		}
+		else if(time < 1.05F)
+		{
+			shakeScreenLeft ();
+			return true;
+		}	
+		
+		else if(time < 1.1F)
+		{
+			shakeScreenRight ();
+			return true;
+		}
+		
+		else if(time < 1.15F)
+		{
+			shakeScreenLeft ();
+			return true;
+		}	
+		
+		else if(time < 1.2F)
+		{
+			shakeScreenRight ();
+			return true;
+		}
+		
+		else if(time < 1.25F)
+		{
+			shakeScreenLeft ();
+			return true;
+		}
+		
+		else if(time < 1.3F)
+		{
+			shakeScreenRight ();
+			return true;
+		}
+		
+		else if(time < 1.35F)
+		{
+			shakeScreenLeft ();
+			return true;
+		}
+		
+		else if(time < 1.4F)
+		{
+			shakeScreenRight ();
+			return true;
+		}
+		
+		else if(time < 1.45F)
+		{
+			shakeScreenLeft ();
+			return true;
+		}
+		
+		else if(time < 1.5F)
+		{
+			shakeScreenRight ();
+			return true;
+		}
+		
+		else if(time < 1.55F)
+		{
+			shakeScreenLeft ();
+			return true;
+		}
+		
+		else if(time < 1.6F)
+		{
+			shakeScreenRight ();
+			return true;
+		}
+		
+		else if(time < 1.65F)
+		{
+			shakeScreenLeft ();
+			return true;
+		}
+		
+		else if(time < 1.7F)
+		{
+			shakeScreenRight ();
+			return true;
+		}
+		
+		else if(time < 1.75F)
+		{
+			shakeScreenRight ();
+			return true;
+		}
+		
+		else if(time < 1.8F)
+		{
+			shakeScreenLeft ();
+			return true;
+		}
+		
+		else if(time < 1.85F)
+		{
+			shakeScreenRight ();
+			return true;
+		}
+		
+		else if(time < 1.9F)
+		{
+			shakeScreenLeft ();
+			return true;
+		}
+		else if(time < 1.95F)
+		{
+			shakeScreenRight ();
+			return true;
+		}
+		else if(time < 2F)
 		{
 			shakeScreenRight ();
 			return true;
