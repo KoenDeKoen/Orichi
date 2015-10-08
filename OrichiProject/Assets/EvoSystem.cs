@@ -20,6 +20,7 @@ public class EvoSystem : MonoBehaviour {
 	{
 		hastoshake = false;
 		tutorial.SetInteger("Grow",1);
+		Debug.Log (Custominput.exercises);
 	}
 	
 	void Update () {
