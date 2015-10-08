@@ -8,8 +8,7 @@ public class ProgressBar : MonoBehaviour {
 	public Texture2D emptyTex;
 	public Texture2D fullTex;
 	public float progresspercentage;
-	public float stepstakenstring;
-	public float totalsteps;
+
 	void Start(){
 
 
@@ -25,13 +24,12 @@ public class ProgressBar : MonoBehaviour {
 		GUI.EndGroup();
 		GUI.EndGroup();
 
-		GUI.Label(new Rect(10, 10, 100, 20),  stepstakenstring.ToString /*totalsteps.ToString*/);
+
 	}
 
 
 	void Update() {
-		totalsteps = Custominput.exercises;
-		stepstakenstring = MechanicController.stepstaken;
+
 		progresspercentage = MechanicController.stepstaken / Custominput.exercises;
 
 
