@@ -25,10 +25,8 @@ public class AbsolutelyNoEasterEggScript : MonoBehaviour
 
 	private void checkForWords()
 	{
-
 		if(enteredstring == "thomas")
 		{
-
 			enteredstring = "";
 			thomasmusicplayer.GetComponent<AudioSource>().Play();
 			orichiplayer.GetComponent<AudioSource>().Pause();

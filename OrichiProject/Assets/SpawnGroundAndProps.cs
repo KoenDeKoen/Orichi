@@ -86,7 +86,7 @@ public class SpawnGroundAndProps : MonoBehaviour {
 		Vector3 position = new Vector3(parentground.transform.position.x,parentground.transform.position.y + (float)4.9,0);
 		Vector3 positiontoremove = new Vector3 (0, 0, 0);
 		
-		for(int i = 0; i <= Random.Range(3,6); i++)
+		for(int i = 0; i < Random.Range(3,decorationspawn2dpositions.Count); i++)
 		{
 			int spritenumber = 0;
 			spritenumber = Random.Range(0, obj2d.returnSprites().Count);
@@ -95,6 +95,7 @@ public class SpawnGroundAndProps : MonoBehaviour {
 			sprite.GetComponent<SpriteRenderer>().sprite = obj2d.returnSprites()[spritenumber];
 			positiontoremove = decorationspawn2dpositions[Random.Range(0,decorationspawn2dpositions.Count)];
 			position.x = positiontoremove.x;
+			sprite.name = position.x.ToString();
 			decorationspawn2dpositions.Remove(positiontoremove);
 			sprite.transform.parent = parentground.transform;
 			sprite.transform.localPosition = position;
@@ -111,7 +112,7 @@ public class SpawnGroundAndProps : MonoBehaviour {
 		Vector3 position = new Vector3(parentground.transform.position.x,parentground.transform.position.y + (float)4.2, parentground.transform.position.z + 2);
 		Vector3 positiontoremove = new Vector3 (0, 0, 0);
 		
-		for(int i = 0; i < Random.Range(3,6); i++)
+		for(int i = 0; i < Random.Range(3,decorationspawn3dpositions.Count); i++)
 		{
 			int objectnumber = 0;
 			objectnumber = Random.Range(0, obj3d.returnObjects().Count);
@@ -129,7 +130,7 @@ public class SpawnGroundAndProps : MonoBehaviour {
 		Vector3 position = new Vector3(parentground.transform.position.x,parentground.transform.position.y + (float)4.2, parentground.transform.position.z + 2);
 		Vector3 positiontoremove = new Vector3 (0, 0, 0);
 
-		for(int i = 0; i < Random.Range(2,4); i++)
+		for(int i = 0; i < Random.Range(2, tree3dspots.Count); i++)
 		{
 			int objectnumber = 0;
 			objectnumber = Random.Range(0, trees.returnObjects().Count);
@@ -176,6 +177,4 @@ public class SpawnGroundAndProps : MonoBehaviour {
 	{
 		return parent;
 	}
-
-
 }
