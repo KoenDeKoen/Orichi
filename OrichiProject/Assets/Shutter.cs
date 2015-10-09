@@ -82,7 +82,7 @@ public class Shutter : MonoBehaviour {
 
 		else 
 		{
-			if(introscene)
+			if(introscene && openandclosed)
 			{
 				sceneloader.loadScene("MainMenu");;
 			}
