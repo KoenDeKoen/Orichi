@@ -22,9 +22,11 @@ public class Shutter : MonoBehaviour {
 	private bool switchscene;
 	private string scenetoswitchto;
 	public bool introscene;
+	private bool closegame;
 
 	void Start () 
 	{
+		closegame = false;
 		scenetoswitchto = "";
 		switchscene = false;
 		donelerpingclose = true;
@@ -73,6 +75,11 @@ public class Shutter : MonoBehaviour {
 				}
 			}
 		}
+		if (closegame && donelerpingclose)
+		{
+			Application.Quit();
+		}
+
 		else 
 		{
 			if(introscene)
@@ -80,6 +87,7 @@ public class Shutter : MonoBehaviour {
 				sceneloader.loadScene("MainMenu");;
 			}
 		}
+
 	}
 
 	private void shutLeftDoor()
@@ -157,6 +165,14 @@ public class Shutter : MonoBehaviour {
 		donelerpingopen = true;
 		donelerpingclose = false;
 		stayopen = false;
+	}
+
+	public void closeGameAfterClosing()
+	{
+		donelerpingopen = true;
+		donelerpingclose = false;
+		stayopen = false;
+		closegame = true;
 	}
 
 }
