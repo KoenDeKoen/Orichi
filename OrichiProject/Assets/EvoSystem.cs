@@ -11,7 +11,7 @@ public class EvoSystem : MonoBehaviour {
 	public Animator tutorial;
 	private GameObject tempobj;
 	public float points;
-	int evolevel;
+	public static int evolevel;
 	public float HelpTime;
 	public ScreenShake screenshaker;
 	private bool hastoshake;
@@ -33,7 +33,7 @@ public class EvoSystem : MonoBehaviour {
 			hastoshake = screenshaker.shakeScreen();
 		}
 
-		if(progresspercentage > 0.33333 && evolevel < 1)
+		if(progresspercentage > 0.333 && evolevel < 1)
 		{
 			evolevel = 1;
 			m_ani.SetInteger("Evolve",1);
@@ -41,7 +41,7 @@ public class EvoSystem : MonoBehaviour {
 			hastoshake = true;
 		}
 
-		if(progresspercentage > 0.66666 && evolevel < 2)
+		if(progresspercentage > 0.666 && evolevel < 2)
 		{
 			evolevel = 2;
 			m_ani.SetInteger("Evolve",2);
@@ -122,9 +122,9 @@ public class EvoSystem : MonoBehaviour {
 			help.SetInteger("MoveSet",0);
 		}
 
-
+	
 		progresspercentage = MechanicController.stepstaken / Custominput.exercises;
-
+		Debug.Log (progresspercentage);
 		/*
 		if(Input.GetKeyDown("a") || pct > 0.2 && pct2 == 0){
 			help.SetInteger("MoveSet",1);

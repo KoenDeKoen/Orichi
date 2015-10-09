@@ -22,11 +22,13 @@ public class BasicButtons : MonoBehaviour
 	{
 		if(Input.GetKeyDown("q"))
 		{
+			MechanicController.stepstaken = 0;
 			Application.Quit();
 		}
 
 		if(Input.GetKeyDown(KeyCode.Escape) && !ismenu)
 		{
+			MechanicController.stepstaken = 0;
 			sceneloader.loadScene("MainMenu");
 		}
 	}

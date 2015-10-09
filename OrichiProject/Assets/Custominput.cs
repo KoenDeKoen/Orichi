@@ -18,7 +18,7 @@ public class Custominput : MonoBehaviour {
 		string text = GetComponent<Text> ().text;
 
 		if (text == "") {
-			text = "1";
+			text = "10";
 			
 		}
 
