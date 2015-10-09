@@ -28,6 +28,7 @@ public class SpawnGroundAndProps : MonoBehaviour {
 		Vector3 spawnpos = new Vector3 (0, -4, 0);
 		parent = new GameObject ();
 		parent.transform.position = spawnpos;
+		parent.name = "GroundParent";
 		spawnFloor (parent.transform.position);
 	}
 	
@@ -53,6 +54,7 @@ public class SpawnGroundAndProps : MonoBehaviour {
 		lastspawnedfloor = floor;
 		floor.transform.SetParent (parent.transform);
 		floors.Add (floor);
+		floor.name = "Ground";
 	}
 
 	public void despawnFloor(GameObject floortodespawn)
@@ -85,15 +87,16 @@ public class SpawnGroundAndProps : MonoBehaviour {
 	{
 		Vector3 position = new Vector3(parentground.transform.position.x,parentground.transform.position.y + (float)4.9,0);
 		Vector3 positiontoremove = new Vector3 (0, 0, 0);
+		int amountofprops = Random.Range (3, decorationspawn2dpositions.Count);
 		
-		for(int i = 0; i < Random.Range(3,decorationspawn2dpositions.Count); i++)
+		for(int i = 0; i < amountofprops; i++)
 		{
 			int spritenumber = 0;
-			spritenumber = Random.Range(0, obj2d.returnSprites().Count);
+			spritenumber = Random.Range(0, obj2d.returnSprites().Count-1);
 			GameObject sprite = new GameObject();
 			sprite.AddComponent<SpriteRenderer>();
 			sprite.GetComponent<SpriteRenderer>().sprite = obj2d.returnSprites()[spritenumber];
-			positiontoremove = decorationspawn2dpositions[Random.Range(0,decorationspawn2dpositions.Count)];
+			positiontoremove = decorationspawn2dpositions[Random.Range(0,decorationspawn2dpositions.Count-1)];
 			position.x = positiontoremove.x;
 			sprite.name = position.x.ToString();
 			decorationspawn2dpositions.Remove(positiontoremove);
@@ -111,12 +114,13 @@ public class SpawnGroundAndProps : MonoBehaviour {
 	{
 		Vector3 position = new Vector3(parentground.transform.position.x,parentground.transform.position.y + (float)4.2, parentground.transform.position.z + 2);
 		Vector3 positiontoremove = new Vector3 (0, 0, 0);
+		int amountofprops = Random.Range (3,decorationspawn3dpositions.Count);
 		
-		for(int i = 0; i < Random.Range(3,decorationspawn3dpositions.Count); i++)
+		for(int i = 0; i < amountofprops; i++)
 		{
 			int objectnumber = 0;
-			objectnumber = Random.Range(0, obj3d.returnObjects().Count);
-			positiontoremove = decorationspawn3dpositions[Random.Range(0,decorationspawn3dpositions.Count)];
+			objectnumber = Random.Range(0, obj3d.returnObjects().Count-1);
+			positiontoremove = decorationspawn3dpositions[Random.Range(0,decorationspawn3dpositions.Count-1)];
 			position.x = positiontoremove.x;
 			decorationspawn3dpositions.Remove(positiontoremove);
 			GameObject object3d = Instantiate(obj3d.returnObjects()[objectnumber],position, Quaternion.identity) as GameObject;
@@ -129,22 +133,25 @@ public class SpawnGroundAndProps : MonoBehaviour {
 	{
 		Vector3 position = new Vector3(parentground.transform.position.x,parentground.transform.position.y + (float)4.2, parentground.transform.position.z + 2);
 		Vector3 positiontoremove = new Vector3 (0, 0, 0);
+		int amountofprops = Random.Range (2, tree3dspots.Count);
 
-		for(int i = 0; i < Random.Range(2, tree3dspots.Count); i++)
+		for(int i = 0; i < amountofprops; i++)
 		{
 			int objectnumber = 0;
-			objectnumber = Random.Range(0, trees.returnObjects().Count);
-			positiontoremove = tree3dspots[Random.Range(0,decorationspawn3dpositions.Count)];
+			objectnumber = Random.Range(0, trees.returnObjects().Count-1);
+			positiontoremove = tree3dspots[Random.Range(0,tree3dspots.Count-1)];
 			position.x = positiontoremove.x;
 			tree3dspots.Remove(positiontoremove);
 			GameObject tree = Instantiate(trees.returnObjects()[objectnumber],position, Quaternion.identity) as GameObject;
 			tree.transform.parent = parentground.transform;
 			tree.transform.localPosition = position;
+
 		}
 	}
 	
 	public void addSpawnable2DDecorationSpots()
 	{
+		decorationspawn2dpositions = new List<Vector3> ();
 		Vector3 spot = new Vector3 (0, 0, 0);
 		for(int i = -5; i <= 5; i += 2)
 		{
@@ -155,6 +162,7 @@ public class SpawnGroundAndProps : MonoBehaviour {
 
 	public void addSpawnable3DDecorationSpots()
 	{
+		decorationspawn3dpositions = new List<Vector3> ();
 		Vector3 spot = new Vector3 (0, 0, 0);
 		for(int i = -5; i <= 5; i += 2)
 		{
@@ -165,6 +173,7 @@ public class SpawnGroundAndProps : MonoBehaviour {
 
 	public void addSpawnableTree3DSpots()
 	{
+		tree3dspots = new List<Vector3> ();
 		Vector3 spot = new Vector3 (0, 0, 0);
 		for(int i = -8; i <= 8; i += 4)
 		{

@@ -20,7 +20,7 @@ public class EvoSystem : MonoBehaviour {
 	{
 		hastoshake = false;
 		tutorial.SetInteger("Grow",1);
-		Debug.Log (Custominput.exercises);
+		//Debug.Log (Custominput.exercises);
 	}
 	
 	void Update () {
@@ -100,7 +100,7 @@ public class EvoSystem : MonoBehaviour {
 
 		if(HelpTime >= 0f){
 			//tg.SummonOldGuy();
-		}
+ 		}
 		if(HelpTime >= 5f){
 			help.SetInteger("HelpStep",1);
 		}

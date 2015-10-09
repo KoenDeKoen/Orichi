@@ -34,6 +34,7 @@ public class CloudMovement : MonoBehaviour {
 	private void createParentObject()
 	{
 		parent = new GameObject ();
+		parent.name = "CloudParent";
 		parent.transform.position = spawnpos;
 	}
 
@@ -44,6 +45,7 @@ public class CloudMovement : MonoBehaviour {
 		GameObject cloud = Instantiate(cloudprefabs.returnClouds()[randomcloud],tempvector, Quaternion.identity) as GameObject;
 		cloud.transform.parent = parent.transform;
 		clouds.Add (cloud);
+		cloud.name = "Cloud y: " + cloud.transform.position.y;
 	}
 
 	public void moveCloud()
