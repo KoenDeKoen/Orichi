@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class Custominput : MonoBehaviour {
 	public GameObject textobject;
 	public Text execrisetext;
-	public static float exercises;
+	public static float exercises = 10;
 	public GameObject timeinput;
 	// Use this for initialization
 	void Start () {

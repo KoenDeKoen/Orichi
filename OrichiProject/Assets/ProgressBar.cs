@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using UnityEngine.UI;
 public class ProgressBar : MonoBehaviour {
 
 	public float progresspercentage;
@@ -12,15 +12,21 @@ public class ProgressBar : MonoBehaviour {
 	public Sprite evostatus2;
 	public Sprite evostatus1;
 	public Sprite currentsprite;
+	public Text amounttotalamount;
 
 	void Start(){
 	
 
 	}
+	//exercisesdone / exercisestotal
 
-
+	public void SetText() {
+		amounttotalamount.text = MechanicController.stepstaken.ToString() + "/" + Custominput.exercises.ToString();
+	}
 
 	void Update() {
+
+		SetText ();
 		this.gameObject.GetComponent<SpriteRenderer> ().sprite = currentsprite;
 		progresspercentage = MechanicController.stepstaken / Custominput.exercises;
 	/*	if (progresspercentage == 0) {
@@ -117,4 +123,5 @@ public class ProgressBar : MonoBehaviour {
 			}
 		}
 	}
+
 }
