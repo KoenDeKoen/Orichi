@@ -41,7 +41,7 @@ public class PilloController : MonoBehaviour
 	///</summary>
 	public static void ConfigureSensorRange(int min, int max)
 	{
-		PilloSender.SensorMin = 0x60;
+		PilloSender.SensorMin = 0x50;
 		PilloSender.SensorMax = 0x6f;
 	}
 
