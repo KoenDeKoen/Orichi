@@ -124,7 +124,7 @@ public class EvoSystem : MonoBehaviour {
 
 	
 		progresspercentage = MechanicController.stepstaken / Custominput.exercises;
-		Debug.Log (progresspercentage);
+
 		/*
 		if(Input.GetKeyDown("a") || pct > 0.2 && pct2 == 0){
 			help.SetInteger("MoveSet",1);
