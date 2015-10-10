@@ -30,8 +30,7 @@ public class BasicButtons : MonoBehaviour
 
 		if(Input.GetKeyDown(KeyCode.Escape) && !ismenu)
 		{
-			EvoSystem.evolevel = 0;
-			MechanicController.stepstaken = 0;
+
 			shutter.loadSceneAfterClosing("MainMenu");
 			//sceneloader.loadScene("MainMenu");
 		}
