@@ -5,6 +5,8 @@ public class MechanicController : MonoBehaviour
 {
 	public MoveGround movingground;
 	public SpawnGroundAndProps spawningclass;
+	public MoveBackground movingbg;
+	public SpawnBackground spawnbg;	
 	private int turn;
 	public static int stepstaken;
 	public Animator m_ani;
@@ -27,6 +29,8 @@ public class MechanicController : MonoBehaviour
 			if(Input.GetKeyDown("a") || pct > 0.2 && pct2 == 0)
 			{
 				movingground.moveGround(spawningclass.getParent());
+				movingbg.moveFastMountain(spawnbg.getParents()[0]);
+				movingbg.moveSlowMountain(spawnbg.getParents()[1]);
 				stepstaken++;
 				turn = 2;
 				help.SetInteger("MoveSet",1);
@@ -40,6 +44,8 @@ public class MechanicController : MonoBehaviour
 			if(Input.GetKeyDown("l") || pct2 > 0.2 && pct == 0 )
 			{
 				movingground.moveGround(spawningclass.getParent());
+				movingbg.moveFastMountain(spawnbg.getParents()[0]);
+				movingbg.moveSlowMountain(spawnbg.getParents()[1]);
 				stepstaken++;
 				turn = 1;
 				help.SetInteger("MoveSet",2);
