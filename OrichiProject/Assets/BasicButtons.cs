@@ -23,13 +23,17 @@ public class BasicButtons : MonoBehaviour
 	{
 		if(Input.GetKeyDown("q"))
 		{
-			MechanicController.stepstaken = 0;
+
 			shutter.closeGameAfterClosing();
 			//Application.Quit();
 		}
 
 		if(Input.GetKeyDown(KeyCode.Escape) && !ismenu)
 		{
+<<<<<<< HEAD
+			EvoSystem.evolevel = 0;
+=======
+>>>>>>> origin/master
 
 			shutter.loadSceneAfterClosing("MainMenu");
 			//sceneloader.loadScene("MainMenu");
