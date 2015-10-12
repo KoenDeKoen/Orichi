@@ -16,6 +16,11 @@ public class SpawnGroundAndProps : MonoBehaviour {
 	public Obj3D obj3d;
 	public Trees3D trees;
 
+	public Sprite femaleSprite;
+	public GameObject female;
+	private Vector3 femalespawnpos;
+	public bool arrive;
+
 	void Start () 
 	{
 		decorationspawn2dpositions = new List<Vector3> ();
@@ -30,6 +35,7 @@ public class SpawnGroundAndProps : MonoBehaviour {
 		parent.transform.position = spawnpos;
 		parent.name = "GroundParent";
 		spawnFloor (parent.transform.position);
+		arrive = false;
 	}
 	
 	// Update is called once per frame
@@ -51,6 +57,9 @@ public class SpawnGroundAndProps : MonoBehaviour {
 		placeSprites (floor);
 		placeObjects (floor);
 		placeTrees (floor);
+		if(arrive){
+			placeFemale (floor);
+		}
 		lastspawnedfloor = floor;
 		floor.transform.SetParent (parent.transform);
 		floors.Add (floor);
@@ -109,6 +118,18 @@ public class SpawnGroundAndProps : MonoBehaviour {
 			sprite.GetComponent<Animator>().runtimeAnimatorController = obj2d.returnControllers()[spritenumber];
 		}
 	}
+	
+	public void placeFemale(GameObject parentground){
+
+		Vector3 position = new Vector3(parentground.transform.position.x,parentground.transform.position.y + (float)4.9,0);
+		GameObject sprite = new GameObject();
+		sprite.AddComponent<SpriteRenderer>();
+		sprite.GetComponent<SpriteRenderer>().sprite = femaleSprite;
+		sprite.name = "Female";
+		sprite.transform.parent = parentground.transform;
+		sprite.transform.localPosition = position;
+	}
+	//////////////////////////
 
 	public void placeObjects(GameObject parentground)
 	{
@@ -148,7 +169,7 @@ public class SpawnGroundAndProps : MonoBehaviour {
 
 		}
 	}
-	
+
 	public void addSpawnable2DDecorationSpots()
 	{
 		decorationspawn2dpositions = new List<Vector3> ();

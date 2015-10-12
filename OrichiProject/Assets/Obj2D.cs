@@ -17,6 +17,7 @@ public class Obj2D : MonoBehaviour {
 	public RuntimeAnimatorController bush2RT;
 	public Sprite bush3;
 	public RuntimeAnimatorController bush3RT;
+
 	private List<Sprite> sprites;
 	private List<RuntimeAnimatorController> controllers;
 

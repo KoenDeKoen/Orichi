@@ -55,7 +55,7 @@ public class EvoSystem : MonoBehaviour {
 			m_ani.SetInteger("Evolve",3);
 			Instantiate(prefab, new Vector3(0,-1.5f,-2), Quaternion.identity);
 			hastoshake = true;
-		}
+		}		
 		/*switch(points)
 		{
 		case 0.33:
