@@ -10,8 +10,12 @@ public class GameWin : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+<<<<<<< HEAD
 	if (MechanicController.stepstaken == Custominput.exercises + 1) {
 
+=======
+	if (MechanicController.stepstaken > Custominput.exercises ) {
+>>>>>>> origin/master
 			shutter.loadSceneAfterClosing("MainMenu");
 		}
 	}
