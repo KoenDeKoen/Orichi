@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 55676fc934b1da6419a47b5ee3161eb2
-timeCreated: 1444639237
+timeCreated: 1444640320
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -110,16 +110,6 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: female_sprite_sheet_3_0
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 7798
-        width: 88
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_1
       rect:
         serializedVersion: 2
@@ -127,18 +117,8 @@ TextureImporter:
         y: 7350
         width: 1288
         height: 840
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_2
-      rect:
-        serializedVersion: 2
-        x: 1290
-        y: 7802
-        width: 88
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_3
       rect:
@@ -147,18 +127,8 @@ TextureImporter:
         y: 7346
         width: 1284
         height: 844
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_4
-      rect:
-        serializedVersion: 2
-        x: 2574
-        y: 7806
-        width: 88
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_5
       rect:
@@ -167,18 +137,8 @@ TextureImporter:
         y: 7342
         width: 1280
         height: 848
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_6
-      rect:
-        serializedVersion: 2
-        x: 3854
-        y: 7810
-        width: 88
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_7
       rect:
@@ -187,18 +147,8 @@ TextureImporter:
         y: 7333
         width: 1272
         height: 857
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_8
-      rect:
-        serializedVersion: 2
-        x: 5126
-        y: 7810
-        width: 88
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_9
       rect:
@@ -207,18 +157,8 @@ TextureImporter:
         y: 7325
         width: 1264
         height: 864
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_10
-      rect:
-        serializedVersion: 2
-        x: 6390
-        y: 7814
-        width: 88
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_11
       rect:
@@ -227,18 +167,8 @@ TextureImporter:
         y: 7318
         width: 1256
         height: 872
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_12
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 6946
-        width: 88
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_13
       rect:
@@ -247,8 +177,8 @@ TextureImporter:
         y: 6438
         width: 1252
         height: 880
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_14
       rect:
@@ -257,8 +187,8 @@ TextureImporter:
         y: 6430
         width: 1248
         height: 888
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_15
       rect:
@@ -267,8 +197,8 @@ TextureImporter:
         y: 6416
         width: 1240
         height: 902
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_16
       rect:
@@ -277,8 +207,8 @@ TextureImporter:
         y: 6422
         width: 1236
         height: 896
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_17
       rect:
@@ -287,8 +217,8 @@ TextureImporter:
         y: 6426
         width: 1240
         height: 891
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_18
       rect:
@@ -297,8 +227,8 @@ TextureImporter:
         y: 6426
         width: 1236
         height: 892
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_19
       rect:
@@ -307,18 +237,8 @@ TextureImporter:
         y: 5534
         width: 1236
         height: 888
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_21
-      rect:
-        serializedVersion: 2
-        x: 2486
-        y: 6050
-        width: 84
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_22
       rect:
@@ -327,18 +247,8 @@ TextureImporter:
         y: 5546
         width: 1244
         height: 876
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_23
-      rect:
-        serializedVersion: 2
-        x: 3730
-        y: 6046
-        width: 88
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_24
       rect:
@@ -347,18 +257,8 @@ TextureImporter:
         y: 5554
         width: 1252
         height: 868
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_25
-      rect:
-        serializedVersion: 2
-        x: 4982
-        y: 6042
-        width: 88
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_26
       rect:
@@ -367,28 +267,8 @@ TextureImporter:
         y: 5562
         width: 1256
         height: 860
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_27
-      rect:
-        serializedVersion: 2
-        x: 6238
-        y: 6038
-        width: 88
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_29
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 5146
-        width: 90
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_30
       rect:
@@ -397,18 +277,8 @@ TextureImporter:
         y: 4690
         width: 1262
         height: 846
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_31
-      rect:
-        serializedVersion: 2
-        x: 1262
-        y: 5142
-        width: 92
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_32
       rect:
@@ -417,18 +287,8 @@ TextureImporter:
         y: 4694
         width: 1263
         height: 840
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_33
-      rect:
-        serializedVersion: 2
-        x: 2526
-        y: 5142
-        width: 92
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_34
       rect:
@@ -437,18 +297,8 @@ TextureImporter:
         y: 4694
         width: 1268
         height: 840
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_35
-      rect:
-        serializedVersion: 2
-        x: 3794
-        y: 5142
-        width: 88
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_36
       rect:
@@ -457,18 +307,8 @@ TextureImporter:
         y: 4694
         width: 1268
         height: 840
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_37
-      rect:
-        serializedVersion: 2
-        x: 5062
-        y: 5146
-        width: 88
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_38
       rect:
@@ -477,18 +317,8 @@ TextureImporter:
         y: 4694
         width: 1268
         height: 840
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_39
-      rect:
-        serializedVersion: 2
-        x: 6330
-        y: 5146
-        width: 92
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_40
       rect:
@@ -497,18 +327,8 @@ TextureImporter:
         y: 4694
         width: 1272
         height: 842
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_41
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 4302
-        width: 88
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_42
       rect:
@@ -517,18 +337,8 @@ TextureImporter:
         y: 3850
         width: 1272
         height: 840
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_43
-      rect:
-        serializedVersion: 2
-        x: 1274
-        y: 4302
-        width: 88
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_44
       rect:
@@ -537,18 +347,8 @@ TextureImporter:
         y: 3850
         width: 1272
         height: 840
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_45
-      rect:
-        serializedVersion: 2
-        x: 2546
-        y: 4302
-        width: 94
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_46
       rect:
@@ -557,18 +357,8 @@ TextureImporter:
         y: 3840
         width: 1276
         height: 850
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_47
-      rect:
-        serializedVersion: 2
-        x: 3822
-        y: 4302
-        width: 92
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_48
       rect:
@@ -577,18 +367,8 @@ TextureImporter:
         y: 3850
         width: 1276
         height: 840
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_49
-      rect:
-        serializedVersion: 2
-        x: 5098
-        y: 4302
-        width: 92
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_50
       rect:
@@ -597,18 +377,8 @@ TextureImporter:
         y: 3850
         width: 1280
         height: 840
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_51
-      rect:
-        serializedVersion: 2
-        x: 6378
-        y: 4302
-        width: 88
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_52
       rect:
@@ -617,18 +387,8 @@ TextureImporter:
         y: 3850
         width: 1280
         height: 840
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_53
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 3462
-        width: 88
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_54
       rect:
@@ -637,18 +397,8 @@ TextureImporter:
         y: 3006
         width: 1279
         height: 844
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_55
-      rect:
-        serializedVersion: 2
-        x: 1282
-        y: 3462
-        width: 88
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_56
       rect:
@@ -657,18 +407,8 @@ TextureImporter:
         y: 3006
         width: 1280
         height: 844
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_57
-      rect:
-        serializedVersion: 2
-        x: 2562
-        y: 3462
-        width: 92
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_58
       rect:
@@ -677,18 +417,8 @@ TextureImporter:
         y: 3006
         width: 1284
         height: 844
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_59
-      rect:
-        serializedVersion: 2
-        x: 3846
-        y: 3462
-        width: 88
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_60
       rect:
@@ -697,18 +427,8 @@ TextureImporter:
         y: 3006
         width: 1284
         height: 844
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: female_sprite_sheet_3_61
-      rect:
-        serializedVersion: 2
-        x: 5130
-        y: 3462
-        width: 88
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: female_sprite_sheet_3_62
       rect:
@@ -717,8 +437,8 @@ TextureImporter:
         y: 3006
         width: 1284
         height: 844
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
