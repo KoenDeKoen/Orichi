@@ -5,8 +5,9 @@ public class BasicButtons : MonoBehaviour
 {
 
 	// Use this for initialization
-	public SceneLoader sceneloader;
+	//public SceneLoader sceneloader;
 	public bool ismenu;
+	public Shutter shutter;
 	void Start () 
 	{
 	
@@ -23,14 +24,15 @@ public class BasicButtons : MonoBehaviour
 		if(Input.GetKeyDown("q"))
 		{
 			MechanicController.stepstaken = 0;
-			Application.Quit();
+			shutter.closeGameAfterClosing();
+			//Application.Quit();
 		}
 
 		if(Input.GetKeyDown(KeyCode.Escape) && !ismenu)
 		{
-			EvoSystem.evolevel = 0;
-			MechanicController.stepstaken = 0;
-			sceneloader.loadScene("MainMenu");
+
+			shutter.loadSceneAfterClosing("MainMenu");
+			//sceneloader.loadScene("MainMenu");
 		}
 	}
 }

@@ -133,7 +133,4 @@ public class SpawnBackground : MonoBehaviour {
 		parents.Add(slowParent);
 		return parents;
 	}
-
-
-
 }
