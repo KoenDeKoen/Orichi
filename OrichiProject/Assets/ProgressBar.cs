@@ -73,12 +73,14 @@ public class ProgressBar : MonoBehaviour {
 				currentsprite = evostatus6;
 			}
 			if(progresspercentage > 0.333333 && currentsprite == evostatus6){
-				currentsprite = evostatus7;
+				StartCoroutine("fullbar");
+		
 			}
 		}
 		if (EvoSystem.evolevel < 2 && progresspercentage > 0.33333) {
 			if(progresspercentage >0.333333 && currentsprite == evostatus7){
-				StartCoroutine("fullbar");
+		
+				//currentsprite = evostatus1;
 			}
 			if(progresspercentage > 0.38833&& currentsprite == evostatus1 ){
 				currentsprite = evostatus2;
@@ -96,12 +98,14 @@ public class ProgressBar : MonoBehaviour {
 				currentsprite = evostatus6;
 			}
 			if(progresspercentage > 0.66666  && currentsprite == evostatus6){
-				currentsprite = evostatus7;
+				StartCoroutine("fullbar");
+		
 			}
 		}
 		if (EvoSystem.evolevel < 3 && progresspercentage > 0.66666) {
 			if(progresspercentage >0.66666 && currentsprite == evostatus7){
-				StartCoroutine("fullbar");
+
+
 			}
 			if(progresspercentage > 0.055 + 0.6666 && currentsprite == evostatus1 ){
 				currentsprite = evostatus2;
@@ -124,6 +128,7 @@ public class ProgressBar : MonoBehaviour {
 		}
 	}
 	IEnumerator fullbar(){
+		currentsprite = evostatus7;
 		yield return new WaitForSeconds(1.5f);
 		currentsprite = evostatus1;
 	}
