@@ -17,8 +17,7 @@ public class SpawnGroundAndProps : MonoBehaviour {
 	public Trees3D trees;
 
 	public Sprite femaleSprite;
-	public GameObject female;
-	private Vector3 femalespawnpos;
+	//public RuntimeAnimatorController movingFemale;
 	public bool arrive;
 
 	void Start () 
@@ -118,13 +117,15 @@ public class SpawnGroundAndProps : MonoBehaviour {
 			sprite.GetComponent<Animator>().runtimeAnimatorController = obj2d.returnControllers()[spritenumber];
 		}
 	}
-	
+	//////////////////////////
 	public void placeFemale(GameObject parentground){
 
 		Vector3 position = new Vector3(parentground.transform.position.x,parentground.transform.position.y + (float)4.9,0);
 		GameObject sprite = new GameObject();
 		sprite.AddComponent<SpriteRenderer>();
 		sprite.GetComponent<SpriteRenderer>().sprite = femaleSprite;
+		//sprite.AddComponent<Animator>();
+		//sprite.AddComponent<Animator>().runtimeAnimatorController = movingfemale;
 		sprite.name = "Female";
 		sprite.transform.parent = parentground.transform;
 		sprite.transform.localPosition = position;
