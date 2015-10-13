@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
-public class ProgressBar : MonoBehaviour {
-
+public class HighScoreMode : MonoBehaviour {
 	public float progresspercentage;
 	public Sprite evostatus7;
 	public Sprite evostatus6;
@@ -13,49 +12,31 @@ public class ProgressBar : MonoBehaviour {
 	public Sprite evostatus1;
 	public Sprite currentsprite;
 	public Text amounttotalamount;
+	public Text timer;
+	public static float timerscore;
 
-	void Start(){
-	
-
+	// Use this for initialization
+	void Start () {
+		Custominput.exercises = 50;
 	}
-	//exercisesdone / exercisestotal
 
-	public void SetText() {
-		amounttotalamount.text = MechanicController.stepstaken.ToString() + "/" + Custominput.exercises.ToString();
-	}
 
 	void Update() {
+
 
 		SetText ();
 		this.gameObject.GetComponent<SpriteRenderer> ().sprite = currentsprite;
 		progresspercentage = MechanicController.stepstaken / Custominput.exercises;
-	/*	if (progresspercentage == 0) {
-			currentsprite = evostatus1;
+	
+		
+		if (MechanicController.stepstaken == Custominput.exercises) {
+			timerscore = Time.time;
+			
 		}
 
-		if (progresspercentage > 0.166 && currentsprite == evostatus1) {
-			currentsprite = evostatus2;
-		}
-
-		if (progresspercentage > 0.333 && currentsprite == evostatus2) {
-			currentsprite = evostatus3;
-		}
-		if (progresspercentage > 0.5 && currentsprite == evostatus3) {
-			currentsprite = evostatus4;
-		}
-		if (progresspercentage > 0.666 && currentsprite == evostatus4) {
-			currentsprite = evostatus5;
-		}
-		if (progresspercentage > 0.833 && currentsprite == evostatus5) {
-			currentsprite = evostatus6;
-		}
-
-		if (progresspercentage == 1 && currentsprite == evostatus6) {
-			currentsprite = evostatus7;
-		}*/
 		if (EvoSystem.evolevel < 1) {
 			if(progresspercentage == 0){
-			currentsprite = evostatus1;
+				currentsprite = evostatus1;
 			}
 			if(progresspercentage > 0.055 && currentsprite == evostatus1 ){
 				currentsprite = evostatus2;
@@ -74,14 +55,14 @@ public class ProgressBar : MonoBehaviour {
 			}
 			if(progresspercentage > 0.333333 && currentsprite == evostatus6){
 				StartCoroutine("fullbar");
-		
+				
 			}
 		}
 		if (EvoSystem.evolevel < 2 && progresspercentage > 0.33333) {
 			//if(progresspercentage >0.333333 && currentsprite == evostatus7){
-		
-				//currentsprite = evostatus1;
-		//	}
+			
+			//currentsprite = evostatus1;
+			//	}
 			if(progresspercentage > 0.38833&& currentsprite == evostatus1 ){
 				currentsprite = evostatus2;
 			}
@@ -99,14 +80,14 @@ public class ProgressBar : MonoBehaviour {
 			}
 			if(progresspercentage > 0.66666  && currentsprite == evostatus6){
 				StartCoroutine("fullbar");
-		
+				
 			}
 		}
 		if (EvoSystem.evolevel < 3 && progresspercentage > 0.66666) {
-		//	if(progresspercentage >0.66666 && currentsprite == evostatus7){
-
-
-		//	}
+			//	if(progresspercentage >0.66666 && currentsprite == evostatus7){
+			
+			
+			//	}
 			if(progresspercentage > 0.055 + 0.6666 && currentsprite == evostatus1 ){
 				currentsprite = evostatus2;
 			}
@@ -127,6 +108,15 @@ public class ProgressBar : MonoBehaviour {
 			}
 		}
 	}
+
+	
+	public void SetText() {
+		timer.text = Time.time.ToString ("f1");
+		amounttotalamount.text = MechanicController.stepstaken.ToString() + "/" + Custominput.exercises.ToString();
+	}
+
+
+
 	IEnumerator fullbar(){
 		currentsprite = evostatus7;
 		yield return new WaitForSeconds(1.5f);
