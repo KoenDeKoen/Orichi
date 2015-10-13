@@ -10,7 +10,7 @@ public class GameWinHiScore : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	if (MechanicController.stepstaken == Custominput.exercises + 1) {
-
+		//	SetHighScore.store
 	
 			shutter.loadSceneAfterClosing("scorescreen");
 		}
