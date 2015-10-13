@@ -3,26 +3,34 @@ using System.Collections;
 using Pillo;
 
 public class EvoSystem : MonoBehaviour {
+	
+	private GameObject tempobj;
+	public ScreenShake screenshaker;
 
-
-	public Transform prefab;
-	public Animator m_ani;
+	public Animator blob;
 	public Animator help;
 	public Animator tutorial;
-	private GameObject tempobj;
-	public float points;
-	public static int evolevel;
-	public float HelpTime;
-	public ScreenShake screenshaker;
+
+	public AudioClip intro;
+	public AudioClip pillo;
+	public AudioClip test;
+	public AudioClip instruction;
+	public AudioClip succes;
+
 	private bool hastoshake;
+	public static int evolevel;
+	public int tips;
+	public float points;
+	public float HelpTime;
 	public float progresspercentage;
 	public Transform particle;
+	public Transform prefab;
 
 	void Start()
 	{
-		hastoshake = false;
 		tutorial.SetInteger("Grow",1);
-		//Debug.Log (Custominput.exercises);
+		AudioSource.PlayClipAtPoint(intro, new Vector3(0,0,0));
+		hastoshake = false;
 	}
 	
 	void Update () {
@@ -38,88 +46,60 @@ public class EvoSystem : MonoBehaviour {
 		if(progresspercentage > 0.333 && evolevel < 1)
 		{
 			evolevel = 1;
-			m_ani.SetInteger("Evolve",1);
+			blob.SetInteger("Evolve",1);
 			Instantiate(prefab, new Vector3(0,-1.5F,-2), Quaternion.identity);
-			Instantiate(particle, new Vector3(0,-1.5F,-2), Quaternion.identity);
+			Instantiate(particle, new Vector3(0,-1.5F,0), Quaternion.identity);
 			hastoshake = true;
 		}
 
 		if(progresspercentage > 0.666 && evolevel < 2)
 		{
 			evolevel = 2;
-			m_ani.SetInteger("Evolve",2);
+			blob.SetInteger("Evolve",2);
 			Instantiate(prefab, new Vector3(0,-1.5f,-2), Quaternion.identity);
-			Instantiate(particle, new Vector3(0,-1.5F,-2), Quaternion.identity);
+			Instantiate(particle, new Vector3(0,-1.5F,0), Quaternion.identity);
 			hastoshake = true;
 		}
 
 		if(progresspercentage == 1 && evolevel < 3)
 		{
 			evolevel = 3;
-			m_ani.SetInteger("Evolve",3);
+			blob.SetInteger("Evolve",3);
 			Instantiate(prefab, new Vector3(0,-1.5f,-2), Quaternion.identity);
-			Instantiate(particle, new Vector3(0,-1.5F,-2), Quaternion.identity);
+			Instantiate(particle, new Vector3(0,-1.5F,0), Quaternion.identity);
 			hastoshake = true;
 		}		
-		/*switch(points)
-		{
-		case 0.33:
-			// Transformation 1
-			if(evolevel < 1)
-			{
-				evolevel = 1;
-				m_ani.SetInteger("Evolve",1);
-				Instantiate(prefab, new Vector3(0,-1.5F,-2), Quaternion.identity);
-				hastoshake = true;
-			}
-			break;
-		case 0.66:
-			// Transformation 2
-			if(evolevel < 2)
-			{
-				evolevel = 2;
-				m_ani.SetInteger("Evolve",2);
-				Instantiate(prefab, new Vector3(0,-1.5f,-2), Quaternion.identity);
-				hastoshake = true;
-			}
-			break;
-		case 1:
-			// Transformation 3
-			if(evolevel < 3)
-			{
-				evolevel = 3;
-				m_ani.SetInteger("Evolve",3);
-				Instantiate(prefab, new Vector3(0,-1.5f,-2), Quaternion.identity);
-				hastoshake = true;
-			}
-			break;
-		}*/
 
-		/*
-		none  = 0
-		Left  = 1
-		right = 2
-		both  = 3
-		*/
 		HelpTime += Time.deltaTime;
 
-		if(HelpTime >= 0f){
-			//tg.SummonOldGuy();
- 		}
-		if(HelpTime >= 5f){
+		//5.15.35.45.55
+
+		if(HelpTime >= 11 && tips < 1){
 			help.SetInteger("HelpStep",1);
+			AudioSource.PlayClipAtPoint(pillo, new Vector3(0,0,0));
+			tips = 1;
 		}
-		if(HelpTime >= 15f){
+		if(HelpTime >= 23 && tips < 2){
 			help.SetInteger("HelpStep",2);
+			AudioSource.PlayClipAtPoint(test, new Vector3(0,0,0));
+			tips = 2;
 		}
-		if(HelpTime >= 35f){
+		if(HelpTime >= 40 && tips < 3){
 			help.SetInteger("HelpStep",3);
+			AudioSource.PlayClipAtPoint(instruction, new Vector3(0,0,0));
+			tips = 3;
 		}
-		if(HelpTime >= 45f){
+		if(HelpTime >= 47){
 			help.SetInteger("HelpStep",4);
 		}
-		if(HelpTime >= 55f){
+		if(HelpTime >= 51){
 			help.SetInteger("HelpStep",5);
+		}
+		if(HelpTime >= 52 && tips < 4){
+			AudioSource.PlayClipAtPoint(succes, new Vector3(0,0,0));
+			tips = 4;
+		}
+		if(HelpTime >= 55){
 			tutorial.SetInteger("Grow",2);
 		}
 
