@@ -109,48 +109,5 @@ public class EvoSystem : MonoBehaviour {
 
 	
 		progresspercentage = MechanicController.stepstaken / Custominput.exercises;
-
-		/*
-		if(Input.GetKeyDown("a") || pct > 0.2 && pct2 == 0){
-			help.SetInteger("MoveSet",1);
-		}
-		if(Input.GetKeyDown("l") || pct2 > 0.2 && pct == 0 ){
-			help.SetInteger("MoveSet",2);
-		}
-		if(Input.GetKeyDown("a") && Input.GetKeyDown("l") || pct2 > 0.2 && pct2 > 0.2){
-			help.SetInteger("MoveSet",3);
-		}
-
-
-		// Transformation 1
-		if(points >= 20){
-			if(evolevel < 1)
-			{
-				evolevel = 1;
-				m_ani.SetInteger("Evolve",1);
-				Instantiate(prefab, new Vector3(0,-1.5F,-5), Quaternion.identity);
-			}
-		}
-
-		// Transformation 2
-		if(points >= 40){
-			if(evolevel < 2)
-			{
-				evolevel = 2;
-				m_ani.SetInteger("Evolve",2);
-				Instantiate(prefab, new Vector3(0,-1.5f,-2), Quaternion.identity);
-			}
-		}
-
-		// Transformation 3
-		if(points >= 60){
-			if(evolevel < 3)
-			{
-				evolevel = 3;
-				m_ani.SetInteger("Evolve",3);
-				Instantiate(prefab, new Vector3(0,-1.5f,-2), Quaternion.identity);
-			}
-		}
-		*/
 	}
 }
