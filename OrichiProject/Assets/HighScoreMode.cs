@@ -19,15 +19,14 @@ public class HighScoreMode : MonoBehaviour {
 	public float highscore;
 	public float timeelapsed;
 	public float starttime;
-	public string scorefile = "highscore.txt";
-	private StreamWriter writer;
+
 	// Use this for initialization
 	void Start () {
-
+	highscore =	PlayerPrefs.GetFloat("highscore");
 		timeelapsed = 0;
 		starttime = Time.time;
 		Custominput.exercises = 50;
-		highscore = float.Parse(scorefile);
+
 
 	}
 	//startime = 24 , starttime - starttime = timeelapsed;
@@ -119,40 +118,22 @@ public class HighScoreMode : MonoBehaviour {
 		}
 
 		//////////////////////////////highscore///////////////////////////////////
-		if (File.Exists (scorefile)) {
-			Debug.Log(scorefile+" already exists.");
-			return;
-		}
+
 		
-		if (highscore == 0 &&  MechanicController.stepstaken == Custominput.exercises) {
+		if (highscore == 0 &&  MechanicController.stepstaken == 50) {
 			highscore = timerscore;
-			writer = File.CreateText (scorefile);
-			writer.WriteLine(highscore);
-			writer.Close();
+			PlayerPrefs.SetFloat("highscore", highscore);
+			Debug.Log ("in the 0 if");
 			
 		}
-		if (timerscore < highscore && MechanicController.stepstaken == Custominput.exercises) {
+		if (timerscore < highscore && MechanicController.stepstaken == 50) {
 			highscore = timerscore;
-			writer = File.CreateText (scorefile);
-			writer.WriteLine(highscore);
-			writer.Close();
+			PlayerPrefs.SetFloat("highscore", highscore);
+			Debug.Log ("in the < if");
 		}
 	}
 
-
-	public void ReadFile(string scorefile){
-		if (File.Exists (scorefile)) {
-			StreamReader reader = File.OpenText (scorefile);
-			string line = reader.ReadLine ();
-			while (line != null) {
-				Debug.Log (line); 
-				line = reader.ReadLine ();
-			}
-		}  	else {
-			Debug.Log("Could not Open the file: " + scorefile + " for reading.");
-			return;
-		}
-	}
+	
 	/////////////////////////////////////////////////////////////////////////////////////
 
 	

@@ -7,12 +7,14 @@ public class HighScore : MonoBehaviour {
 	public float highscore;
 	// Use this for initialization
 	void Start () {
-	highscore =	PlayerPrefs.GetFloat ("highscore");
+	
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
-		highscoretext.text = highscore.ToString ("f1");
+		if (PlayerPrefs.HasKey ("highscore")) {
+			highscore = PlayerPrefs.GetFloat ("highscore");
+			highscoretext.text = highscore.ToString ("f1");
+		}
 	}
 }
