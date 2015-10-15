@@ -14,7 +14,7 @@ public class HighScore : MonoBehaviour {
 	void Update () {
 		if (PlayerPrefs.HasKey ("highscore")) {
 			highscore = PlayerPrefs.GetFloat ("highscore");
-			highscoretext.text = highscore.ToString ("f1");
+			highscoretext.text = "Highscore: " + highscore.ToString ("f1") + " seconds";
 		}
 	}
 }

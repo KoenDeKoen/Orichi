@@ -36,14 +36,14 @@ public class HighScoreMode : MonoBehaviour {
 
 		SetText ();
 		this.gameObject.GetComponent<SpriteRenderer> ().sprite = currentsprite;
-		progresspercentage = MechanicController.stepstaken / Custominput.exercises;
+		progresspercentage = MechanicControllerHiScore.stepstaken / Custominput.exercises;
 		timeelapsed	= Time.time - starttime;
 
-		if (MechanicController.stepstaken == Custominput.exercises) {
+		if (MechanicControllerHiScore.stepstaken == Custominput.exercises) {
 			timerscore = timeelapsed;	
 		}
 
-		if (EvoSystem.evolevel < 1) {
+		if (EvoSystemHiScore.evolevel < 1) {
 			if(progresspercentage == 0){
 				currentsprite = evostatus1;
 			}
@@ -67,7 +67,7 @@ public class HighScoreMode : MonoBehaviour {
 				
 			}
 		}
-		if (EvoSystem.evolevel < 2 && progresspercentage > 0.33333) {
+		if (EvoSystemHiScore.evolevel < 2 && progresspercentage > 0.33333) {
 			//if(progresspercentage >0.333333 && currentsprite == evostatus7){
 			
 			//currentsprite = evostatus1;
@@ -92,7 +92,7 @@ public class HighScoreMode : MonoBehaviour {
 				
 			}
 		}
-		if (EvoSystem.evolevel < 3 && progresspercentage > 0.66666) {
+		if (EvoSystemHiScore.evolevel < 3 && progresspercentage > 0.66666) {
 			//	if(progresspercentage >0.66666 && currentsprite == evostatus7){
 			
 			
@@ -120,13 +120,13 @@ public class HighScoreMode : MonoBehaviour {
 		//////////////////////////////highscore///////////////////////////////////
 
 		
-		if (highscore == 0 &&  MechanicController.stepstaken == 50) {
+		if (highscore == 0 &&  MechanicControllerHiScore.stepstaken == 50) {
 			highscore = timerscore;
 			PlayerPrefs.SetFloat("highscore", highscore);
 			Debug.Log ("in the 0 if");
 			
 		}
-		if (timerscore < highscore && MechanicController.stepstaken == 50) {
+		if (timerscore < highscore && MechanicControllerHiScore.stepstaken == 50) {
 			highscore = timerscore;
 			PlayerPrefs.SetFloat("highscore", highscore);
 			Debug.Log ("in the < if");
@@ -139,7 +139,7 @@ public class HighScoreMode : MonoBehaviour {
 	
 	public void SetText() {
 		timer.text = timeelapsed.ToString ("f1");
-		amounttotalamount.text = MechanicController.stepstaken.ToString() + "/" + Custominput.exercises.ToString();
+		amounttotalamount.text = MechanicControllerHiScore.stepstaken.ToString() + "/" + Custominput.exercises.ToString();
 	}
 
 

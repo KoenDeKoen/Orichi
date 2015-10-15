@@ -3,16 +3,21 @@ using System.Collections;
 
 public class GameWinHiScore : MonoBehaviour {
 	public Shutter shutter;
-	// Use this for initialization
-	void Start () {
+	private bool done;
+
+
+	void Start()
+	{
+		done = true;
 	}
-	
 	// Update is called once per frame
 	void Update () {
-	if (MechanicController.stepstaken == Custominput.exercises + 1) {
-		//	SetHighScore.store
+	if (MechanicControllerHiScore.stepstaken > 50 && done) {
 	
 			shutter.loadSceneAfterClosing("scorescreen");
+			done = false;
 		}
 	}
+
+
 }
