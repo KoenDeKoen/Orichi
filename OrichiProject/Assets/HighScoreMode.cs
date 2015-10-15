@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System.IO;
+
 public class HighScoreMode : MonoBehaviour {
 	public float progresspercentage;
 	public Sprite evostatus7;
@@ -17,13 +19,15 @@ public class HighScoreMode : MonoBehaviour {
 	public float highscore;
 	public float timeelapsed;
 	public float starttime;
+	public string scorefile = "highscore.txt";
+	private StreamWriter writer;
 	// Use this for initialization
 	void Start () {
 
 		timeelapsed = 0;
 		starttime = Time.time;
 		Custominput.exercises = 50;
-		highscore = PlayerPrefs.GetFloat ("highscore");
+		highscore = float.Parse(scorefile);
 
 	}
 	//startime = 24 , starttime - starttime = timeelapsed;
@@ -35,21 +39,9 @@ public class HighScoreMode : MonoBehaviour {
 		this.gameObject.GetComponent<SpriteRenderer> ().sprite = currentsprite;
 		progresspercentage = MechanicController.stepstaken / Custominput.exercises;
 		timeelapsed	= Time.time - starttime;
-		if (PlayerPrefs.GetFloat ("highscore") == 0 &&  MechanicController.stepstaken == Custominput.exercises) {
-			highscore = timerscore;
-			PlayerPrefs.SetFloat ("highscore", highscore);
-			PlayerPrefs.Save ();
-
-		}
-		if (timerscore < highscore && MechanicController.stepstaken == Custominput.exercises) {
-			highscore = timerscore;
-			PlayerPrefs.SetFloat ("highscore", highscore);
-			PlayerPrefs.Save ();
-		}
 
 		if (MechanicController.stepstaken == Custominput.exercises) {
-			timerscore = timeelapsed;
-			
+			timerscore = timeelapsed;	
 		}
 
 		if (EvoSystem.evolevel < 1) {
@@ -125,14 +117,49 @@ public class HighScoreMode : MonoBehaviour {
 				currentsprite = evostatus7;
 			}
 		}
+
+		//////////////////////////////highscore///////////////////////////////////
+		if (File.Exists (scorefile)) {
+			Debug.Log(scorefile+" already exists.");
+			return;
+		}
+		
+		if (highscore == 0 &&  MechanicController.stepstaken == Custominput.exercises) {
+			highscore = timerscore;
+			writer = File.CreateText (scorefile);
+			writer.WriteLine(highscore);
+			writer.Close();
+			
+		}
+		if (timerscore < highscore && MechanicController.stepstaken == Custominput.exercises) {
+			highscore = timerscore;
+			writer = File.CreateText (scorefile);
+			writer.WriteLine(highscore);
+			writer.Close();
+		}
 	}
+
+
+	public void ReadFile(string scorefile){
+		if (File.Exists (scorefile)) {
+			StreamReader reader = File.OpenText (scorefile);
+			string line = reader.ReadLine ();
+			while (line != null) {
+				Debug.Log (line); 
+				line = reader.ReadLine ();
+			}
+		}  	else {
+			Debug.Log("Could not Open the file: " + scorefile + " for reading.");
+			return;
+		}
+	}
+	/////////////////////////////////////////////////////////////////////////////////////
 
 	
 	public void SetText() {
 		timer.text = timeelapsed.ToString ("f1");
 		amounttotalamount.text = MechanicController.stepstaken.ToString() + "/" + Custominput.exercises.ToString();
 	}
-
 
 
 	IEnumerator fullbar(){

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System.IO;
 public class HighScore : MonoBehaviour {
 	public Text highscoretext;
 	public float highscore;
@@ -11,7 +12,7 @@ public class HighScore : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+	
 		highscoretext.text = highscore.ToString ("f1");
 	}
 }
