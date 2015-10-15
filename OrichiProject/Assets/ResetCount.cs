@@ -7,6 +7,7 @@ public class ResetCount : MonoBehaviour {
 		MechanicController.stepstaken = 0;
 		EvoSystem.evolevel = 0;
 		Custominput.exercises = 0;
+
 	}
 
 }

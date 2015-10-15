@@ -1,18 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using UnityEngine.UI;
 public class HighScore : MonoBehaviour {
-
+	public Text highscoretext;
+	public float highscore;
 	// Use this for initialization
 	void Start () {
-	
+	highscore =	PlayerPrefs.GetFloat ("highscore");
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (MechanicController.stepstaken == Custominput.exercises) {
-			PlayerPrefs.SetFloat ("highscore", HighScoreMode.timerscore);
-			PlayerPrefs.Save ();
-		}
+
+		highscoretext.text = highscore.ToString ("f1");
 	}
 }

@@ -14,12 +14,19 @@ public class HighScoreMode : MonoBehaviour {
 	public Text amounttotalamount;
 	public Text timer;
 	public static float timerscore;
-
+	public float highscore;
+	public float timeelapsed;
+	public float starttime;
 	// Use this for initialization
 	void Start () {
-		Custominput.exercises = 50;
-	}
 
+		timeelapsed = 0;
+		starttime = Time.time;
+		Custominput.exercises = 50;
+		highscore = PlayerPrefs.GetFloat ("highscore");
+
+	}
+	//startime = 24 , starttime - starttime = timeelapsed;
 
 	void Update() {
 
@@ -27,10 +34,21 @@ public class HighScoreMode : MonoBehaviour {
 		SetText ();
 		this.gameObject.GetComponent<SpriteRenderer> ().sprite = currentsprite;
 		progresspercentage = MechanicController.stepstaken / Custominput.exercises;
-	
-		
+		timeelapsed	= Time.time - starttime;
+		if (PlayerPrefs.GetFloat ("highscore") == 0 &&  MechanicController.stepstaken == Custominput.exercises) {
+			highscore = timerscore;
+			PlayerPrefs.SetFloat ("highscore", highscore);
+			PlayerPrefs.Save ();
+
+		}
+		if (timerscore < highscore && MechanicController.stepstaken == Custominput.exercises) {
+			highscore = timerscore;
+			PlayerPrefs.SetFloat ("highscore", highscore);
+			PlayerPrefs.Save ();
+		}
+
 		if (MechanicController.stepstaken == Custominput.exercises) {
-			timerscore = Time.time;
+			timerscore = timeelapsed;
 			
 		}
 
@@ -111,7 +129,7 @@ public class HighScoreMode : MonoBehaviour {
 
 	
 	public void SetText() {
-		timer.text = Time.time.ToString ("f1");
+		timer.text = timeelapsed.ToString ("f1");
 		amounttotalamount.text = MechanicController.stepstaken.ToString() + "/" + Custominput.exercises.ToString();
 	}
 
