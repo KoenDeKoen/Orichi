@@ -26,7 +26,25 @@ public class Obj2D : MonoBehaviour {
 		sprites = new List<Sprite> ();
 		controllers = new List<RuntimeAnimatorController> ();
 		sprites.Add (grass1);
+		sprites.Add (grass1);
+		sprites.Add (grass1);
+		sprites.Add (grass1);
+		sprites.Add (grass1);
+		sprites.Add (grass1);
+		sprites.Add(grass2);
+		sprites.Add (bush1);
+		sprites.Add (bush1);
+		sprites.Add (bush1);
 		controllers.Add (grass1RT);
+		controllers.Add (grass1RT);
+		controllers.Add (grass1RT);
+		controllers.Add (grass1RT);
+		controllers.Add (grass1RT);
+		controllers.Add (grass1RT);
+		controllers.Add (null);
+		controllers.Add (null);
+		controllers.Add (null);
+		controllers.Add (null);
 	}
 	
 	// Update is called once per frame

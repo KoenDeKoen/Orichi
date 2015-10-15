@@ -17,8 +17,8 @@ public class SpawnGroundAndProps : MonoBehaviour {
 	public Trees3D trees;
 
 	public Sprite femaleSprite;
-	//public RuntimeAnimatorController movingFemale;
-	public bool arrive;
+	public RuntimeAnimatorController movingFemale;
+	private bool arrive;
 
 	void Start () 
 	{
@@ -34,7 +34,7 @@ public class SpawnGroundAndProps : MonoBehaviour {
 		parent.transform.position = spawnpos;
 		parent.name = "GroundParent";
 		spawnFloor (parent.transform.position);
-		arrive = false;
+		arrive = true;
 	}
 	
 	// Update is called once per frame
@@ -100,35 +100,62 @@ public class SpawnGroundAndProps : MonoBehaviour {
 		for(int i = 0; i < amountofprops; i++)
 		{
 			int spritenumber = 0;
-			spritenumber = Random.Range(0, obj2d.returnSprites().Count-1);
+			spritenumber = Random.Range(0, obj2d.returnSprites().Count);
 			GameObject sprite = new GameObject();
 			sprite.AddComponent<SpriteRenderer>();
 			sprite.GetComponent<SpriteRenderer>().sprite = obj2d.returnSprites()[spritenumber];
-			positiontoremove = decorationspawn2dpositions[Random.Range(0,decorationspawn2dpositions.Count-1)];
+			positiontoremove = decorationspawn2dpositions[Random.Range(0,decorationspawn2dpositions.Count)];
 			position.x = positiontoremove.x;
 			sprite.name = position.x.ToString();
 			decorationspawn2dpositions.Remove(positiontoremove);
 			sprite.transform.parent = parentground.transform;
 			sprite.transform.localPosition = position;
 			Vector3 tempscale = new Vector3(0.5F,0.5F,0.5F);
-			sprite.transform.localScale = tempscale;
 			sprite.GetComponent<SpriteRenderer>().sortingOrder = 1;
-			sprite.AddComponent<Animator>();
-			sprite.GetComponent<Animator>().runtimeAnimatorController = obj2d.returnControllers()[spritenumber];
+			if(spritenumber == 6)
+			{
+				sprite.GetComponent<SpriteRenderer>().sortingOrder = -1;
+				tempscale = new Vector3(0.2F,0.2F,0.2F);
+				int value = Random.Range(1,3);
+				Debug.Log(value);
+				if(value == 1)
+				{
+					sprite.transform.rotation = Quaternion.Euler(0,0,0);
+
+				}
+				if(value == 2)
+				{
+					sprite.transform.rotation = Quaternion.Euler(0,-180,0);
+				}
+			}
+
+			if(spritenumber >= 7)
+			{
+				sprite.transform.position = new Vector3(sprite.transform.position.x, sprite.transform.position.y + 0.26F, sprite.transform.position.z);
+			}
+			sprite.transform.localScale = tempscale;
+
+			if(obj2d.returnControllers()[spritenumber] != null)
+			{
+				sprite.AddComponent<Animator>();
+				sprite.GetComponent<Animator>().runtimeAnimatorController = obj2d.returnControllers()[spritenumber];
+			}
 		}
 	}
 	//////////////////////////
-	public void placeFemale(GameObject parentground){
+	public void placeFemale(GameObject parentground)
+	{
 
-		Vector3 position = new Vector3(parentground.transform.position.x,parentground.transform.position.y + (float)4.9,0);
+		Vector3 position = new Vector3(-6F,(float)0.748,0);
 		GameObject sprite = new GameObject();
 		sprite.AddComponent<SpriteRenderer>();
 		sprite.GetComponent<SpriteRenderer>().sprite = femaleSprite;
-		//sprite.AddComponent<Animator>();
-		//sprite.AddComponent<Animator>().runtimeAnimatorController = movingfemale;
+		sprite.AddComponent<Animator>();
+		sprite.GetComponent<Animator>().runtimeAnimatorController = movingFemale;
 		sprite.name = "Female";
 		sprite.transform.parent = parentground.transform;
 		sprite.transform.localPosition = position;
+		arrive = false;
 	}
 	//////////////////////////
 
@@ -141,8 +168,8 @@ public class SpawnGroundAndProps : MonoBehaviour {
 		for(int i = 0; i < amountofprops; i++)
 		{
 			int objectnumber = 0;
-			objectnumber = Random.Range(0, obj3d.returnObjects().Count-1);
-			positiontoremove = decorationspawn3dpositions[Random.Range(0,decorationspawn3dpositions.Count-1)];
+			objectnumber = Random.Range(0, obj3d.returnObjects().Count);
+			positiontoremove = decorationspawn3dpositions[Random.Range(0,decorationspawn3dpositions.Count)];
 			position.x = positiontoremove.x;
 			decorationspawn3dpositions.Remove(positiontoremove);
 			GameObject object3d = Instantiate(obj3d.returnObjects()[objectnumber],position, Quaternion.identity) as GameObject;
@@ -160,8 +187,8 @@ public class SpawnGroundAndProps : MonoBehaviour {
 		for(int i = 0; i < amountofprops; i++)
 		{
 			int objectnumber = 0;
-			objectnumber = Random.Range(0, trees.returnObjects().Count-1);
-			positiontoremove = tree3dspots[Random.Range(0,tree3dspots.Count-1)];
+			objectnumber = Random.Range(0, trees.returnObjects().Count);
+			positiontoremove = tree3dspots[Random.Range(0,tree3dspots.Count)];
 			position.x = positiontoremove.x;
 			tree3dspots.Remove(positiontoremove);
 			GameObject tree = Instantiate(trees.returnObjects()[objectnumber],position, Quaternion.identity) as GameObject;

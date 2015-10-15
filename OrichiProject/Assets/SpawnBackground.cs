@@ -55,7 +55,7 @@ public class SpawnBackground : MonoBehaviour {
 		Smountain.transform.SetParent (slowParent.transform);
 		slowMountains.Add (Smountain);
 		Smountain.name = "Slow";
-		Smountain.GetComponent<SpriteRenderer> ().sortingOrder = -1;
+		Smountain.GetComponent<SpriteRenderer> ().sortingOrder = -4;
 	}
 
 	public void  spawnFastMountain(Vector3 spawnpos)
@@ -69,7 +69,7 @@ public class SpawnBackground : MonoBehaviour {
 		Fmountain.transform.SetParent (fastParent.transform);
 		fastMountains.Add (Fmountain);
 		Fmountain.name = "Fast";
-		Fmountain.GetComponent<SpriteRenderer> ().sortingOrder = 0;
+		Fmountain.GetComponent<SpriteRenderer> ().sortingOrder = -3;
 	}
 
 
