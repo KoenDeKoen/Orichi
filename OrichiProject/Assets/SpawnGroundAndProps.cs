@@ -18,10 +18,17 @@ public class SpawnGroundAndProps : MonoBehaviour {
 
 	public Sprite femaleSprite;
 	public RuntimeAnimatorController movingFemale;
-	private bool arrive;
+	public bool arrive;
+	public MechanicController mc;
+	public ParticleTrigger pt;
+	public GameObject player;
+	private GameObject female;
+	public float time = 5f;
+	private bool particleswitch;
 
 	void Start () 
 	{
+		female = null;
 		decorationspawn2dpositions = new List<Vector3> ();
 		decorationspawn3dpositions = new List<Vector3> ();
 		tree3dspots = new List<Vector3> ();
@@ -34,13 +41,15 @@ public class SpawnGroundAndProps : MonoBehaviour {
 		parent.transform.position = spawnpos;
 		parent.name = "GroundParent";
 		spawnFloor (parent.transform.position);
-		arrive = true;
+		arrive = false;
+		particleswitch = true;
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
 		checkForNextSpawn ();
+		CheckFemale();
 	}
 
 	public void  spawnFloor(Vector3 spawnpos)
@@ -145,8 +154,7 @@ public class SpawnGroundAndProps : MonoBehaviour {
 	//////////////////////////
 	public void placeFemale(GameObject parentground)
 	{
-
-		Vector3 position = new Vector3(-6F,(float)0.748,0);
+		Vector3 position = new Vector3(0F,(float)0.748,0);
 		GameObject sprite = new GameObject();
 		sprite.AddComponent<SpriteRenderer>();
 		sprite.GetComponent<SpriteRenderer>().sprite = femaleSprite;
@@ -156,8 +164,21 @@ public class SpawnGroundAndProps : MonoBehaviour {
 		sprite.transform.parent = parentground.transform;
 		sprite.transform.localPosition = position;
 		arrive = false;
+		female = sprite;
 	}
 	//////////////////////////
+
+	public void CheckFemale() {
+		if(female != null && female.transform.position.x <= 5.2f){
+			mc.done = true;
+			if(particleswitch){
+				pt.Heartsparticle(female);
+				pt.Heartsparticle(player);
+				particleswitch = false;
+			}
+			time -= Time.deltaTime;
+		}
+	}
 
 	public void placeObjects(GameObject parentground)
 	{
