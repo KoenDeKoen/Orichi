@@ -31,7 +31,7 @@ public class HighScoreMode : MonoBehaviour {
 		timeelapsed = 0;
 		starttime = Time.time;
 		Custominput.exercises = 50;
-
+		finished = false;
 
 	}
 	//startime = 24 , starttime - starttime = timeelapsed;
@@ -131,7 +131,7 @@ public class HighScoreMode : MonoBehaviour {
 			Debug.Log ("in the 0 if");
 			finished = true;
 		}
-		if (timerscore < secondplace && timerscore > highscore && MechanicControllerHiScore.stepstaken == 50 && finished == false) {
+		if (timerscore < secondplace && timerscore > highscore && MechanicControllerHiScore.stepstaken == 50 && finished == false || secondplace == 0 && timerscore > highscore && MechanicControllerHiScore.stepstaken == 50 && finished == false) {
 
 		
 			PlayerPrefs.SetFloat("thirdplace", secondplace);
@@ -139,7 +139,7 @@ public class HighScoreMode : MonoBehaviour {
 			finished = true;
 		
 		}
-		if (timerscore < thirdplace && timerscore > secondplace && MechanicControllerHiScore.stepstaken == 50 && finished == false) {
+		if (timerscore < thirdplace && timerscore > secondplace && MechanicControllerHiScore.stepstaken == 50 && finished == false || thirdplace == 0 && timerscore > secondplace && MechanicControllerHiScore.stepstaken == 50 && finished == false) {
 			PlayerPrefs.SetFloat("thirdplace", timerscore);
 			finished = true;
 		}
