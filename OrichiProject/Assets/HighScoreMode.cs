@@ -19,10 +19,15 @@ public class HighScoreMode : MonoBehaviour {
 	public float highscore;
 	public float timeelapsed;
 	public float starttime;
-
+	public float secondplace;
+	public float thirdplace;
+	private bool finished = false;
 	// Use this for initialization
 	void Start () {
-	highscore =	PlayerPrefs.GetFloat("highscore");
+
+		highscore =	PlayerPrefs.GetFloat("highscore");
+		secondplace = PlayerPrefs.GetFloat("secondplace");
+		thirdplace = PlayerPrefs.GetFloat("thirdplace");
 		timeelapsed = 0;
 		starttime = Time.time;
 		Custominput.exercises = 50;
@@ -117,26 +122,42 @@ public class HighScoreMode : MonoBehaviour {
 			}
 		}
 
-		//////////////////////////////highscore///////////////////////////////////
+	//////////////////////////////highscore///////////////////////////////////
 
 		
-		if (highscore == 0 &&  MechanicControllerHiScore.stepstaken == 50) {
+		if (highscore == 0 &&  MechanicControllerHiScore.stepstaken == 50 && finished == false) {
 			highscore = timerscore;
 			PlayerPrefs.SetFloat("highscore", highscore);
 			Debug.Log ("in the 0 if");
-			
+			finished = true;
 		}
-		if (timerscore < highscore && MechanicControllerHiScore.stepstaken == 50) {
-			highscore = timerscore;
-			PlayerPrefs.SetFloat("highscore", highscore);
+		if (timerscore < secondplace && timerscore > highscore && MechanicControllerHiScore.stepstaken == 50 && finished == false) {
+
+		
+			PlayerPrefs.SetFloat("thirdplace", secondplace);
+			PlayerPrefs.SetFloat("secondplace", timerscore);
+			finished = true;
+		
+		}
+		if (timerscore < thirdplace && timerscore > secondplace && MechanicControllerHiScore.stepstaken == 50 && finished == false) {
+			PlayerPrefs.SetFloat("thirdplace", timerscore);
+			finished = true;
+		}
+		if (timerscore < highscore && MechanicControllerHiScore.stepstaken == 50 && finished == false) {
+
+			PlayerPrefs.SetFloat("thirdplace", secondplace);
+			PlayerPrefs.SetFloat("secondplace", highscore);
+			PlayerPrefs.SetFloat("highscore", timerscore);
 			Debug.Log ("in the < if");
+			finished = true;
+	
 		}
+
 	}
 
 	
-	/////////////////////////////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////////////////////////////// 
 
-	
 	public void SetText() {
 		timer.text = timeelapsed.ToString ("f1");
 		amounttotalamount.text = MechanicControllerHiScore.stepstaken.ToString() + "/" + Custominput.exercises.ToString();

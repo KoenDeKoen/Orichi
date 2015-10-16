@@ -12,7 +12,7 @@ public class GameWinHiScore : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-	if (MechanicControllerHiScore.stepstaken > 50 && done) {
+	if (MechanicControllerHiScore.stepstaken == 50 && done) {
 	
 			shutter.loadSceneAfterClosing("scorescreen");
 			done = false;
