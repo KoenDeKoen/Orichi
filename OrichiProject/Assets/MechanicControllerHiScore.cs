@@ -54,8 +54,6 @@ public class MechanicControllerHiScore : MonoBehaviour
 					m_ani.SetBool("Switch", true);
 				}
 			}
-
-
 		}
 	}
 }

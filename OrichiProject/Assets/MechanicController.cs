@@ -11,6 +11,8 @@ public class MechanicController : MonoBehaviour
 	public static int stepstaken;
 	public Animator m_ani;
 	public Animator help;
+	public Animator redpillo;
+	public Animator bluepillo;
 	public bool done;
 
 	// Use this for initialization
@@ -38,6 +40,7 @@ public class MechanicController : MonoBehaviour
 					turn = 2;
 					help.SetInteger("MoveSet",1);
 					m_ani.SetBool("Switch", true);
+					redpillo.SetInteger("RedSwitch",1);
 				}
 			}
 
@@ -53,6 +56,7 @@ public class MechanicController : MonoBehaviour
 					turn = 1;
 					help.SetInteger("MoveSet",2);
 					m_ani.SetBool("Switch", true);
+					bluepillo.SetInteger("BlueSwitch",1);
 				}
 			}
 
@@ -68,6 +72,11 @@ public class MechanicController : MonoBehaviour
 		
 			if((Input.GetKeyDown("a") && Input.GetKeyDown("l")) || (pct > 0.2 && pct2 > 0.2)){
 				help.SetInteger("MoveSet",3);
+			}
+
+			if(Input.anyKey == false){
+				redpillo.SetInteger("RedSwitch",0);
+				bluepillo.SetInteger("BlueSwitch",0);
 			}
 		}
 	}
