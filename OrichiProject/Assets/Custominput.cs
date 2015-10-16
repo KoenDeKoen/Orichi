@@ -6,10 +6,12 @@ public class Custominput : MonoBehaviour {
 	public GameObject textobject;
 	public Text execrisetext;
 	public static float exercises = 10;
-	public GameObject timeinput;
+	//public GameObject timeinput;
+	public static bool tutorial;
 	// Use this for initialization
-	void Start () {
-	
+	void Start ()
+	{
+		tutorial = true;
 	}
 	
 	// Update is called once per frame
@@ -26,9 +28,20 @@ public class Custominput : MonoBehaviour {
 
 		if(Input.GetKey("space")){
 			Debug.Log(exercises);
-			Debug.Log(CustomSetTime.amttime);
 			Application.LoadLevel("Evolution");
 
+		}
+	}
+
+	public void switchTutorial()
+	{
+		if(tutorial)
+		{
+			tutorial = false;
+		}
+		else
+		{
+			tutorial = true;
 		}
 	}
 
