@@ -10,6 +10,7 @@ public class EvoSystem : MonoBehaviour {
 	public Animator blob;
 	public Animator help;
 	public Animator tutorial;
+	public GameObject oldman;
 
 	public AudioClip intro;
 	public AudioClip pillo;
@@ -28,8 +29,20 @@ public class EvoSystem : MonoBehaviour {
 
 	void Start()
 	{
-		tutorial.SetInteger("Grow",1);
-		AudioSource.PlayClipAtPoint(intro, new Vector3(0,0,0));
+		if (Custominput.tutorial) 
+		{
+			oldman.SetActive(true);
+			tutorial.enabled = true;
+			help.enabled = true;
+			tutorial.SetInteger ("Grow", 1);
+			AudioSource.PlayClipAtPoint (intro, new Vector3 (0, 0, 0));
+		}
+		else
+		{
+			oldman.SetActive (false);
+			tutorial.enabled = false;
+		}
+		help.enabled = false;
 		hastoshake = false;
 	}
 	
@@ -70,41 +83,45 @@ public class EvoSystem : MonoBehaviour {
 			hastoshake = true;
 		}		
 
+
 		HelpTime += Time.deltaTime;
 
 		//5.15.35.45.55
 
-		if(HelpTime >= 11 && tips < 1){
-			help.SetInteger("HelpStep",1);
-			AudioSource.PlayClipAtPoint(pillo, new Vector3(0,0,0));
-			tips = 1;
-		}
-		if(HelpTime >= 23 && tips < 2){
-			help.SetInteger("HelpStep",2);
-			AudioSource.PlayClipAtPoint(test, new Vector3(0,0,0));
-			tips = 2;
-		}
-		if(HelpTime >= 40 && tips < 3){
-			help.SetInteger("HelpStep",3);
-			AudioSource.PlayClipAtPoint(instruction, new Vector3(0,0,0));
-			tips = 3;
-		}
-		if(HelpTime >= 47){
-			help.SetInteger("HelpStep",4);
-		}
-		if(HelpTime >= 51){
-			help.SetInteger("HelpStep",5);
-		}
-		if(HelpTime >= 52 && tips < 4){
-			AudioSource.PlayClipAtPoint(succes, new Vector3(0,0,0));
-			tips = 4;
-		}
-		if(HelpTime >= 55){
-			tutorial.SetInteger("Grow",2);
-		}
+		if (Custominput.tutorial) 
+		{
+			if (HelpTime >= 11 && tips < 1) {
+				help.SetInteger ("HelpStep", 1);
+				AudioSource.PlayClipAtPoint (pillo, new Vector3 (0, 0, 0));
+				tips = 1;
+			}
+			if (HelpTime >= 23 && tips < 2) {
+				help.SetInteger ("HelpStep", 2);
+				AudioSource.PlayClipAtPoint (test, new Vector3 (0, 0, 0));
+				tips = 2;
+			}
+			if (HelpTime >= 40 && tips < 3) {
+				help.SetInteger ("HelpStep", 3);
+				AudioSource.PlayClipAtPoint (instruction, new Vector3 (0, 0, 0));
+				tips = 3;
+			}
+			if (HelpTime >= 47) {
+				help.SetInteger ("HelpStep", 4);
+			}
+			if (HelpTime >= 51) {
+				help.SetInteger ("HelpStep", 5);
+			}
+			if (HelpTime >= 52 && tips < 4) {
+				AudioSource.PlayClipAtPoint (succes, new Vector3 (0, 0, 0));
+				tips = 4;
+			}
+			if (HelpTime >= 55) {
+				tutorial.SetInteger ("Grow", 2);
+			}
 
-		if(Input.anyKey == false){
-			help.SetInteger("MoveSet",0);
+			if (Input.anyKey == false) {
+				help.SetInteger ("MoveSet", 0);
+			}
 		}
 
 	

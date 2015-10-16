@@ -14,12 +14,24 @@ public class MechanicController : MonoBehaviour
 	public Animator redpillo;
 	public Animator bluepillo;
 	public bool done;
+	public GameObject helpcloud;
 
 	// Use this for initialization
 	void Start () 
 	{
 		turn = 1;
 		done = false;
+		if(Custominput.tutorial)
+		{
+			help.enabled = true;
+			helpcloud.SetActive(true);
+		}
+
+		else
+		{
+			help.enabled = false;
+			helpcloud.SetActive(false);
+		}
 	}
 	
 	// Update is called once per frame
@@ -38,7 +50,11 @@ public class MechanicController : MonoBehaviour
 					movingbg.moveSlowMountain(spawnbg.getParents()[1]);
 					stepstaken++;
 					turn = 2;
-					help.SetInteger("MoveSet",1);
+					if(Custominput.tutorial)
+					{
+						help.SetInteger("MoveSet",1);
+
+					}
 					m_ani.SetBool("Switch", true);
 					redpillo.SetInteger("RedSwitch",1);
 				}
@@ -54,23 +70,27 @@ public class MechanicController : MonoBehaviour
 					movingbg.moveSlowMountain(spawnbg.getParents()[1]);
 					stepstaken++;
 					turn = 1;
-					help.SetInteger("MoveSet",2);
+					if(Custominput.tutorial)
+					{
+						help.SetInteger("MoveSet",2);
+
+					}
 					m_ani.SetBool("Switch", true);
 					bluepillo.SetInteger("BlueSwitch",1);
 				}
 			}
 
-			if(Input.GetKeyDown("a") || pct > 0.2 && pct2 == 0)
+			if(Input.GetKeyDown("a") || pct > 0.2 && pct2 == 0 && Custominput.tutorial)
 			{	
 				help.SetInteger("MoveSet",1);
 			}
 
-			if(Input.GetKeyDown("l") || pct2 > 0.2 && pct == 0 )
+			if(Input.GetKeyDown("l") || pct2 > 0.2 && pct == 0 && Custominput.tutorial )
 			{
 				help.SetInteger("MoveSet",2);
 			}
 		
-			if((Input.GetKeyDown("a") && Input.GetKeyDown("l")) || (pct > 0.2 && pct2 > 0.2)){
+			if((Input.GetKeyDown("a") && Input.GetKeyDown("l")) || (pct > 0.2 && pct2 > 0.2) && Custominput.tutorial){
 				help.SetInteger("MoveSet",3);
 			}
 
