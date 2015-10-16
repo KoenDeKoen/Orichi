@@ -23,6 +23,7 @@ public class Shutter : MonoBehaviour {
 	private string scenetoswitchto;
 	public bool introscene;
 	private bool closegame;
+	public bool pilloscene;
 
 	void Start () 
 	{
@@ -85,6 +86,10 @@ public class Shutter : MonoBehaviour {
 			if(introscene && openandclosed)
 			{
 				sceneloader.loadScene("MainMenu");;
+			}
+			if(pilloscene && openandclosed)
+			{
+				sceneloader.loadScene("IntroScreen");
 			}
 		}
 
