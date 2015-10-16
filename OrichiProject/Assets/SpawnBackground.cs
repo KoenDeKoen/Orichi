@@ -41,7 +41,6 @@ public class SpawnBackground : MonoBehaviour {
 	void Update () {
 		checkForNextFastMountain();
 		checkForNextSlowMountain();
-
 	}
 
 	public void  spawnSlowMountain(Vector3 spawnpos)
