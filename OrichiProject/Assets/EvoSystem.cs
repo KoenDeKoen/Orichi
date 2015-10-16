@@ -41,8 +41,8 @@ public class EvoSystem : MonoBehaviour {
 		{
 			oldman.SetActive (false);
 			tutorial.enabled = false;
+			help.enabled = false;
 		}
-		help.enabled = false;
 		hastoshake = false;
 	}
 	

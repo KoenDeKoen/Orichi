@@ -8,6 +8,7 @@ public class BasicButtons : MonoBehaviour
 	//public SceneLoader sceneloader;
 	public bool ismenu;
 	public Shutter shutter;
+	public bool isstartscene;
 	void Start () 
 	{
 	
@@ -33,6 +34,11 @@ public class BasicButtons : MonoBehaviour
 			EvoSystem.evolevel = 0;
 			shutter.loadSceneAfterClosing("MainMenu");
 			//sceneloader.loadScene("MainMenu");
+		}
+
+		if(Input.GetKeyDown(KeyCode.Space) && isstartscene)
+		{
+			shutter.loadSceneAfterClosing("Evolution");
 		}
 	}
 }
