@@ -98,14 +98,17 @@ public class MechanicController : MonoBehaviour
 			}
 			if(pct == 0){
 				redpillo.SetInteger("RedSwitch",0);
-
+				
 			}
 			if(pct2 == 0){
 				bluepillo.SetInteger("BlueSwitch",0);
 			}
-
-			if(pct > 0.2 && pct2 > 0.2){
+			
+			if(pct > 0.2){
 				redpillo.SetInteger("RedSwitch",1);
+			}
+			
+			if(pct2 > 0.2){
 				bluepillo.SetInteger("BlueSwitch",1);
 			}
 		}
