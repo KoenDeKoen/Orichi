@@ -156,7 +156,7 @@ public class SpawnGroundAndProps : MonoBehaviour {
 	//////////////////////////
 	public void placeFemale(GameObject parentground)
 	{
-		Vector3 position = new Vector3(-6F,(float)0.748,0);
+		Vector3 position = new Vector3(-9F,(float)0.748,0);
 		GameObject sprite = new GameObject();
 		sprite.AddComponent<SpriteRenderer>();
 		sprite.GetComponent<SpriteRenderer>().sprite = femaleSprite;
