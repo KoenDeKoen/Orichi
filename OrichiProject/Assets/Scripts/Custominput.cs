@@ -26,11 +26,11 @@ public class Custominput : MonoBehaviour {
 
 		exercises = float.Parse (text);
 
-		if(Input.GetKey("space")){
+		/*if(Input.GetKey("space")){
 			Debug.Log(exercises);
 			Application.LoadLevel("Evolution");
 
-		}
+		}*/
 	}
 
 	public void switchTutorial()
