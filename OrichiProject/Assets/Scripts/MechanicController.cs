@@ -80,23 +80,33 @@ public class MechanicController : MonoBehaviour
 				}
 			}
 
-			if(Input.GetKeyDown("a") || pct > 0.2 && pct2 == 0 && Custominput.tutorial)
-			{	
-				help.SetInteger("MoveSet",1);
-			}
-
-			if(Input.GetKeyDown("l") || pct2 > 0.2 && pct == 0 && Custominput.tutorial )
+			if(Custominput.tutorial)
 			{
-				help.SetInteger("MoveSet",2);
-			}
+				if(Input.GetKeyDown("a") || pct > 0.2 && pct2 == 0)
+				{	
+					help.SetInteger("MoveSet",1);
+				}
+
+				if(Input.GetKeyDown("l") || pct2 > 0.2 && pct == 0)
+				{
+					help.SetInteger("MoveSet",2);
+				}
 		
-			if((Input.GetKeyDown("a") && Input.GetKeyDown("l")) || (pct > 0.2 && pct2 > 0.2) && Custominput.tutorial){
-				help.SetInteger("MoveSet",3);
+				if((Input.GetKeyDown("a") && Input.GetKeyDown("l")) || (pct > 0.2 && pct2 > 0.2)){
+					help.SetInteger("MoveSet",3);
+				}
+			}
+			if(pct == 0){
+				redpillo.SetInteger("RedSwitch",0);
+
+			}
+			if(pct2 == 0){
+				bluepillo.SetInteger("BlueSwitch",0);
 			}
 
-			if(Input.anyKey == false){
-				redpillo.SetInteger("RedSwitch",0);
-				bluepillo.SetInteger("BlueSwitch",0);
+			if(pct > 0.2 && pct2 > 0.2){
+				redpillo.SetInteger("RedSwitch",1);
+				bluepillo.SetInteger("BlueSwitch",1);
 			}
 		}
 	}

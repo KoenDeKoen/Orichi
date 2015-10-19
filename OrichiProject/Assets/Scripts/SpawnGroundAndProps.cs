@@ -25,9 +25,11 @@ public class SpawnGroundAndProps : MonoBehaviour {
 	private GameObject female;
 	public float time = 5f;
 	private bool particleswitch;
+	private bool hasarrived;
 
 	void Start () 
 	{
+		hasarrived = false;
 		female = null;
 		decorationspawn2dpositions = new List<Vector3> ();
 		decorationspawn3dpositions = new List<Vector3> ();
@@ -154,7 +156,7 @@ public class SpawnGroundAndProps : MonoBehaviour {
 	//////////////////////////
 	public void placeFemale(GameObject parentground)
 	{
-		Vector3 position = new Vector3(0F,(float)0.748,0);
+		Vector3 position = new Vector3(-6F,(float)0.748,0);
 		GameObject sprite = new GameObject();
 		sprite.AddComponent<SpriteRenderer>();
 		sprite.GetComponent<SpriteRenderer>().sprite = femaleSprite;
